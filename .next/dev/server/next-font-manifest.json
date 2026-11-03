@@ -1,0 +1,15 @@
+{
+  "app": {
+    "[project]/invest/src/app/house/[id]/page": [
+      "static/media/b422d937f9db8639-s.p.caa04d8c.woff2",
+      "static/media/7a514bda021b6b92-s.p.b628dbda.woff2"
+    ],
+    "[project]/invest/src/app/page": [
+      "static/media/b422d937f9db8639-s.p.caa04d8c.woff2",
+      "static/media/7a514bda021b6b92-s.p.b628dbda.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

@@ -1,0 +1,74 @@
+// styles/scrollbar.scss
+
+// Configuration
+$scrollbar-width: 8px;
+$scrollbar-thumb-color: var(--accent-color);
+$scrollbar-thumb-hover: var(--accent-color);
+$scrollbar-radius: 4px;
+$mobile-breakpoint: 768px;
+
+// Mixin pour les navigateurs WebKit
+@mixin webkit-scrollbar {
+  &::-webkit-scrollbar {
+    width: $scrollbar-width;
+    height: $scrollbar-width;
+    background: transparent;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $scrollbar-thumb-color;
+    border-radius: $scrollbar-radius;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $scrollbar-thumb-hover;
+  }
+
+  &:hover {
+    &::-webkit-scrollbar,
+    &::-webkit-scrollbar-thumb {
+      opacity: 1;
+    }
+  }
+}
+
+// Mixin pour Firefox
+@mixin firefox-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: $scrollbar-thumb-color transparent;
+}
+
+// Application globale
+html {
+  // WebKit
+  @include webkit-scrollbar;
+
+  // Firefox
+  @include firefox-scrollbar;
+
+  // Masquer sur mobile
+  @media (max-width: $mobile-breakpoint) {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+}
+
+// Animation au scroll
+.scrolling {
+  &::-webkit-scrollbar,
+  &::-webkit-scrollbar-thumb {
+    opacity: 1 !important;
+  }
+}

@@ -1,0 +1,58 @@
+[00:00:02.880] Server  LOG     ✓ Ready in 2.5s
+[00:00:04.650] Server  ERROR   (node:4294) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[00:00:06.024] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.705] Browser WARN    Image with src "https://api.tradeshouses.com/uploads/trading-houses/1792928394022-818978798.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:22.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:22.419] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/invest/sr...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <head>
+                          <LayoutPageClient dosis={{...}} leagueSpartan={{...}}>
+                            <body
+                              id="app"
+                              className="dosis_2cec734c-module__z1EBSq__variable league_spartan_265d5a1e-module__VOBzN..."
+                              style={{backgroundColor:"var(--whit..."}}
+-                             inmaintabuse="1"
+                            >
+                  ...
+
+[00:01:23.183] Browser WARN    Image with src "https://api.tradeshouses.com/uploads/trading-houses/1792928394022-818978798.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:53.926] Server  LOG     ✓ Compiled in 980ms
+[00:02:54.161] Server  LOG     ✓ Compiled in 86ms
+[00:02:54.837] Server  LOG     ✓ Compiled in 178ms
+[00:02:55.070] Server  LOG     ✓ Compiled in 29ms

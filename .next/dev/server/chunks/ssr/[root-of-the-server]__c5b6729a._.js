@@ -1,0 +1,195 @@
+module.exports = [
+"[project]/invest/src/app/favicon.ico.mjs { IMAGE => \"[project]/invest/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/invest/src/app/favicon.ico.mjs { IMAGE => \"[project]/invest/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)"));
+}),
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+"[project]/invest/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/invest/src/app/layout.tsx [app-rsc] (ecmascript)"));
+}),
+"[project]/invest/src/app/loading.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/invest/src/app/loading.tsx [app-rsc] (ecmascript)"));
+}),
+"[project]/invest/src/config/index.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "APP_DESCRIPTION",
+    ()=>APP_DESCRIPTION,
+    "APP_NAME",
+    ()=>APP_NAME,
+    "URLS",
+    ()=>URLS,
+    "URLS_ASSETS",
+    ()=>URLS_ASSETS,
+    "USE_SEED_DATA",
+    ()=>USE_SEED_DATA
+]);
+const APP_NAME = 'InvestHub';
+const APP_DESCRIPTION = 'Comparez les maisons de trading, leurs performances et leurs formules, puis investissez en quelques clics.';
+const USE_SEED_DATA = process.env.NEXT_PUBLIC_USE_SEED_DATA !== 'false';
+const PROJECT_NAME = 'brainnest';
+const MAIN_URL = `https://george-fx.github.io/APIs/${PROJECT_NAME}`;
+const BASE_URL = `${process.env.NEXT_PUBLIC_BASE_URL}/api/v1`;
+const BASE_URL_ASSETS = USE_SEED_DATA ? '/seed' : `${process.env.NEXT_PUBLIC_BASE_URL_ASSET}/uploads`;
+const GET_REVIEWS = `${MAIN_URL}/api/reviews.json`;
+const ANONYMOUS_USER = `${BASE_URL}/user/auth/anonym-user`;
+const AUTHENTICATION = `${BASE_URL}/user/auth/authentification`;
+const VERIFY_AUTHENTICATION = `${BASE_URL}/user/auth/valid-authentification`;
+const GET_HOUSES = `${BASE_URL}/houses`;
+const GET_MARKETS = `${BASE_URL}/markets`;
+const INVESTMENTS = `${BASE_URL}/investments`;
+const TRANSACTIONS = `${BASE_URL}/transactions`;
+const FAVORITES = `${BASE_URL}/user/favorites`;
+const GET_NOTIFICATIONS = `${BASE_URL}/notification`;
+const GET_USER = `${BASE_URL}/user`;
+const GENERATE_REGISTRATION_BIOMETRICS_OPTIONS = `${BASE_URL}/user/auth/generate-registration-biometrics`;
+const GENERATE_AUTHENTICATION_BIOMETRICS_OPTIONS = `${BASE_URL}/user/auth/generate-authentication-biometrics`;
+const REGISTRATION_BIOMETRICS_OPTIONS = `${BASE_URL}/user/auth/registration-biometrics`;
+const AUTHENTICATION_BIOMETRICS_OPTIONS = `${BASE_URL}/user/auth/authentication-biometrics`;
+const GET_PROMOCODES = `${MAIN_URL}/api/promocodes.json`;
+const GET_ONBOARDING = `${MAIN_URL}/api/onboarding.json`;
+const URLS = {
+    MAIN_URL,
+    GET_REVIEWS,
+    GET_HOUSES,
+    GET_MARKETS,
+    INVESTMENTS,
+    TRANSACTIONS,
+    FAVORITES,
+    GET_NOTIFICATIONS,
+    GET_USER,
+    GENERATE_REGISTRATION_BIOMETRICS_OPTIONS,
+    GENERATE_AUTHENTICATION_BIOMETRICS_OPTIONS,
+    REGISTRATION_BIOMETRICS_OPTIONS,
+    AUTHENTICATION_BIOMETRICS_OPTIONS,
+    GET_ONBOARDING,
+    GET_PROMOCODES,
+    AUTHENTICATION,
+    VERIFY_AUTHENTICATION,
+    ANONYMOUS_USER
+};
+const URLS_ASSETS = {
+    HOUSES: `${BASE_URL_ASSETS}/houses`,
+    AVATARS: `${BASE_URL_ASSETS}/avatars`
+};
+}),
+"[project]/invest/src/app/home/metadata.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "metadata",
+    ()=>metadata,
+    "viewport",
+    ()=>viewport
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$config$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/src/config/index.tsx [app-rsc] (ecmascript)");
+;
+const metadata = {
+    title: `${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$config$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["APP_NAME"]} — Investissez avec les meilleures maisons de trading`,
+    description: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$config$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["APP_DESCRIPTION"]
+};
+const viewport = {
+    themeColor: '#F5FAFB'
+};
+}),
+"[project]/invest/src/app/home/HomePageClient.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "HomePageClient",
+    ()=>HomePageClient
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const HomePageClient = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call HomePageClient() from the server but HomePageClient is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/invest/src/app/home/HomePageClient.tsx <module evaluation>", "HomePageClient");
+}),
+"[project]/invest/src/app/home/HomePageClient.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "HomePageClient",
+    ()=>HomePageClient
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const HomePageClient = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call HomePageClient() from the server but HomePageClient is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/invest/src/app/home/HomePageClient.tsx", "HomePageClient");
+}),
+"[project]/invest/src/app/home/HomePageClient.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$app$2f$home$2f$HomePageClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/invest/src/app/home/HomePageClient.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$app$2f$home$2f$HomePageClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/invest/src/app/home/HomePageClient.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$app$2f$home$2f$HomePageClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/invest/src/app/home/page.tsx [app-rsc] (ecmascript) <locals>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>HomePageCentral
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$app$2f$home$2f$metadata$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/src/app/home/metadata.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$app$2f$home$2f$HomePageClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/src/app/home/HomePageClient.tsx [app-rsc] (ecmascript)");
+;
+;
+;
+;
+function HomePageCentral() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$app$2f$home$2f$HomePageClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["HomePageClient"], {}, void 0, false, {
+        fileName: "[project]/invest/src/app/home/page.tsx",
+        lineNumber: 7,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/invest/src/app/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Start,
+    "metadata",
+    ()=>metadata
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+// import {data} from '../data';
+// import {Onboarding} from './Onboarding';
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$app$2f$home$2f$page$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/invest/src/app/home/page.tsx [app-rsc] (ecmascript) <locals>");
+;
+;
+const metadata = {
+    title: 'BoozGame',
+    description: 'La paletforme de jeu exceptionnelle'
+};
+async function Start() {
+    //const [onboarding] = await Promise.all([data.getOnboarding()]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$src$2f$app$2f$home$2f$page$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {}, void 0, false, {
+        fileName: "[project]/invest/src/app/page.tsx",
+        lineNumber: 21,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/invest/src/app/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/invest/src/app/page.tsx [app-rsc] (ecmascript)"));
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__c5b6729a._.js.map

@@ -1,0 +1,9407 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/Person.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+}), 'Person');
+}),
+"[project]/invest/node_modules/@mui/material/esm/Avatar/avatarClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getAvatarUtilityClass",
+    ()=>getAvatarUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getAvatarUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiAvatar', slot);
+}
+const avatarClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiAvatar', [
+    'root',
+    'colorDefault',
+    'circular',
+    'rounded',
+    'square',
+    'img',
+    'fallback'
+]);
+const __TURBOPACK__default__export__ = avatarClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>useSlot
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useForkRef/useForkRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$appendOwnerState$2f$appendOwnerState$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/appendOwnerState/appendOwnerState.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$resolveComponentProps$2f$resolveComponentProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/resolveComponentProps/resolveComponentProps.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$mergeSlotProps$2f$mergeSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/mergeSlotProps/mergeSlotProps.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+function useSlot(/**
+ * The slot's name. All Material UI components should have `root` slot.
+ *
+ * If the name is `root`, the logic behaves differently from other slots,
+ * e.g. the `externalForwardedProps` are spread to `root` slot but not other slots.
+ */ name, parameters) {
+    const { className, elementType: initialElementType, ownerState, externalForwardedProps, internalForwardedProps, shouldForwardComponentProp = false, ...useSlotPropsParams } = parameters;
+    const { component: rootComponent, slots = {
+        [name]: undefined
+    }, slotProps = {
+        [name]: undefined
+    }, ...other } = externalForwardedProps;
+    const elementType = slots[name] || initialElementType;
+    // `slotProps[name]` can be a callback that receives the component's ownerState.
+    // `resolvedComponentsProps` is always a plain object.
+    const resolvedComponentsProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$resolveComponentProps$2f$resolveComponentProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slotProps[name], ownerState);
+    const { props: { component: slotComponent, ...mergedProps }, internalRef } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$mergeSlotProps$2f$mergeSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        className,
+        ...useSlotPropsParams,
+        externalForwardedProps: name === 'root' ? other : undefined,
+        externalSlotProps: resolvedComponentsProps
+    });
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(internalRef, resolvedComponentsProps?.ref, parameters.ref);
+    const LeafComponent = name === 'root' ? slotComponent || rootComponent : slotComponent;
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$appendOwnerState$2f$appendOwnerState$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(elementType, {
+        ...name === 'root' && !rootComponent && !slots[name] && internalForwardedProps,
+        ...name !== 'root' && !slots[name] && internalForwardedProps,
+        ...mergedProps,
+        ...LeafComponent && !shouldForwardComponentProp && {
+            as: LeafComponent
+        },
+        ...LeafComponent && shouldForwardComponentProp && {
+            component: LeafComponent
+        },
+        ref
+    }, ownerState);
+    return [
+        elementType,
+        props
+    ];
+}
+}),
+"[project]/invest/node_modules/@mui/material/esm/Avatar/Avatar.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/Person.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Avatar$2f$avatarClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Avatar/avatarClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { classes, variant, colorDefault } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            variant,
+            colorDefault && 'colorDefault'
+        ],
+        img: [
+            'img'
+        ],
+        fallback: [
+            'fallback'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Avatar$2f$avatarClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getAvatarUtilityClass"], classes);
+};
+const AvatarRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiAvatar',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            styles[ownerState.variant],
+            ownerState.colorDefault && styles.colorDefault
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        position: 'relative',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexShrink: 0,
+        width: 40,
+        height: 40,
+        fontFamily: theme.typography.fontFamily,
+        fontSize: theme.typography.pxToRem(20),
+        lineHeight: 1,
+        borderRadius: '50%',
+        overflow: 'hidden',
+        userSelect: 'none',
+        variants: [
+            {
+                props: {
+                    variant: 'rounded'
+                },
+                style: {
+                    borderRadius: (theme.vars || theme).shape.borderRadius
+                }
+            },
+            {
+                props: {
+                    variant: 'square'
+                },
+                style: {
+                    borderRadius: 0
+                }
+            },
+            {
+                props: {
+                    colorDefault: true
+                },
+                style: {
+                    color: (theme.vars || theme).palette.background.default,
+                    ...theme.vars ? {
+                        backgroundColor: theme.vars.palette.Avatar.defaultBg
+                    } : {
+                        backgroundColor: theme.palette.grey[400],
+                        ...theme.applyStyles('dark', {
+                            backgroundColor: theme.palette.grey[600]
+                        })
+                    }
+                }
+            }
+        ]
+    })));
+const AvatarImg = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('img', {
+    name: 'MuiAvatar',
+    slot: 'Img'
+})({
+    width: '100%',
+    height: '100%',
+    textAlign: 'center',
+    // Handle non-square image.
+    objectFit: 'cover',
+    // Hide alt text.
+    color: 'transparent',
+    // Hide the image broken icon, only works on Chrome.
+    textIndent: 10000
+});
+const AvatarFallback = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiAvatar',
+    slot: 'Fallback'
+})({
+    width: '75%',
+    height: '75%'
+});
+function useLoaded({ crossOrigin, referrerPolicy, src, srcSet }) {
+    const [loaded, setLoaded] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useLoaded.useEffect": ()=>{
+            if (!src && !srcSet) {
+                return undefined;
+            }
+            setLoaded(false);
+            let active = true;
+            const image = new Image();
+            image.onload = ({
+                "useLoaded.useEffect": ()=>{
+                    if (!active) {
+                        return;
+                    }
+                    setLoaded('loaded');
+                }
+            })["useLoaded.useEffect"];
+            image.onerror = ({
+                "useLoaded.useEffect": ()=>{
+                    if (!active) {
+                        return;
+                    }
+                    setLoaded('error');
+                }
+            })["useLoaded.useEffect"];
+            image.crossOrigin = crossOrigin;
+            image.referrerPolicy = referrerPolicy;
+            image.src = src;
+            if (srcSet) {
+                image.srcset = srcSet;
+            }
+            return ({
+                "useLoaded.useEffect": ()=>{
+                    active = false;
+                }
+            })["useLoaded.useEffect"];
+        }
+    }["useLoaded.useEffect"], [
+        crossOrigin,
+        referrerPolicy,
+        src,
+        srcSet
+    ]);
+    return loaded;
+}
+const Avatar = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Avatar(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiAvatar'
+    });
+    const { alt, children: childrenProp, className, component = 'div', slots = {}, slotProps = {}, imgProps, sizes, src, srcSet, variant = 'circular', ...other } = props;
+    let children = null;
+    const ownerState = {
+        ...props,
+        component,
+        variant
+    };
+    // Use a hook instead of onError on the img element to support server-side rendering.
+    const loaded = useLoaded({
+        ...imgProps,
+        ...typeof slotProps.img === 'function' ? slotProps.img(ownerState) : slotProps.img,
+        src,
+        srcSet
+    });
+    const hasImg = src || srcSet;
+    const hasImgNotFailing = hasImg && loaded !== 'error';
+    ownerState.colorDefault = !hasImgNotFailing;
+    // This issue explains why this is required: https://github.com/mui/material-ui/issues/42184
+    delete ownerState.ownerState;
+    const classes = useUtilityClasses(ownerState);
+    const [RootSlot, rootSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('root', {
+        ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        elementType: AvatarRoot,
+        externalForwardedProps: {
+            slots,
+            slotProps,
+            component,
+            ...other
+        },
+        ownerState
+    });
+    const [ImgSlot, imgSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('img', {
+        className: classes.img,
+        elementType: AvatarImg,
+        externalForwardedProps: {
+            slots,
+            slotProps: {
+                img: {
+                    ...imgProps,
+                    ...slotProps.img
+                }
+            }
+        },
+        additionalProps: {
+            alt,
+            src,
+            srcSet,
+            sizes
+        },
+        ownerState
+    });
+    const [FallbackSlot, fallbackSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('fallback', {
+        className: classes.fallback,
+        elementType: AvatarFallback,
+        externalForwardedProps: {
+            slots,
+            slotProps
+        },
+        shouldForwardComponentProp: true,
+        ownerState
+    });
+    if (hasImgNotFailing) {
+        children = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ImgSlot, {
+            ...imgSlotProps
+        });
+    // We only render valid children, non valid children are rendered with a fallback
+    // We consider that invalid children are all falsy values, except 0, which is valid.
+    } else if (!!childrenProp || childrenProp === 0) {
+        children = childrenProp;
+    } else if (hasImg && alt) {
+        children = alt[0];
+    } else {
+        children = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(FallbackSlot, {
+            ...fallbackSlotProps
+        });
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(RootSlot, {
+        ...rootSlotProps,
+        children: children
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Avatar.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * Used in combination with `src` or `srcSet` to
+   * provide an alt attribute for the rendered `img` element.
+   */ alt: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * Used to render icon or text elements inside the Avatar if `src` is not set.
+   * This can be an element, or just a string.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */ component: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img#attributes) applied to the `img` element if the component is used to display an image.
+   * It can be used to listen for the loading error event.
+   * @deprecated Use `slotProps.img` instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   */ imgProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * The `sizes` attribute for the `img` element.
+   */ sizes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The props used for each slot inside.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        fallback: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        img: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        fallback: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        img: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The `src` attribute for the `img` element.
+   */ src: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The `srcSet` attribute for the `img` element.
+   * Use this attribute for responsive image display.
+   */ srcSet: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * The shape of the avatar.
+   * @default 'circular'
+   */ variant: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'circular',
+            'rounded',
+            'square'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Avatar;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Avatar/Avatar.js [app-client] (ecmascript) <export default as Avatar>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Avatar",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Avatar$2f$Avatar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Avatar$2f$Avatar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Avatar/Avatar.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/capitalize.js [app-client] (ecmascript) <export default as capitalize>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "capitalize",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/capitalize.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/useForkRef.js [app-client] (ecmascript) <export default as useForkRef>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useForkRef",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useForkRef.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/useControlled.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useControlled$2f$useControlled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useControlled/useControlled.js [app-client] (ecmascript)");
+'use client';
+;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useControlled$2f$useControlled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/useControlled.js [app-client] (ecmascript) <export default as useControlled>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useControlled",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useControlled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useControlled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useControlled.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/Star.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+}), 'Star');
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/StarBorder.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+}), 'StarBorder');
+}),
+"[project]/invest/node_modules/@mui/material/esm/Rating/ratingClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getRatingUtilityClass",
+    ()=>getRatingUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getRatingUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiRating', slot);
+}
+const ratingClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiRating', [
+    'root',
+    'sizeSmall',
+    'sizeMedium',
+    'sizeLarge',
+    'readOnly',
+    'disabled',
+    'focusVisible',
+    'visuallyHidden',
+    'pristine',
+    'label',
+    'labelEmptyValueActive',
+    'icon',
+    'iconEmpty',
+    'iconFilled',
+    'iconHover',
+    'iconFocus',
+    'iconActive',
+    'decimal'
+]);
+const __TURBOPACK__default__export__ = ratingClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Rating/Rating.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$clamp$2f$clamp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/clamp/clamp.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$visuallyHidden$2f$visuallyHidden$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/visuallyHidden/visuallyHidden.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/chainPropTypes/chainPropTypes.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/system/esm/RtlProvider/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$isFocusVisible$2f$isFocusVisible$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/isFocusVisible/isFocusVisible.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__capitalize$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/capitalize.js [app-client] (ecmascript) <export default as capitalize>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useForkRef$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useForkRef.js [app-client] (ecmascript) <export default as useForkRef>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useControlled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useControlled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useControlled.js [app-client] (ecmascript) <export default as useControlled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__unstable_useId$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useId.js [app-client] (ecmascript) <export default as unstable_useId>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$Star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/Star.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$StarBorder$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/StarBorder.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$slotShouldForwardProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/slotShouldForwardProp.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$ratingClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Rating/ratingClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function getDecimalPrecision(num) {
+    const decimalPart = num.toString().split('.')[1];
+    return decimalPart ? decimalPart.length : 0;
+}
+function roundValueToPrecision(value, precision) {
+    if (value == null) {
+        return value;
+    }
+    const nearest = Math.round(value / precision) * precision;
+    return Number(nearest.toFixed(getDecimalPrecision(precision)));
+}
+const useUtilityClasses = (ownerState)=>{
+    const { classes, size, readOnly, disabled, emptyValueFocused, focusVisible } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            `size${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__capitalize$3e$__["capitalize"])(size)}`,
+            disabled && 'disabled',
+            focusVisible && 'focusVisible',
+            readOnly && 'readOnly'
+        ],
+        label: [
+            'label',
+            'pristine'
+        ],
+        labelEmptyValue: [
+            emptyValueFocused && 'labelEmptyValueActive'
+        ],
+        icon: [
+            'icon'
+        ],
+        iconEmpty: [
+            'iconEmpty'
+        ],
+        iconFilled: [
+            'iconFilled'
+        ],
+        iconHover: [
+            'iconHover'
+        ],
+        iconFocus: [
+            'iconFocus'
+        ],
+        iconActive: [
+            'iconActive'
+        ],
+        decimal: [
+            'decimal'
+        ],
+        visuallyHidden: [
+            'visuallyHidden'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$ratingClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getRatingUtilityClass"], classes);
+};
+const RatingRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('span', {
+    name: 'MuiRating',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            {
+                [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$ratingClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].visuallyHidden}`]: styles.visuallyHidden
+            },
+            styles.root,
+            styles[`size${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__capitalize$3e$__["capitalize"])(ownerState.size)}`],
+            ownerState.readOnly && styles.readOnly
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        display: 'inline-flex',
+        // Required to position the pristine input absolutely
+        position: 'relative',
+        fontSize: theme.typography.pxToRem(24),
+        color: '#faaf00',
+        cursor: 'pointer',
+        textAlign: 'left',
+        width: 'min-content',
+        WebkitTapHighlightColor: 'transparent',
+        [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$ratingClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].disabled}`]: {
+            opacity: (theme.vars || theme).palette.action.disabledOpacity,
+            pointerEvents: 'none'
+        },
+        [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$ratingClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].focusVisible} .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$ratingClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].iconActive}`]: {
+            outline: '1px solid #999'
+        },
+        [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$ratingClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].visuallyHidden}`]: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$visuallyHidden$2f$visuallyHidden$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        variants: [
+            {
+                props: {
+                    size: 'small'
+                },
+                style: {
+                    fontSize: theme.typography.pxToRem(18)
+                }
+            },
+            {
+                props: {
+                    size: 'large'
+                },
+                style: {
+                    fontSize: theme.typography.pxToRem(30)
+                }
+            },
+            {
+                // TODO v6: use the .Mui-readOnly global state class
+                props: ({ ownerState })=>ownerState.readOnly,
+                style: {
+                    pointerEvents: 'none'
+                }
+            }
+        ]
+    })));
+const RatingLabel = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('label', {
+    name: 'MuiRating',
+    slot: 'Label',
+    overridesResolver: ({ ownerState }, styles)=>[
+            styles.label,
+            ownerState.emptyValueFocused && styles.labelEmptyValueActive
+        ]
+})({
+    cursor: 'inherit',
+    variants: [
+        {
+            props: ({ ownerState })=>ownerState.emptyValueFocused,
+            style: {
+                top: 0,
+                bottom: 0,
+                position: 'absolute',
+                outline: '1px solid #999',
+                width: '100%'
+            }
+        }
+    ]
+});
+const RatingIcon = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('span', {
+    name: 'MuiRating',
+    slot: 'Icon',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.icon,
+            ownerState.iconEmpty && styles.iconEmpty,
+            ownerState.iconFilled && styles.iconFilled,
+            ownerState.iconHover && styles.iconHover,
+            ownerState.iconFocus && styles.iconFocus,
+            ownerState.iconActive && styles.iconActive
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        // Fit wrapper to actual icon size.
+        display: 'flex',
+        transition: theme.transitions.create('transform', {
+            duration: theme.transitions.duration.shortest
+        }),
+        // Fix mouseLeave issue.
+        // https://github.com/facebook/react/issues/4492
+        pointerEvents: 'none',
+        variants: [
+            {
+                props: ({ ownerState })=>ownerState.iconActive,
+                style: {
+                    transform: 'scale(1.2)'
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.iconEmpty,
+                style: {
+                    color: (theme.vars || theme).palette.action.disabled
+                }
+            }
+        ]
+    })));
+const RatingDecimal = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('span', {
+    name: 'MuiRating',
+    slot: 'Decimal',
+    shouldForwardProp: (prop)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$slotShouldForwardProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(prop) && prop !== 'iconActive',
+    overridesResolver: (props, styles)=>{
+        const { iconActive } = props;
+        return [
+            styles.decimal,
+            iconActive && styles.iconActive
+        ];
+    }
+})({
+    position: 'relative',
+    variants: [
+        {
+            props: ({ iconActive })=>iconActive,
+            style: {
+                transform: 'scale(1.2)'
+            }
+        }
+    ]
+});
+function IconContainer(props) {
+    const { value, ...other } = props;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("span", {
+        ...other
+    });
+}
+("TURBOPACK compile-time truthy", 1) ? IconContainer.propTypes = {
+    value: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number.isRequired
+} : "TURBOPACK unreachable";
+function RatingItem(props) {
+    const { classes, disabled, emptyIcon, focus, getLabelText, highlightSelectedOnly, hover, icon, IconContainerComponent, isActive, itemValue, labelProps, name, onBlur, onChange, onClick, onFocus, readOnly, ownerState, ratingValue, ratingValueRounded, slots = {}, slotProps = {} } = props;
+    const isFilled = highlightSelectedOnly ? itemValue === ratingValue : itemValue <= ratingValue;
+    const isHovered = itemValue <= hover;
+    const isFocused = itemValue <= focus;
+    const isChecked = itemValue === ratingValueRounded;
+    // "name" ensures unique IDs across different Rating components in React 17,
+    // preventing one component from affecting another. React 18's useId already handles this.
+    // Update to const id = useId(); when React 17 support is dropped.
+    // More details: https://github.com/mui/material-ui/issues/40997
+    const id = `${name}-${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__unstable_useId$3e$__["unstable_useId"])()}`;
+    const externalForwardedProps = {
+        slots,
+        slotProps
+    };
+    const [IconSlot, iconSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('icon', {
+        elementType: RatingIcon,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.icon, isFilled ? classes.iconFilled : classes.iconEmpty, isHovered && classes.iconHover, isFocused && classes.iconFocus, isActive && classes.iconActive),
+        externalForwardedProps,
+        ownerState: {
+            ...ownerState,
+            iconEmpty: !isFilled,
+            iconFilled: isFilled,
+            iconHover: isHovered,
+            iconFocus: isFocused,
+            iconActive: isActive
+        },
+        additionalProps: {
+            value: itemValue
+        },
+        internalForwardedProps: {
+            // TODO: remove this in v7 because `IconContainerComponent` is deprecated
+            // only forward if `slots.icon` is NOT provided
+            as: IconContainerComponent
+        }
+    });
+    const [LabelSlot, labelSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('label', {
+        elementType: RatingLabel,
+        externalForwardedProps,
+        ownerState: {
+            ...ownerState,
+            emptyValueFocused: undefined
+        },
+        additionalProps: {
+            style: labelProps?.style,
+            htmlFor: id
+        }
+    });
+    const container = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(IconSlot, {
+        ...iconSlotProps,
+        children: emptyIcon && !isFilled ? emptyIcon : icon
+    });
+    if (readOnly) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("span", {
+            ...labelProps,
+            children: container
+        });
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(LabelSlot, {
+                ...labelSlotProps,
+                children: [
+                    container,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("span", {
+                        className: classes.visuallyHidden,
+                        children: getLabelText(itemValue)
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("input", {
+                className: classes.visuallyHidden,
+                onFocus: onFocus,
+                onBlur: onBlur,
+                onChange: onChange,
+                onClick: onClick,
+                disabled: disabled,
+                value: itemValue,
+                id: id,
+                type: "radio",
+                name: name,
+                checked: isChecked
+            })
+        ]
+    });
+}
+("TURBOPACK compile-time truthy", 1) ? RatingItem.propTypes = {
+    classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object.isRequired,
+    disabled: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    emptyIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    focus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number.isRequired,
+    getLabelText: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func.isRequired,
+    highlightSelectedOnly: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    hover: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number.isRequired,
+    icon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    IconContainerComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType.isRequired,
+    isActive: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    itemValue: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number.isRequired,
+    labelProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    name: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    onBlur: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func.isRequired,
+    onChange: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func.isRequired,
+    onClick: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func.isRequired,
+    onFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func.isRequired,
+    ownerState: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object.isRequired,
+    ratingValue: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    ratingValueRounded: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    readOnly: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+} : "TURBOPACK unreachable";
+const defaultIcon = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$Star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    fontSize: "inherit"
+});
+const defaultEmptyIcon = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$StarBorder$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    fontSize: "inherit"
+});
+function defaultLabelText(value) {
+    return `${value || '0'} Star${value !== 1 ? 's' : ''}`;
+}
+const Rating = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Rating(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        name: 'MuiRating',
+        props: inProps
+    });
+    const { component = 'span', className, defaultValue = null, disabled = false, emptyIcon = defaultEmptyIcon, emptyLabelText = 'Empty', getLabelText = defaultLabelText, highlightSelectedOnly = false, icon = defaultIcon, IconContainerComponent = IconContainer, max = 5, name: nameProp, onChange, onChangeActive, onMouseLeave, onMouseMove, precision = 1, readOnly = false, size = 'medium', value: valueProp, slots = {}, slotProps = {}, ...other } = props;
+    const name = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__unstable_useId$3e$__["unstable_useId"])(nameProp);
+    const [valueDerived, setValueState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useControlled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useControlled$3e$__["useControlled"])({
+        controlled: valueProp,
+        default: defaultValue,
+        name: 'Rating'
+    });
+    const valueRounded = roundValueToPrecision(valueDerived, precision);
+    const isRtl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRtl"])();
+    const [{ hover, focus }, setState] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]({
+        hover: -1,
+        focus: -1
+    });
+    let value = valueRounded;
+    if (hover !== -1) {
+        value = hover;
+    }
+    if (focus !== -1) {
+        value = focus;
+    }
+    const [focusVisible, setFocusVisible] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const rootRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]();
+    const handleRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useForkRef$3e$__["useForkRef"])(rootRef, ref);
+    const handleMouseMove = (event)=>{
+        if (onMouseMove) {
+            onMouseMove(event);
+        }
+        const rootNode = rootRef.current;
+        const { right, left, width: containerWidth } = rootNode.getBoundingClientRect();
+        let percent;
+        if (isRtl) {
+            percent = (right - event.clientX) / containerWidth;
+        } else {
+            percent = (event.clientX - left) / containerWidth;
+        }
+        let newHover = roundValueToPrecision(max * percent + precision / 2, precision);
+        newHover = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$clamp$2f$clamp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(newHover, precision, max);
+        setState((prev)=>prev.hover === newHover && prev.focus === newHover ? prev : {
+                hover: newHover,
+                focus: newHover
+            });
+        setFocusVisible(false);
+        if (onChangeActive && hover !== newHover) {
+            onChangeActive(event, newHover);
+        }
+    };
+    const handleMouseLeave = (event)=>{
+        if (onMouseLeave) {
+            onMouseLeave(event);
+        }
+        const newHover = -1;
+        setState({
+            hover: newHover,
+            focus: newHover
+        });
+        if (onChangeActive && hover !== newHover) {
+            onChangeActive(event, newHover);
+        }
+    };
+    const handleChange = (event)=>{
+        let newValue = event.target.value === '' ? null : parseFloat(event.target.value);
+        // Give mouse priority over keyboard
+        // Fix https://github.com/mui/material-ui/issues/22827
+        if (hover !== -1) {
+            newValue = hover;
+        }
+        setValueState(newValue);
+        if (onChange) {
+            onChange(event, newValue);
+        }
+    };
+    const handleClear = (event)=>{
+        // Ignore keyboard events
+        // https://github.com/facebook/react/issues/7407
+        if (event.clientX === 0 && event.clientY === 0) {
+            return;
+        }
+        setState({
+            hover: -1,
+            focus: -1
+        });
+        setValueState(null);
+        if (onChange && parseFloat(event.target.value) === valueRounded) {
+            onChange(event, null);
+        }
+    };
+    const handleFocus = (event)=>{
+        if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$isFocusVisible$2f$isFocusVisible$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(event.target)) {
+            setFocusVisible(true);
+        }
+        const newFocus = parseFloat(event.target.value);
+        setState((prev)=>({
+                hover: prev.hover,
+                focus: newFocus
+            }));
+    };
+    const handleBlur = (event)=>{
+        if (hover !== -1) {
+            return;
+        }
+        if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$isFocusVisible$2f$isFocusVisible$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(event.target)) {
+            setFocusVisible(false);
+        }
+        const newFocus = -1;
+        setState((prev)=>({
+                hover: prev.hover,
+                focus: newFocus
+            }));
+    };
+    const [emptyValueFocused, setEmptyValueFocused] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const ownerState = {
+        ...props,
+        component,
+        defaultValue,
+        disabled,
+        emptyIcon,
+        emptyLabelText,
+        emptyValueFocused,
+        focusVisible,
+        getLabelText,
+        icon,
+        IconContainerComponent,
+        max,
+        precision,
+        readOnly,
+        size
+    };
+    const classes = useUtilityClasses(ownerState);
+    const externalForwardedProps = {
+        slots,
+        slotProps
+    };
+    const [RootSlot, rootSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('root', {
+        ref: handleRef,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        elementType: RatingRoot,
+        externalForwardedProps: {
+            ...externalForwardedProps,
+            ...other,
+            component
+        },
+        getSlotProps: {
+            "Rating.Rating.useSlot": (handlers)=>({
+                    ...handlers,
+                    onMouseMove: ({
+                        "Rating.Rating.useSlot": (event)=>{
+                            handleMouseMove(event);
+                            handlers.onMouseMove?.(event);
+                        }
+                    })["Rating.Rating.useSlot"],
+                    onMouseLeave: ({
+                        "Rating.Rating.useSlot": (event)=>{
+                            handleMouseLeave(event);
+                            handlers.onMouseLeave?.(event);
+                        }
+                    })["Rating.Rating.useSlot"]
+                })
+        }["Rating.Rating.useSlot"],
+        ownerState,
+        additionalProps: {
+            role: readOnly ? 'img' : null,
+            'aria-label': readOnly ? getLabelText(value) : null
+        }
+    });
+    const [LabelSlot, labelSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('label', {
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.label, classes.labelEmptyValue),
+        elementType: RatingLabel,
+        externalForwardedProps,
+        ownerState
+    });
+    const [DecimalSlot, decimalSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('decimal', {
+        className: classes.decimal,
+        elementType: RatingDecimal,
+        externalForwardedProps,
+        ownerState
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(RootSlot, {
+        ...rootSlotProps,
+        children: [
+            Array.from(new Array(max)).map((_, index)=>{
+                const itemValue = index + 1;
+                const ratingItemProps = {
+                    classes,
+                    disabled,
+                    emptyIcon,
+                    focus,
+                    getLabelText,
+                    highlightSelectedOnly,
+                    hover,
+                    icon,
+                    IconContainerComponent,
+                    name,
+                    onBlur: handleBlur,
+                    onChange: handleChange,
+                    onClick: handleClear,
+                    onFocus: handleFocus,
+                    ratingValue: value,
+                    ratingValueRounded: valueRounded,
+                    readOnly,
+                    ownerState,
+                    slots,
+                    slotProps
+                };
+                const isActive = itemValue === Math.ceil(value) && (hover !== -1 || focus !== -1);
+                if (precision < 1) {
+                    const items = Array.from(new Array(1 / precision));
+                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createElement"])(DecimalSlot, {
+                        ...decimalSlotProps,
+                        key: itemValue,
+                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(decimalSlotProps.className, isActive && classes.iconActive),
+                        iconActive: isActive
+                    }, items.map(($, indexDecimal)=>{
+                        const itemDecimalValue = roundValueToPrecision(itemValue - 1 + (indexDecimal + 1) * precision, precision);
+                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(RatingItem, {
+                            ...ratingItemProps,
+                            // The icon is already displayed as active
+                            isActive: false,
+                            itemValue: itemDecimalValue,
+                            labelProps: {
+                                style: items.length - 1 === indexDecimal ? {} : {
+                                    width: itemDecimalValue === value ? `${(indexDecimal + 1) * precision * 100}%` : '0%',
+                                    overflow: 'hidden',
+                                    position: 'absolute'
+                                }
+                            }
+                        }, itemDecimalValue);
+                    }));
+                }
+                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(RatingItem, {
+                    ...ratingItemProps,
+                    isActive: isActive,
+                    itemValue: itemValue
+                }, itemValue);
+            }),
+            !readOnly && !disabled && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(LabelSlot, {
+                ...labelSlotProps,
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("input", {
+                        className: classes.visuallyHidden,
+                        value: "",
+                        id: `${name}-empty`,
+                        type: "radio",
+                        name: name,
+                        checked: valueRounded == null,
+                        onFocus: ()=>setEmptyValueFocused(true),
+                        onBlur: ()=>setEmptyValueFocused(false),
+                        onChange: handleChange
+                    }),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("span", {
+                        className: classes.visuallyHidden,
+                        children: emptyLabelText
+                    })
+                ]
+            })
+        ]
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Rating.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * @ignore
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */ component: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * The default value. Use when the component is not controlled.
+   * @default null
+   */ defaultValue: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * If `true`, the component is disabled.
+   * @default false
+   */ disabled: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The icon to display when empty.
+   * @default <StarBorder fontSize="inherit" />
+   */ emptyIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * The label read when the rating input is empty.
+   * @default 'Empty'
+   */ emptyLabelText: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Accepts a function which returns a string value that provides a user-friendly name for the current value of the rating.
+   * This is important for screen reader users.
+   *
+   * For localization purposes, you can use the provided [translations](https://mui.com/material-ui/guides/localization/).
+   * @param {number} value The rating label's value to format.
+   * @returns {string}
+   * @default function defaultLabelText(value) {
+   *   return `${value || '0'} Star${value !== 1 ? 's' : ''}`;
+   * }
+   */ getLabelText: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * If `true`, only the selected icon will be highlighted.
+   * @default false
+   */ highlightSelectedOnly: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The icon to display.
+   * @default <Star fontSize="inherit" />
+   */ icon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * The component containing the icon.
+   * @deprecated Use `slotProps.icon.component` instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   * @default function IconContainer(props) {
+   *   const { value, ...other } = props;
+   *   return <span {...other} />;
+   * }
+   */ IconContainerComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Maximum rating.
+   * @default 5
+   */ max: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * The name attribute of the radio `input` elements.
+   * This input `name` should be unique within the page.
+   * Being unique within a form is insufficient since the `name` is used to generate IDs.
+   */ name: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * Callback fired when the value changes.
+   * @param {React.SyntheticEvent} event The event source of the callback.
+   * @param {number|null} value The new value.
+   */ onChange: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback function that is fired when the hover state changes.
+   * @param {React.SyntheticEvent} event The event source of the callback.
+   * @param {number} value The new value.
+   */ onChangeActive: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onMouseLeave: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onMouseMove: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * The minimum increment value change allowed.
+   * @default 1
+   */ precision: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number, (props)=>{
+        if (props.precision < 0.1) {
+            return new Error([
+                'MUI: The prop `precision` should be above 0.1.',
+                'A value below this limit has an imperceptible impact.'
+            ].join('\n'));
+        }
+        return null;
+    }),
+    /**
+   * Removes all hover effects and pointer events.
+   * @default false
+   */ readOnly: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The size of the component.
+   * @default 'medium'
+   */ size: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'small',
+            'medium',
+            'large'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * The props used for each slot inside.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        decimal: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        label: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        decimal: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        label: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * The rating value.
+   */ value: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Rating;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Rating/Rating.js [app-client] (ecmascript) <export default as Rating>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Rating",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$Rating$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Rating$2f$Rating$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Rating/Rating.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/styles/cssUtils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "alignProperty",
+    ()=>alignProperty,
+    "convertLength",
+    ()=>convertLength,
+    "fontGrid",
+    ()=>fontGrid,
+    "getUnit",
+    ()=>getUnit,
+    "isUnitless",
+    ()=>isUnitless,
+    "responsiveProperty",
+    ()=>responsiveProperty,
+    "toUnitless",
+    ()=>toUnitless
+]);
+function isUnitless(value) {
+    return String(parseFloat(value)).length === String(value).length;
+}
+function getUnit(input) {
+    return String(input).match(/[\d.\-+]*\s*(.*)/)[1] || '';
+}
+function toUnitless(length) {
+    return parseFloat(length);
+}
+function convertLength(baseFontSize) {
+    return (length, toUnit)=>{
+        const fromUnit = getUnit(length);
+        // Optimize for cases where `from` and `to` units are accidentally the same.
+        if (fromUnit === toUnit) {
+            return length;
+        }
+        // Convert input length to pixels.
+        let pxLength = toUnitless(length);
+        if (fromUnit !== 'px') {
+            if (fromUnit === 'em') {
+                pxLength = toUnitless(length) * toUnitless(baseFontSize);
+            } else if (fromUnit === 'rem') {
+                pxLength = toUnitless(length) * toUnitless(baseFontSize);
+            }
+        }
+        // Convert length in pixels to the output unit
+        let outputLength = pxLength;
+        if (toUnit !== 'px') {
+            if (toUnit === 'em') {
+                outputLength = pxLength / toUnitless(baseFontSize);
+            } else if (toUnit === 'rem') {
+                outputLength = pxLength / toUnitless(baseFontSize);
+            } else {
+                return length;
+            }
+        }
+        return parseFloat(outputLength.toFixed(5)) + toUnit;
+    };
+}
+function alignProperty({ size, grid }) {
+    const sizeBelow = size - size % grid;
+    const sizeAbove = sizeBelow + grid;
+    return size - sizeBelow < sizeAbove - size ? sizeBelow : sizeAbove;
+}
+function fontGrid({ lineHeight, pixels, htmlFontSize }) {
+    return pixels / (lineHeight * htmlFontSize);
+}
+function responsiveProperty({ cssProperty, min, max, unit = 'rem', breakpoints = [
+    600,
+    900,
+    1200
+], transform = null }) {
+    const output = {
+        [cssProperty]: `${min}${unit}`
+    };
+    const factor = (max - min) / breakpoints[breakpoints.length - 1];
+    breakpoints.forEach((breakpoint)=>{
+        let value = min + factor * breakpoint;
+        if (transform !== null) {
+            value = transform(value);
+        }
+        output[`@media (min-width:${breakpoint}px)`] = {
+            [cssProperty]: `${Math.round(value * 10000) / 10000}${unit}`
+        };
+    });
+    return output;
+}
+}),
+"[project]/invest/node_modules/@mui/material/esm/styles/cssUtils.js [app-client] (ecmascript) <export getUnit as unstable_getUnit>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "unstable_getUnit",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$cssUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getUnit"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$cssUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/cssUtils.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/styles/cssUtils.js [app-client] (ecmascript) <export toUnitless as unstable_toUnitless>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "unstable_toUnitless",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$cssUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toUnitless"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$cssUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/cssUtils.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/Skeleton/skeletonClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getSkeletonUtilityClass",
+    ()=>getSkeletonUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getSkeletonUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiSkeleton', slot);
+}
+const skeletonClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiSkeleton', [
+    'root',
+    'text',
+    'rectangular',
+    'rounded',
+    'circular',
+    'pulse',
+    'wave',
+    'withChildren',
+    'fitContent',
+    'heightAuto'
+]);
+const __TURBOPACK__default__export__ = skeletonClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Skeleton/Skeleton.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$cssUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__getUnit__as__unstable_getUnit$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/cssUtils.js [app-client] (ecmascript) <export getUnit as unstable_getUnit>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$cssUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__toUnitless__as__unstable_toUnitless$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/cssUtils.js [app-client] (ecmascript) <export toUnitless as unstable_toUnitless>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$emotion$2f$react$2f$dist$2f$emotion$2d$react$2e$browser$2e$development$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@emotion/react/dist/emotion-react.browser.development.esm.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Skeleton$2f$skeletonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Skeleton/skeletonClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { classes, variant, animation, hasChildren, width, height } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            variant,
+            animation,
+            hasChildren && 'withChildren',
+            hasChildren && !width && 'fitContent',
+            hasChildren && !height && 'heightAuto'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Skeleton$2f$skeletonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getSkeletonUtilityClass"], classes);
+};
+const pulseKeyframe = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$emotion$2f$react$2f$dist$2f$emotion$2d$react$2e$browser$2e$development$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["keyframes"]`
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+`;
+const waveKeyframe = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$emotion$2f$react$2f$dist$2f$emotion$2d$react$2e$browser$2e$development$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["keyframes"]`
+  0% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    /* +0.5s of delay between each loop */
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+`;
+// This implementation is for supporting both Styled-components v4+ and Pigment CSS.
+// A global animation has to be created here for Styled-components v4+ (https://github.com/styled-components/styled-components/blob/main/packages/styled-components/src/utils/errors.md#12).
+// which can be done by checking typeof indeterminate1Keyframe !== 'string' (at runtime, Pigment CSS transform keyframes`` to a string).
+const pulseAnimation = typeof pulseKeyframe !== 'string' ? __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$emotion$2f$react$2f$dist$2f$emotion$2d$react$2e$browser$2e$development$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["css"]`
+        animation: ${pulseKeyframe} 2s ease-in-out 0.5s infinite;
+      ` : null;
+const waveAnimation = typeof waveKeyframe !== 'string' ? __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$emotion$2f$react$2f$dist$2f$emotion$2d$react$2e$browser$2e$development$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["css"]`
+        &::after {
+          animation: ${waveKeyframe} 2s linear 0.5s infinite;
+        }
+      ` : null;
+const SkeletonRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('span', {
+    name: 'MuiSkeleton',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            styles[ownerState.variant],
+            ownerState.animation !== false && styles[ownerState.animation],
+            ownerState.hasChildren && styles.withChildren,
+            ownerState.hasChildren && !ownerState.width && styles.fitContent,
+            ownerState.hasChildren && !ownerState.height && styles.heightAuto
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>{
+    const radiusUnit = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$cssUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__getUnit__as__unstable_getUnit$3e$__["unstable_getUnit"])(theme.shape.borderRadius) || 'px';
+    const radiusValue = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$cssUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__toUnitless__as__unstable_toUnitless$3e$__["unstable_toUnitless"])(theme.shape.borderRadius);
+    return {
+        display: 'block',
+        // Create a "on paper" color with sufficient contrast retaining the color
+        backgroundColor: theme.vars ? theme.vars.palette.Skeleton.bg : theme.alpha(theme.palette.text.primary, theme.palette.mode === 'light' ? 0.11 : 0.13),
+        height: '1.2em',
+        variants: [
+            {
+                props: {
+                    variant: 'text'
+                },
+                style: {
+                    marginTop: 0,
+                    marginBottom: 0,
+                    height: 'auto',
+                    transformOrigin: '0 55%',
+                    transform: 'scale(1, 0.60)',
+                    borderRadius: `${radiusValue}${radiusUnit}/${Math.round(radiusValue / 0.6 * 10) / 10}${radiusUnit}`,
+                    '&:empty:before': {
+                        content: '"\\00a0"'
+                    }
+                }
+            },
+            {
+                props: {
+                    variant: 'circular'
+                },
+                style: {
+                    borderRadius: '50%'
+                }
+            },
+            {
+                props: {
+                    variant: 'rounded'
+                },
+                style: {
+                    borderRadius: (theme.vars || theme).shape.borderRadius
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.hasChildren,
+                style: {
+                    '& > *': {
+                        visibility: 'hidden'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.hasChildren && !ownerState.width,
+                style: {
+                    maxWidth: 'fit-content'
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.hasChildren && !ownerState.height,
+                style: {
+                    height: 'auto'
+                }
+            },
+            {
+                props: {
+                    animation: 'pulse'
+                },
+                style: pulseAnimation || {
+                    animation: `${pulseKeyframe} 2s ease-in-out 0.5s infinite`
+                }
+            },
+            {
+                props: {
+                    animation: 'wave'
+                },
+                style: {
+                    position: 'relative',
+                    overflow: 'hidden',
+                    /* Fix bug in Safari https://bugs.webkit.org/show_bug.cgi?id=68196 */ WebkitMaskImage: '-webkit-radial-gradient(white, black)',
+                    '&::after': {
+                        background: `linear-gradient(
+                90deg,
+                transparent,
+                ${(theme.vars || theme).palette.action.hover},
+                transparent
+              )`,
+                        content: '""',
+                        position: 'absolute',
+                        transform: 'translateX(-100%)' /* Avoid flash during server-side hydration */ ,
+                        bottom: 0,
+                        left: 0,
+                        right: 0,
+                        top: 0
+                    }
+                }
+            },
+            {
+                props: {
+                    animation: 'wave'
+                },
+                style: waveAnimation || {
+                    '&::after': {
+                        animation: `${waveKeyframe} 2s linear 0.5s infinite`
+                    }
+                }
+            }
+        ]
+    };
+}));
+const Skeleton = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Skeleton(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiSkeleton'
+    });
+    const { animation = 'pulse', className, component = 'span', height, style, variant = 'text', width, ...other } = props;
+    const ownerState = {
+        ...props,
+        animation,
+        component,
+        variant,
+        hasChildren: Boolean(other.children)
+    };
+    const classes = useUtilityClasses(ownerState);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(SkeletonRoot, {
+        as: component,
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        ownerState: ownerState,
+        ...other,
+        style: {
+            width,
+            height,
+            ...style
+        }
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Skeleton.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * The animation.
+   * If `false` the animation effect is disabled.
+   * @default 'pulse'
+   */ animation: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'pulse',
+        'wave',
+        false
+    ]),
+    /**
+   * Optional children to infer width and height from.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */ component: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Height of the skeleton.
+   * Useful when you don't want to adapt the skeleton to a text element but for instance a card.
+   */ height: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * @ignore
+   */ style: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * The type of content that will be rendered.
+   * @default 'text'
+   */ variant: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'circular',
+            'rectangular',
+            'rounded',
+            'text'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * Width of the skeleton.
+   * Useful when the skeleton is inside an inline element with no width of its own.
+   */ width: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Skeleton;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Skeleton/Skeleton.js [app-client] (ecmascript) <export default as Skeleton>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Skeleton",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Skeleton$2f$Skeleton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Skeleton$2f$Skeleton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Skeleton/Skeleton.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/unsupportedProp.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$unsupportedProp$2f$unsupportedProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/unsupportedProp/unsupportedProp.js [app-client] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$unsupportedProp$2f$unsupportedProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tab/tabClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getTabUtilityClass",
+    ()=>getTabUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getTabUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiTab', slot);
+}
+const tabClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiTab', [
+    'root',
+    'labelIcon',
+    'textColorInherit',
+    'textColorPrimary',
+    'textColorSecondary',
+    'selected',
+    'disabled',
+    'fullWidth',
+    'wrapped',
+    'iconWrapper',
+    'icon'
+]);
+const __TURBOPACK__default__export__ = tabClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tab/Tab.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$ButtonBase$2f$ButtonBase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/ButtonBase/ButtonBase.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/capitalize.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$unsupportedProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/unsupportedProp.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Tab/tabClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { classes, textColor, fullWidth, wrapped, icon, label, selected, disabled } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            icon && label && 'labelIcon',
+            `textColor${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(textColor)}`,
+            fullWidth && 'fullWidth',
+            wrapped && 'wrapped',
+            selected && 'selected',
+            disabled && 'disabled'
+        ],
+        icon: [
+            'iconWrapper',
+            'icon'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTabUtilityClass"], classes);
+};
+const TabRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$ButtonBase$2f$ButtonBase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiTab',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            ownerState.label && ownerState.icon && styles.labelIcon,
+            styles[`textColor${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ownerState.textColor)}`],
+            ownerState.fullWidth && styles.fullWidth,
+            ownerState.wrapped && styles.wrapped,
+            {
+                [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].iconWrapper}`]: styles.iconWrapper
+            },
+            {
+                [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].icon}`]: styles.icon
+            }
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        ...theme.typography.button,
+        maxWidth: 360,
+        minWidth: 90,
+        position: 'relative',
+        minHeight: 48,
+        flexShrink: 0,
+        padding: '12px 16px',
+        overflow: 'hidden',
+        whiteSpace: 'normal',
+        textAlign: 'center',
+        lineHeight: 1.25,
+        variants: [
+            {
+                props: ({ ownerState })=>ownerState.label && (ownerState.iconPosition === 'top' || ownerState.iconPosition === 'bottom'),
+                style: {
+                    flexDirection: 'column'
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.label && ownerState.iconPosition !== 'top' && ownerState.iconPosition !== 'bottom',
+                style: {
+                    flexDirection: 'row'
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.icon && ownerState.label,
+                style: {
+                    minHeight: 72,
+                    paddingTop: 9,
+                    paddingBottom: 9
+                }
+            },
+            {
+                props: ({ ownerState, iconPosition })=>ownerState.icon && ownerState.label && iconPosition === 'top',
+                style: {
+                    [`& > .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].icon}`]: {
+                        marginBottom: 6
+                    }
+                }
+            },
+            {
+                props: ({ ownerState, iconPosition })=>ownerState.icon && ownerState.label && iconPosition === 'bottom',
+                style: {
+                    [`& > .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].icon}`]: {
+                        marginTop: 6
+                    }
+                }
+            },
+            {
+                props: ({ ownerState, iconPosition })=>ownerState.icon && ownerState.label && iconPosition === 'start',
+                style: {
+                    [`& > .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].icon}`]: {
+                        marginRight: theme.spacing(1)
+                    }
+                }
+            },
+            {
+                props: ({ ownerState, iconPosition })=>ownerState.icon && ownerState.label && iconPosition === 'end',
+                style: {
+                    [`& > .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].icon}`]: {
+                        marginLeft: theme.spacing(1)
+                    }
+                }
+            },
+            {
+                props: {
+                    textColor: 'inherit'
+                },
+                style: {
+                    color: 'inherit',
+                    opacity: 0.6,
+                    // same opacity as theme.palette.text.secondary
+                    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].selected}`]: {
+                        opacity: 1
+                    },
+                    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].disabled}`]: {
+                        opacity: (theme.vars || theme).palette.action.disabledOpacity
+                    }
+                }
+            },
+            {
+                props: {
+                    textColor: 'primary'
+                },
+                style: {
+                    color: (theme.vars || theme).palette.text.secondary,
+                    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].selected}`]: {
+                        color: (theme.vars || theme).palette.primary.main
+                    },
+                    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].disabled}`]: {
+                        color: (theme.vars || theme).palette.text.disabled
+                    }
+                }
+            },
+            {
+                props: {
+                    textColor: 'secondary'
+                },
+                style: {
+                    color: (theme.vars || theme).palette.text.secondary,
+                    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].selected}`]: {
+                        color: (theme.vars || theme).palette.secondary.main
+                    },
+                    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$tabClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].disabled}`]: {
+                        color: (theme.vars || theme).palette.text.disabled
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.fullWidth,
+                style: {
+                    flexShrink: 1,
+                    flexGrow: 1,
+                    flexBasis: 0,
+                    maxWidth: 'none'
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.wrapped,
+                style: {
+                    fontSize: theme.typography.pxToRem(12)
+                }
+            }
+        ]
+    })));
+const Tab = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Tab(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiTab'
+    });
+    const { className, disabled = false, disableFocusRipple = false, // eslint-disable-next-line react/prop-types
+    fullWidth, icon: iconProp, iconPosition = 'top', // eslint-disable-next-line react/prop-types
+    indicator, label, onChange, onClick, onFocus, // eslint-disable-next-line react/prop-types
+    selected, // eslint-disable-next-line react/prop-types
+    selectionFollowsFocus, // eslint-disable-next-line react/prop-types
+    textColor = 'inherit', value, wrapped = false, ...other } = props;
+    const ownerState = {
+        ...props,
+        disabled,
+        disableFocusRipple,
+        selected,
+        icon: !!iconProp,
+        iconPosition,
+        label: !!label,
+        fullWidth,
+        textColor,
+        wrapped
+    };
+    const classes = useUtilityClasses(ownerState);
+    const icon = iconProp && label && /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](iconProp) ? /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](iconProp, {
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.icon, iconProp.props.className)
+    }) : iconProp;
+    const handleClick = (event)=>{
+        if (!selected && onChange) {
+            onChange(event, value);
+        }
+        if (onClick) {
+            onClick(event);
+        }
+    };
+    const handleFocus = (event)=>{
+        if (selectionFollowsFocus && !selected && onChange) {
+            onChange(event, value);
+        }
+        if (onFocus) {
+            onFocus(event);
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(TabRoot, {
+        focusRipple: !disableFocusRipple,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        ref: ref,
+        role: "tab",
+        "aria-selected": selected,
+        disabled: disabled,
+        onClick: handleClick,
+        onFocus: handleFocus,
+        ownerState: ownerState,
+        tabIndex: selected ? 0 : -1,
+        ...other,
+        children: [
+            iconPosition === 'top' || iconPosition === 'start' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                children: [
+                    icon,
+                    label
+                ]
+            }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                children: [
+                    label,
+                    icon
+                ]
+            }),
+            indicator
+        ]
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Tab.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * This prop isn't supported.
+   * Use the `component` prop if you need to change the children structure.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$unsupportedProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * If `true`, the component is disabled.
+   * @default false
+   */ disabled: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the  keyboard focus ripple is disabled.
+   * @default false
+   */ disableFocusRipple: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the ripple effect is disabled.
+   *
+   * ⚠️ Without a ripple there is no styling for :focus-visible by default. Be sure
+   * to highlight the element by applying separate styles with the `.Mui-focusVisible` class.
+   * @default false
+   */ disableRipple: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The icon to display.
+   */ icon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].element,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * The position of the icon relative to the label.
+   * @default 'top'
+   */ iconPosition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'bottom',
+        'end',
+        'start',
+        'top'
+    ]),
+    /**
+   * The label element.
+   */ label: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * @ignore
+   */ onChange: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onClick: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * You can provide your own value. Otherwise, we fallback to the child position index.
+   */ value: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].any,
+    /**
+   * Tab labels appear in a single row.
+   * They can use a second line if needed.
+   * @default false
+   */ wrapped: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Tab;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tab/Tab.js [app-client] (ecmascript) <export default as Tab>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Tab",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$Tab$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tab$2f$Tab$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Tab/Tab.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/styles/useTheme.js [app-client] (ecmascript) <export default as useTheme>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useTheme",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/useTheme.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/debounce.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$debounce$2f$debounce$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/debounce/debounce.js [app-client] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$debounce$2f$debounce$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/animate.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>animate
+]);
+function easeInOutSin(time) {
+    return (1 + Math.sin(Math.PI * time - Math.PI / 2)) / 2;
+}
+function animate(property, element, to, options = {}, cb = ()=>{}) {
+    const { ease = easeInOutSin, duration = 300 // standard
+     } = options;
+    let start = null;
+    const from = element[property];
+    let cancelled = false;
+    const cancel = ()=>{
+        cancelled = true;
+    };
+    const step = (timestamp)=>{
+        if (cancelled) {
+            cb(new Error('Animation cancelled'));
+            return;
+        }
+        if (start === null) {
+            start = timestamp;
+        }
+        const time = Math.min(1, (timestamp - start) / duration);
+        element[property] = ease(time) * (to - from) + from;
+        if (time >= 1) {
+            requestAnimationFrame(()=>{
+                cb(null);
+            });
+            return;
+        }
+        requestAnimationFrame(step);
+    };
+    if (from === to) {
+        cb(new Error('Element already at target position'));
+        return cancel;
+    }
+    requestAnimationFrame(step);
+    return cancel;
+}
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/ownerWindow.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerWindow$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/ownerWindow/ownerWindow.js [app-client] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerWindow$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/ownerWindow.js [app-client] (ecmascript) <export default as ownerWindow>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ownerWindow",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/ownerWindow.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/useEnhancedEffect.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEnhancedEffect$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js [app-client] (ecmascript)");
+'use client';
+;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEnhancedEffect$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/useEnhancedEffect.js [app-client] (ecmascript) <export default as unstable_useEnhancedEffect>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "unstable_useEnhancedEffect",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useEnhancedEffect.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tabs/ScrollbarSize.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>ScrollbarSize
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$debounce$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/debounce.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ownerWindow$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/ownerWindow.js [app-client] (ecmascript) <export default as ownerWindow>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__unstable_useEnhancedEffect$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useEnhancedEffect.js [app-client] (ecmascript) <export default as unstable_useEnhancedEffect>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+const styles = {
+    width: 99,
+    height: 99,
+    position: 'absolute',
+    top: -9999,
+    overflow: 'scroll'
+};
+function ScrollbarSize(props) {
+    const { onChange, ...other } = props;
+    const scrollbarHeight = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]();
+    const nodeRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const setMeasurements = ()=>{
+        scrollbarHeight.current = nodeRef.current.offsetHeight - nodeRef.current.clientHeight;
+    };
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__unstable_useEnhancedEffect$3e$__["unstable_useEnhancedEffect"])({
+        "ScrollbarSize.useEnhancedEffect": ()=>{
+            const handleResize = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$debounce$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+                "ScrollbarSize.useEnhancedEffect.handleResize": ()=>{
+                    const prevHeight = scrollbarHeight.current;
+                    setMeasurements();
+                    if (prevHeight !== scrollbarHeight.current) {
+                        onChange(scrollbarHeight.current);
+                    }
+                }
+            }["ScrollbarSize.useEnhancedEffect.handleResize"]);
+            const containerWindow = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ownerWindow$3e$__["ownerWindow"])(nodeRef.current);
+            containerWindow.addEventListener('resize', handleResize);
+            return ({
+                "ScrollbarSize.useEnhancedEffect": ()=>{
+                    handleResize.clear();
+                    containerWindow.removeEventListener('resize', handleResize);
+                }
+            })["ScrollbarSize.useEnhancedEffect"];
+        }
+    }["ScrollbarSize.useEnhancedEffect"], [
+        onChange
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollbarSize.useEffect": ()=>{
+            setMeasurements();
+            onChange(scrollbarHeight.current);
+        }
+    }["ScrollbarSize.useEffect"], [
+        onChange
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("div", {
+        style: styles,
+        ...other,
+        ref: nodeRef
+    });
+}
+("TURBOPACK compile-time truthy", 1) ? ScrollbarSize.propTypes = {
+    onChange: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func.isRequired
+} : "TURBOPACK unreachable";
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/KeyboardArrowLeft.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+}), 'KeyboardArrowLeft');
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/KeyboardArrowRight.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+}), 'KeyboardArrowRight');
+}),
+"[project]/invest/node_modules/@mui/material/esm/TabScrollButton/tabScrollButtonClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getTabScrollButtonUtilityClass",
+    ()=>getTabScrollButtonUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getTabScrollButtonUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiTabScrollButton', slot);
+}
+const tabScrollButtonClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiTabScrollButton', [
+    'root',
+    'vertical',
+    'horizontal',
+    'disabled'
+]);
+const __TURBOPACK__default__export__ = tabScrollButtonClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/TabScrollButton/TabScrollButton.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+/* eslint-disable jsx-a11y/aria-role */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/system/esm/RtlProvider/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useSlotProps$2f$useSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useSlotProps/useSlotProps.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$KeyboardArrowLeft$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/KeyboardArrowLeft.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$KeyboardArrowRight$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/KeyboardArrowRight.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$ButtonBase$2f$ButtonBase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/ButtonBase/ButtonBase.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TabScrollButton$2f$tabScrollButtonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/TabScrollButton/tabScrollButtonClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { classes, orientation, disabled } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            orientation,
+            disabled && 'disabled'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TabScrollButton$2f$tabScrollButtonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTabScrollButtonUtilityClass"], classes);
+};
+const TabScrollButtonRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$ButtonBase$2f$ButtonBase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiTabScrollButton',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            ownerState.orientation && styles[ownerState.orientation]
+        ];
+    }
+})({
+    width: 40,
+    flexShrink: 0,
+    opacity: 0.8,
+    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TabScrollButton$2f$tabScrollButtonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].disabled}`]: {
+        opacity: 0
+    },
+    variants: [
+        {
+            props: {
+                orientation: 'vertical'
+            },
+            style: {
+                width: '100%',
+                height: 40,
+                '& svg': {
+                    transform: 'var(--TabScrollButton-svgRotate)'
+                }
+            }
+        }
+    ]
+});
+const TabScrollButton = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function TabScrollButton(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiTabScrollButton'
+    });
+    const { className, slots = {}, slotProps = {}, direction, orientation, disabled, ...other } = props;
+    const isRtl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRtl"])();
+    const ownerState = {
+        isRtl,
+        ...props
+    };
+    const classes = useUtilityClasses(ownerState);
+    const StartButtonIcon = slots.StartScrollButtonIcon ?? __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$KeyboardArrowLeft$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+    const EndButtonIcon = slots.EndScrollButtonIcon ?? __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$KeyboardArrowRight$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+    const startButtonIconProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useSlotProps$2f$useSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        elementType: StartButtonIcon,
+        externalSlotProps: slotProps.startScrollButtonIcon,
+        additionalProps: {
+            fontSize: 'small'
+        },
+        ownerState
+    });
+    const endButtonIconProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useSlotProps$2f$useSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        elementType: EndButtonIcon,
+        externalSlotProps: slotProps.endScrollButtonIcon,
+        additionalProps: {
+            fontSize: 'small'
+        },
+        ownerState
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(TabScrollButtonRoot, {
+        component: "div",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        ref: ref,
+        role: null,
+        ownerState: ownerState,
+        tabIndex: null,
+        ...other,
+        style: {
+            ...other.style,
+            ...orientation === 'vertical' && {
+                '--TabScrollButton-svgRotate': `rotate(${isRtl ? -90 : 90}deg)`
+            }
+        },
+        children: direction === 'left' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(StartButtonIcon, {
+            ...startButtonIconProps
+        }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(EndButtonIcon, {
+            ...endButtonIconProps
+        })
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? TabScrollButton.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * The content of the component.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The direction the button should indicate.
+   */ direction: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'left',
+        'right'
+    ]).isRequired,
+    /**
+   * If `true`, the component is disabled.
+   * @default false
+   */ disabled: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The component orientation (layout flow direction).
+   */ orientation: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'horizontal',
+        'vertical'
+    ]).isRequired,
+    /**
+   * The extra props for the slot components.
+   * You can override the existing props or add new ones.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        endScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        startScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        EndScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        StartScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * @ignore
+   */ style: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = TabScrollButton;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tabs/tabsClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getTabsUtilityClass",
+    ()=>getTabsUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getTabsUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiTabs', slot);
+}
+const tabsClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiTabs', [
+    'root',
+    'vertical',
+    'list',
+    'flexContainer',
+    'flexContainerVertical',
+    'centered',
+    'scroller',
+    'fixed',
+    'scrollableX',
+    'scrollableY',
+    'hideScrollbar',
+    'scrollButtons',
+    'scrollButtonsHideMobile',
+    'indicator'
+]);
+const __TURBOPACK__default__export__ = tabsClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/ownerDocument.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/ownerDocument/ownerDocument.js [app-client] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+}),
+"[project]/invest/node_modules/@mui/material/esm/utils/getActiveElement.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getActiveElement$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/getActiveElement/getActiveElement.js [app-client] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getActiveElement$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tabs/Tabs.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$react$2d$is$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/react-is/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$refType$2f$refType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/refType/refType.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/system/esm/RtlProvider/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useSlotProps$2f$useSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useSlotProps/useSlotProps.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/useTheme.js [app-client] (ecmascript) <export default as useTheme>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$debounce$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/debounce.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$animate$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/animate.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$ScrollbarSize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Tabs/ScrollbarSize.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TabScrollButton$2f$TabScrollButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/TabScrollButton/TabScrollButton.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useEventCallback.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$tabsClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Tabs/tabsClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/ownerDocument.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/ownerWindow.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/getActiveElement.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const nextItem = (list, item)=>{
+    if (list === item) {
+        return list.firstChild;
+    }
+    if (item && item.nextElementSibling) {
+        return item.nextElementSibling;
+    }
+    return list.firstChild;
+};
+const previousItem = (list, item)=>{
+    if (list === item) {
+        return list.lastChild;
+    }
+    if (item && item.previousElementSibling) {
+        return item.previousElementSibling;
+    }
+    return list.lastChild;
+};
+const moveFocus = (list, currentFocus, traversalFunction)=>{
+    let wrappedOnce = false;
+    let nextFocus = traversalFunction(list, currentFocus);
+    while(nextFocus){
+        // Prevent infinite loop.
+        if (nextFocus === list.firstChild) {
+            if (wrappedOnce) {
+                return;
+            }
+            wrappedOnce = true;
+        }
+        // Same logic as useAutocomplete.js
+        const nextFocusDisabled = nextFocus.disabled || nextFocus.getAttribute('aria-disabled') === 'true';
+        if (!nextFocus.hasAttribute('tabindex') || nextFocusDisabled) {
+            // Move to the next element.
+            nextFocus = traversalFunction(list, nextFocus);
+        } else {
+            nextFocus.focus();
+            return;
+        }
+    }
+};
+const useUtilityClasses = (ownerState)=>{
+    const { vertical, fixed, hideScrollbar, scrollableX, scrollableY, centered, scrollButtonsHideMobile, classes } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            vertical && 'vertical'
+        ],
+        scroller: [
+            'scroller',
+            fixed && 'fixed',
+            hideScrollbar && 'hideScrollbar',
+            scrollableX && 'scrollableX',
+            scrollableY && 'scrollableY'
+        ],
+        list: [
+            'list',
+            'flexContainer',
+            vertical && 'flexContainerVertical',
+            vertical && 'vertical',
+            centered && 'centered'
+        ],
+        indicator: [
+            'indicator'
+        ],
+        scrollButtons: [
+            'scrollButtons',
+            scrollButtonsHideMobile && 'scrollButtonsHideMobile'
+        ],
+        scrollableX: [
+            scrollableX && 'scrollableX'
+        ],
+        hideScrollbar: [
+            hideScrollbar && 'hideScrollbar'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$tabsClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTabsUtilityClass"], classes);
+};
+const TabsRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiTabs',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            {
+                [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$tabsClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].scrollButtons}`]: styles.scrollButtons
+            },
+            {
+                [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$tabsClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].scrollButtons}`]: ownerState.scrollButtonsHideMobile && styles.scrollButtonsHideMobile
+            },
+            styles.root,
+            ownerState.vertical && styles.vertical
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        overflow: 'hidden',
+        minHeight: 48,
+        // Add iOS momentum scrolling for iOS < 13.0
+        WebkitOverflowScrolling: 'touch',
+        display: 'flex',
+        variants: [
+            {
+                props: ({ ownerState })=>ownerState.vertical,
+                style: {
+                    flexDirection: 'column'
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.scrollButtonsHideMobile,
+                style: {
+                    [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$tabsClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].scrollButtons}`]: {
+                        [theme.breakpoints.down('sm')]: {
+                            display: 'none'
+                        }
+                    }
+                }
+            }
+        ]
+    })));
+const TabsScroller = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiTabs',
+    slot: 'Scroller',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.scroller,
+            ownerState.fixed && styles.fixed,
+            ownerState.hideScrollbar && styles.hideScrollbar,
+            ownerState.scrollableX && styles.scrollableX,
+            ownerState.scrollableY && styles.scrollableY
+        ];
+    }
+})({
+    position: 'relative',
+    display: 'inline-block',
+    flex: '1 1 auto',
+    whiteSpace: 'nowrap',
+    variants: [
+        {
+            props: ({ ownerState })=>ownerState.fixed,
+            style: {
+                overflowX: 'hidden',
+                width: '100%'
+            }
+        },
+        {
+            props: ({ ownerState })=>ownerState.hideScrollbar,
+            style: {
+                // Hide dimensionless scrollbar on macOS
+                scrollbarWidth: 'none',
+                // Firefox
+                '&::-webkit-scrollbar': {
+                    display: 'none' // Safari + Chrome
+                }
+            }
+        },
+        {
+            props: ({ ownerState })=>ownerState.scrollableX,
+            style: {
+                overflowX: 'auto',
+                overflowY: 'hidden'
+            }
+        },
+        {
+            props: ({ ownerState })=>ownerState.scrollableY,
+            style: {
+                overflowY: 'auto',
+                overflowX: 'hidden'
+            }
+        }
+    ]
+});
+const List = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiTabs',
+    slot: 'List',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.list,
+            styles.flexContainer,
+            ownerState.vertical && styles.flexContainerVertical,
+            ownerState.centered && styles.centered
+        ];
+    }
+})({
+    display: 'flex',
+    variants: [
+        {
+            props: ({ ownerState })=>ownerState.vertical,
+            style: {
+                flexDirection: 'column'
+            }
+        },
+        {
+            props: ({ ownerState })=>ownerState.centered,
+            style: {
+                justifyContent: 'center'
+            }
+        }
+    ]
+});
+const TabsIndicator = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('span', {
+    name: 'MuiTabs',
+    slot: 'Indicator'
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        position: 'absolute',
+        height: 2,
+        bottom: 0,
+        width: '100%',
+        transition: theme.transitions.create(),
+        variants: [
+            {
+                props: {
+                    indicatorColor: 'primary'
+                },
+                style: {
+                    backgroundColor: (theme.vars || theme).palette.primary.main
+                }
+            },
+            {
+                props: {
+                    indicatorColor: 'secondary'
+                },
+                style: {
+                    backgroundColor: (theme.vars || theme).palette.secondary.main
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.vertical,
+                style: {
+                    height: '100%',
+                    width: 2,
+                    right: 0
+                }
+            }
+        ]
+    })));
+const TabsScrollbarSize = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$ScrollbarSize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+    overflowX: 'auto',
+    overflowY: 'hidden',
+    // Hide dimensionless scrollbar on macOS
+    scrollbarWidth: 'none',
+    // Firefox
+    '&::-webkit-scrollbar': {
+        display: 'none' // Safari + Chrome
+    }
+});
+const defaultIndicatorStyle = {};
+let warnedOnceTabPresent = false;
+const Tabs = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Tabs(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiTabs'
+    });
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
+    const isRtl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRtl"])();
+    const { 'aria-label': ariaLabel, 'aria-labelledby': ariaLabelledBy, action, centered = false, children: childrenProp, className, component = 'div', allowScrollButtonsMobile = false, indicatorColor = 'primary', onChange, orientation = 'horizontal', ScrollButtonComponent, // TODO: remove in v7 (deprecated in v6)
+    scrollButtons = 'auto', selectionFollowsFocus, slots = {}, slotProps = {}, TabIndicatorProps = {}, // TODO: remove in v7 (deprecated in v6)
+    TabScrollButtonProps = {}, // TODO: remove in v7 (deprecated in v6)
+    textColor = 'primary', value, variant = 'standard', visibleScrollbar = false, ...other } = props;
+    const scrollable = variant === 'scrollable';
+    const vertical = orientation === 'vertical';
+    const scrollStart = vertical ? 'scrollTop' : 'scrollLeft';
+    const start = vertical ? 'top' : 'left';
+    const end = vertical ? 'bottom' : 'right';
+    const clientSize = vertical ? 'clientHeight' : 'clientWidth';
+    const size = vertical ? 'height' : 'width';
+    const ownerState = {
+        ...props,
+        component,
+        allowScrollButtonsMobile,
+        indicatorColor,
+        orientation,
+        vertical,
+        scrollButtons,
+        textColor,
+        variant,
+        visibleScrollbar,
+        fixed: !scrollable,
+        hideScrollbar: scrollable && !visibleScrollbar,
+        scrollableX: scrollable && !vertical,
+        scrollableY: scrollable && vertical,
+        centered: centered && !scrollable,
+        scrollButtonsHideMobile: !allowScrollButtonsMobile
+    };
+    const classes = useUtilityClasses(ownerState);
+    const startScrollButtonIconProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useSlotProps$2f$useSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        elementType: slots.StartScrollButtonIcon,
+        externalSlotProps: slotProps.startScrollButtonIcon,
+        ownerState
+    });
+    const endScrollButtonIconProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useSlotProps$2f$useSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        elementType: slots.EndScrollButtonIcon,
+        externalSlotProps: slotProps.endScrollButtonIcon,
+        ownerState
+    });
+    if ("TURBOPACK compile-time truthy", 1) {
+        if (centered && scrollable) {
+            console.error('MUI: You can not use the `centered={true}` and `variant="scrollable"` properties ' + 'at the same time on a `Tabs` component.');
+        }
+    }
+    const [mounted, setMounted] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const [indicatorStyle, setIndicatorStyle] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](defaultIndicatorStyle);
+    const [displayStartScroll, setDisplayStartScroll] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const [displayEndScroll, setDisplayEndScroll] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const [updateScrollObserver, setUpdateScrollObserver] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const [scrollerStyle, setScrollerStyle] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]({
+        overflow: 'hidden',
+        scrollbarWidth: 0
+    });
+    const valueToIndex = new Map();
+    const tabsRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const tabListRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const externalForwardedProps = {
+        slots,
+        slotProps: {
+            indicator: TabIndicatorProps,
+            scrollButton: TabScrollButtonProps,
+            ...slotProps
+        }
+    };
+    const getTabsMeta = ()=>{
+        const tabsNode = tabsRef.current;
+        let tabsMeta;
+        if (tabsNode) {
+            const rect = tabsNode.getBoundingClientRect();
+            // create a new object with ClientRect class props + scrollLeft
+            tabsMeta = {
+                clientWidth: tabsNode.clientWidth,
+                scrollLeft: tabsNode.scrollLeft,
+                scrollTop: tabsNode.scrollTop,
+                scrollWidth: tabsNode.scrollWidth,
+                top: rect.top,
+                bottom: rect.bottom,
+                left: rect.left,
+                right: rect.right
+            };
+        }
+        let tabMeta;
+        if (tabsNode && value !== false) {
+            const children = tabListRef.current.children;
+            if (children.length > 0) {
+                const tab = children[valueToIndex.get(value)];
+                if ("TURBOPACK compile-time truthy", 1) {
+                    if (!tab) {
+                        console.error([
+                            `MUI: The \`value\` provided to the Tabs component is invalid.`,
+                            `None of the Tabs' children match with "${value}".`,
+                            valueToIndex.keys ? `You can provide one of the following values: ${Array.from(valueToIndex.keys()).join(', ')}.` : null
+                        ].join('\n'));
+                    }
+                }
+                tabMeta = tab ? tab.getBoundingClientRect() : null;
+                if ("TURBOPACK compile-time truthy", 1) {
+                    if (("TURBOPACK compile-time value", "development") !== 'test' && !warnedOnceTabPresent && tabMeta && tabMeta.width === 0 && tabMeta.height === 0 && // if the whole Tabs component is hidden, don't warn
+                    tabsMeta.clientWidth !== 0) {
+                        tabsMeta = null;
+                        console.error([
+                            'MUI: The `value` provided to the Tabs component is invalid.',
+                            `The Tab with this \`value\` ("${value}") is not part of the document layout.`,
+                            "Make sure the tab item is present in the document or that it's not `display: none`."
+                        ].join('\n'));
+                        warnedOnceTabPresent = true;
+                    }
+                }
+            }
+        }
+        return {
+            tabsMeta,
+            tabMeta
+        };
+    };
+    const updateIndicatorState = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "Tabs.Tabs.useEventCallback[updateIndicatorState]": ()=>{
+            const { tabsMeta, tabMeta } = getTabsMeta();
+            let startValue = 0;
+            let startIndicator;
+            if (vertical) {
+                startIndicator = 'top';
+                if (tabMeta && tabsMeta) {
+                    startValue = tabMeta.top - tabsMeta.top + tabsMeta.scrollTop;
+                }
+            } else {
+                startIndicator = isRtl ? 'right' : 'left';
+                if (tabMeta && tabsMeta) {
+                    startValue = (isRtl ? -1 : 1) * (tabMeta[startIndicator] - tabsMeta[startIndicator] + tabsMeta.scrollLeft);
+                }
+            }
+            const newIndicatorStyle = {
+                [startIndicator]: startValue,
+                // May be wrong until the font is loaded.
+                [size]: tabMeta ? tabMeta[size] : 0
+            };
+            if (typeof indicatorStyle[startIndicator] !== 'number' || typeof indicatorStyle[size] !== 'number') {
+                setIndicatorStyle(newIndicatorStyle);
+            } else {
+                const dStart = Math.abs(indicatorStyle[startIndicator] - newIndicatorStyle[startIndicator]);
+                const dSize = Math.abs(indicatorStyle[size] - newIndicatorStyle[size]);
+                if (dStart >= 1 || dSize >= 1) {
+                    setIndicatorStyle(newIndicatorStyle);
+                }
+            }
+        }
+    }["Tabs.Tabs.useEventCallback[updateIndicatorState]"]);
+    const scroll = (scrollValue, { animation = true } = {})=>{
+        if (animation) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$animate$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(scrollStart, tabsRef.current, scrollValue, {
+                duration: theme.transitions.duration.standard
+            });
+        } else {
+            tabsRef.current[scrollStart] = scrollValue;
+        }
+    };
+    const moveTabsScroll = (delta)=>{
+        let scrollValue = tabsRef.current[scrollStart];
+        if (vertical) {
+            scrollValue += delta;
+        } else {
+            scrollValue += delta * (isRtl ? -1 : 1);
+        }
+        scroll(scrollValue);
+    };
+    const getScrollSize = ()=>{
+        const containerSize = tabsRef.current[clientSize];
+        let totalSize = 0;
+        const children = Array.from(tabListRef.current.children);
+        for(let i = 0; i < children.length; i += 1){
+            const tab = children[i];
+            if (totalSize + tab[clientSize] > containerSize) {
+                // If the first item is longer than the container size, then only scroll
+                // by the container size.
+                if (i === 0) {
+                    totalSize = containerSize;
+                }
+                break;
+            }
+            totalSize += tab[clientSize];
+        }
+        return totalSize;
+    };
+    const handleStartScrollClick = ()=>{
+        moveTabsScroll(-1 * getScrollSize());
+    };
+    const handleEndScrollClick = ()=>{
+        moveTabsScroll(getScrollSize());
+    };
+    const [ScrollbarSlot, { onChange: scrollbarOnChange, ...scrollbarSlotProps }] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('scrollbar', {
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.scrollableX, classes.hideScrollbar),
+        elementType: TabsScrollbarSize,
+        shouldForwardComponentProp: true,
+        externalForwardedProps,
+        ownerState
+    });
+    // TODO Remove <ScrollbarSize /> as browser support for hiding the scrollbar
+    // with CSS improves.
+    const handleScrollbarSizeChange = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "Tabs.Tabs.useCallback[handleScrollbarSizeChange]": (scrollbarWidth)=>{
+            scrollbarOnChange?.(scrollbarWidth);
+            setScrollerStyle({
+                overflow: null,
+                scrollbarWidth
+            });
+        }
+    }["Tabs.Tabs.useCallback[handleScrollbarSizeChange]"], [
+        scrollbarOnChange
+    ]);
+    const [ScrollButtonsSlot, scrollButtonSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('scrollButtons', {
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.scrollButtons, TabScrollButtonProps.className),
+        elementType: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TabScrollButton$2f$TabScrollButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        externalForwardedProps,
+        ownerState,
+        additionalProps: {
+            orientation,
+            slots: {
+                StartScrollButtonIcon: slots.startScrollButtonIcon || slots.StartScrollButtonIcon,
+                EndScrollButtonIcon: slots.endScrollButtonIcon || slots.EndScrollButtonIcon
+            },
+            slotProps: {
+                startScrollButtonIcon: startScrollButtonIconProps,
+                endScrollButtonIcon: endScrollButtonIconProps
+            }
+        }
+    });
+    const getConditionalElements = ()=>{
+        const conditionalElements = {};
+        conditionalElements.scrollbarSizeListener = scrollable ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollbarSlot, {
+            ...scrollbarSlotProps,
+            onChange: handleScrollbarSizeChange
+        }) : null;
+        const scrollButtonsActive = displayStartScroll || displayEndScroll;
+        const showScrollButtons = scrollable && (scrollButtons === 'auto' && scrollButtonsActive || scrollButtons === true);
+        conditionalElements.scrollButtonStart = showScrollButtons ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollButtonsSlot, {
+            direction: isRtl ? 'right' : 'left',
+            onClick: handleStartScrollClick,
+            disabled: !displayStartScroll,
+            ...scrollButtonSlotProps
+        }) : null;
+        conditionalElements.scrollButtonEnd = showScrollButtons ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollButtonsSlot, {
+            direction: isRtl ? 'left' : 'right',
+            onClick: handleEndScrollClick,
+            disabled: !displayEndScroll,
+            ...scrollButtonSlotProps
+        }) : null;
+        return conditionalElements;
+    };
+    const scrollSelectedIntoView = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "Tabs.Tabs.useEventCallback[scrollSelectedIntoView]": (animation)=>{
+            const { tabsMeta, tabMeta } = getTabsMeta();
+            if (!tabMeta || !tabsMeta) {
+                return;
+            }
+            if (tabMeta[start] < tabsMeta[start]) {
+                // left side of button is out of view
+                const nextScrollStart = tabsMeta[scrollStart] + (tabMeta[start] - tabsMeta[start]);
+                scroll(nextScrollStart, {
+                    animation
+                });
+            } else if (tabMeta[end] > tabsMeta[end]) {
+                // right side of button is out of view
+                const nextScrollStart = tabsMeta[scrollStart] + (tabMeta[end] - tabsMeta[end]);
+                scroll(nextScrollStart, {
+                    animation
+                });
+            }
+        }
+    }["Tabs.Tabs.useEventCallback[scrollSelectedIntoView]"]);
+    const updateScrollButtonState = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "Tabs.Tabs.useEventCallback[updateScrollButtonState]": ()=>{
+            if (scrollable && scrollButtons !== false) {
+                setUpdateScrollObserver(!updateScrollObserver);
+            }
+        }
+    }["Tabs.Tabs.useEventCallback[updateScrollButtonState]"]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "Tabs.Tabs.useEffect": ()=>{
+            const handleResize = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$debounce$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+                "Tabs.Tabs.useEffect.handleResize": ()=>{
+                    // If the Tabs component is replaced by Suspense with a fallback, the last
+                    // ResizeObserver's handler that runs because of the change in the layout is trying to
+                    // access a dom node that is no longer there (as the fallback component is being shown instead).
+                    // See https://github.com/mui/material-ui/issues/33276
+                    // TODO: Add tests that will ensure the component is not failing when
+                    // replaced by Suspense with a fallback, once React is updated to version 18
+                    if (tabsRef.current) {
+                        updateIndicatorState();
+                    }
+                }
+            }["Tabs.Tabs.useEffect.handleResize"]);
+            let resizeObserver;
+            /**
+     * @type {MutationCallback}
+     */ const handleMutation = {
+                "Tabs.Tabs.useEffect.handleMutation": (records)=>{
+                    records.forEach({
+                        "Tabs.Tabs.useEffect.handleMutation": (record)=>{
+                            record.removedNodes.forEach({
+                                "Tabs.Tabs.useEffect.handleMutation": (item)=>{
+                                    resizeObserver?.unobserve(item);
+                                }
+                            }["Tabs.Tabs.useEffect.handleMutation"]);
+                            record.addedNodes.forEach({
+                                "Tabs.Tabs.useEffect.handleMutation": (item)=>{
+                                    resizeObserver?.observe(item);
+                                }
+                            }["Tabs.Tabs.useEffect.handleMutation"]);
+                        }
+                    }["Tabs.Tabs.useEffect.handleMutation"]);
+                    handleResize();
+                    updateScrollButtonState();
+                }
+            }["Tabs.Tabs.useEffect.handleMutation"];
+            const win = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(tabsRef.current);
+            win.addEventListener('resize', handleResize);
+            let mutationObserver;
+            if (typeof ResizeObserver !== 'undefined') {
+                resizeObserver = new ResizeObserver(handleResize);
+                Array.from(tabListRef.current.children).forEach({
+                    "Tabs.Tabs.useEffect": (child)=>{
+                        resizeObserver.observe(child);
+                    }
+                }["Tabs.Tabs.useEffect"]);
+            }
+            if (typeof MutationObserver !== 'undefined') {
+                mutationObserver = new MutationObserver(handleMutation);
+                mutationObserver.observe(tabListRef.current, {
+                    childList: true
+                });
+            }
+            return ({
+                "Tabs.Tabs.useEffect": ()=>{
+                    handleResize.clear();
+                    win.removeEventListener('resize', handleResize);
+                    mutationObserver?.disconnect();
+                    resizeObserver?.disconnect();
+                }
+            })["Tabs.Tabs.useEffect"];
+        }
+    }["Tabs.Tabs.useEffect"], [
+        updateIndicatorState,
+        updateScrollButtonState
+    ]);
+    /**
+   * Toggle visibility of start and end scroll buttons
+   * Using IntersectionObserver on first and last Tabs.
+   */ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "Tabs.Tabs.useEffect": ()=>{
+            const tabListChildren = Array.from(tabListRef.current.children);
+            const length = tabListChildren.length;
+            if (typeof IntersectionObserver !== 'undefined' && length > 0 && scrollable && scrollButtons !== false) {
+                const firstTab = tabListChildren[0];
+                const lastTab = tabListChildren[length - 1];
+                const observerOptions = {
+                    root: tabsRef.current,
+                    threshold: 0.99
+                };
+                const handleScrollButtonStart = {
+                    "Tabs.Tabs.useEffect.handleScrollButtonStart": (entries)=>{
+                        setDisplayStartScroll(!entries[0].isIntersecting);
+                    }
+                }["Tabs.Tabs.useEffect.handleScrollButtonStart"];
+                const firstObserver = new IntersectionObserver(handleScrollButtonStart, observerOptions);
+                firstObserver.observe(firstTab);
+                const handleScrollButtonEnd = {
+                    "Tabs.Tabs.useEffect.handleScrollButtonEnd": (entries)=>{
+                        setDisplayEndScroll(!entries[0].isIntersecting);
+                    }
+                }["Tabs.Tabs.useEffect.handleScrollButtonEnd"];
+                const lastObserver = new IntersectionObserver(handleScrollButtonEnd, observerOptions);
+                lastObserver.observe(lastTab);
+                return ({
+                    "Tabs.Tabs.useEffect": ()=>{
+                        firstObserver.disconnect();
+                        lastObserver.disconnect();
+                    }
+                })["Tabs.Tabs.useEffect"];
+            }
+            return undefined;
+        }
+    }["Tabs.Tabs.useEffect"], [
+        scrollable,
+        scrollButtons,
+        updateScrollObserver,
+        childrenProp?.length
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "Tabs.Tabs.useEffect": ()=>{
+            setMounted(true);
+        }
+    }["Tabs.Tabs.useEffect"], []);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "Tabs.Tabs.useEffect": ()=>{
+            updateIndicatorState();
+        }
+    }["Tabs.Tabs.useEffect"]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "Tabs.Tabs.useEffect": ()=>{
+            // Don't animate on the first render.
+            scrollSelectedIntoView(defaultIndicatorStyle !== indicatorStyle);
+        }
+    }["Tabs.Tabs.useEffect"], [
+        scrollSelectedIntoView,
+        indicatorStyle
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useImperativeHandle"](action, {
+        "Tabs.Tabs.useImperativeHandle": ()=>({
+                updateIndicator: updateIndicatorState,
+                updateScrollButtons: updateScrollButtonState
+            })
+    }["Tabs.Tabs.useImperativeHandle"], [
+        updateIndicatorState,
+        updateScrollButtonState
+    ]);
+    const [IndicatorSlot, indicatorSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('indicator', {
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.indicator, TabIndicatorProps.className),
+        elementType: TabsIndicator,
+        externalForwardedProps,
+        ownerState,
+        additionalProps: {
+            style: indicatorStyle
+        }
+    });
+    const indicator = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(IndicatorSlot, {
+        ...indicatorSlotProps
+    });
+    let childIndex = 0;
+    const children = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Children"].map(childrenProp, (child)=>{
+        if (!/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](child)) {
+            return null;
+        }
+        if ("TURBOPACK compile-time truthy", 1) {
+            if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$react$2d$is$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isFragment"])(child)) {
+                console.error([
+                    "MUI: The Tabs component doesn't accept a Fragment as a child.",
+                    'Consider providing an array instead.'
+                ].join('\n'));
+            }
+        }
+        const childValue = child.props.value === undefined ? childIndex : child.props.value;
+        valueToIndex.set(childValue, childIndex);
+        const selected = childValue === value;
+        childIndex += 1;
+        return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](child, {
+            fullWidth: variant === 'fullWidth',
+            indicator: selected && !mounted && indicator,
+            selected,
+            selectionFollowsFocus,
+            onChange,
+            textColor,
+            value: childValue,
+            ...childIndex === 1 && value === false && !child.props.tabIndex ? {
+                tabIndex: 0
+            } : {}
+        });
+    });
+    const handleKeyDown = (event)=>{
+        // Check if a modifier key (Alt, Shift, Ctrl, Meta) is pressed
+        if (event.altKey || event.shiftKey || event.ctrlKey || event.metaKey) {
+            return;
+        }
+        const list = tabListRef.current;
+        const currentFocus = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(list));
+        // Keyboard navigation assumes that [role="tab"] are siblings
+        // though we might warn in the future about nested, interactive elements
+        // as a a11y violation
+        const role = currentFocus?.getAttribute('role');
+        if (role !== 'tab') {
+            return;
+        }
+        let previousItemKey = orientation === 'horizontal' ? 'ArrowLeft' : 'ArrowUp';
+        let nextItemKey = orientation === 'horizontal' ? 'ArrowRight' : 'ArrowDown';
+        if (orientation === 'horizontal' && isRtl) {
+            // swap previousItemKey with nextItemKey
+            previousItemKey = 'ArrowRight';
+            nextItemKey = 'ArrowLeft';
+        }
+        switch(event.key){
+            case previousItemKey:
+                event.preventDefault();
+                moveFocus(list, currentFocus, previousItem);
+                break;
+            case nextItemKey:
+                event.preventDefault();
+                moveFocus(list, currentFocus, nextItem);
+                break;
+            case 'Home':
+                event.preventDefault();
+                moveFocus(list, null, nextItem);
+                break;
+            case 'End':
+                event.preventDefault();
+                moveFocus(list, null, previousItem);
+                break;
+            default:
+                break;
+        }
+    };
+    const conditionalElements = getConditionalElements();
+    const [RootSlot, rootSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('root', {
+        ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        elementType: TabsRoot,
+        externalForwardedProps: {
+            ...externalForwardedProps,
+            ...other,
+            component
+        },
+        ownerState
+    });
+    const [ScrollerSlot, scrollerSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('scroller', {
+        ref: tabsRef,
+        className: classes.scroller,
+        elementType: TabsScroller,
+        externalForwardedProps,
+        ownerState,
+        additionalProps: {
+            style: {
+                overflow: scrollerStyle.overflow,
+                [vertical ? `margin${isRtl ? 'Left' : 'Right'}` : 'marginBottom']: visibleScrollbar ? undefined : -scrollerStyle.scrollbarWidth
+            }
+        }
+    });
+    const [ListSlot, listSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('list', {
+        ref: tabListRef,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.list, classes.flexContainer),
+        elementType: List,
+        externalForwardedProps,
+        ownerState,
+        getSlotProps: {
+            "Tabs.Tabs.useSlot": (handlers)=>({
+                    ...handlers,
+                    onKeyDown: ({
+                        "Tabs.Tabs.useSlot": (event)=>{
+                            handleKeyDown(event);
+                            handlers.onKeyDown?.(event);
+                        }
+                    })["Tabs.Tabs.useSlot"]
+                })
+        }["Tabs.Tabs.useSlot"]
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(RootSlot, {
+        ...rootSlotProps,
+        children: [
+            conditionalElements.scrollButtonStart,
+            conditionalElements.scrollbarSizeListener,
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(ScrollerSlot, {
+                ...scrollerSlotProps,
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ListSlot, {
+                        "aria-label": ariaLabel,
+                        "aria-labelledby": ariaLabelledBy,
+                        "aria-orientation": orientation === 'vertical' ? 'vertical' : null,
+                        role: "tablist",
+                        ...listSlotProps,
+                        children: children
+                    }),
+                    mounted && indicator
+                ]
+            }),
+            conditionalElements.scrollButtonEnd
+        ]
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Tabs.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * Callback fired when the component mounts.
+   * This is useful when you want to trigger an action programmatically.
+   * It supports two actions: `updateIndicator()` and `updateScrollButtons()`
+   *
+   * @param {object} actions This object contains all possible actions
+   * that can be triggered programmatically.
+   */ action: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$refType$2f$refType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+    /**
+   * If `true`, the scroll buttons aren't forced hidden on mobile.
+   * By default the scroll buttons are hidden on mobile and takes precedence over `scrollButtons`.
+   * @default false
+   */ allowScrollButtonsMobile: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The label for the Tabs as a string.
+   */ 'aria-label': __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * An id or list of ids separated by a space that label the Tabs.
+   */ 'aria-labelledby': __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * If `true`, the tabs are centered.
+   * This prop is intended for large views.
+   * @default false
+   */ centered: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The content of the component.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */ component: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Determines the color of the indicator.
+   * @default 'primary'
+   */ indicatorColor: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'primary',
+            'secondary'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * Callback fired when the value changes.
+   *
+   * @param {React.SyntheticEvent} event The event source of the callback. **Warning**: This is a generic event not a change event.
+   * @param {any} value We default to the index of the child (number)
+   */ onChange: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * The component orientation (layout flow direction).
+   * @default 'horizontal'
+   */ orientation: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'horizontal',
+        'vertical'
+    ]),
+    /**
+   * The component used to render the scroll buttons.
+   * @deprecated use the `slots.scrollButtons` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   * @default TabScrollButton
+   */ ScrollButtonComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Determine behavior of scroll buttons when tabs are set to scroll:
+   *
+   * - `auto` will only present them when not all the items are visible.
+   * - `true` will always present them.
+   * - `false` will never present them.
+   *
+   * By default the scroll buttons are hidden on mobile.
+   * This behavior can be disabled with `allowScrollButtonsMobile`.
+   * @default 'auto'
+   */ scrollButtons: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOf([
+        'auto',
+        false,
+        true
+    ]),
+    /**
+   * If `true` the selected tab changes on focus. Otherwise it only
+   * changes on activation.
+   */ selectionFollowsFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The props used for each slot inside.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        endScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        indicator: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        list: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        scrollbar: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        scrollButtons: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        scroller: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        startScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        endScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        EndScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        indicator: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        list: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        scrollbar: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        scrollButtons: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        scroller: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        startScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        StartScrollButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * Props applied to the tab indicator element.
+   * @deprecated use the `slotProps.indicator` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   * @default  {}
+   */ TabIndicatorProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Props applied to the [`TabScrollButton`](https://mui.com/material-ui/api/tab-scroll-button/) element.
+   * @deprecated use the `slotProps.scrollButtons` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   * @default {}
+   */ TabScrollButtonProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Determines the color of the `Tab`.
+   * @default 'primary'
+   */ textColor: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'inherit',
+        'primary',
+        'secondary'
+    ]),
+    /**
+   * The value of the currently selected `Tab`.
+   * If you don't want any selected `Tab`, you can set this prop to `false`.
+   */ value: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].any,
+    /**
+   * Determines additional display behavior of the tabs:
+   *
+   *  - `scrollable` will invoke scrolling properties and allow for horizontally
+   *  scrolling (or swiping) of the tab bar.
+   *  - `fullWidth` will make the tabs grow to use all the available space,
+   *  which should be used for small views, like on mobile.
+   *  - `standard` will render the default state.
+   * @default 'standard'
+   */ variant: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'fullWidth',
+        'scrollable',
+        'standard'
+    ]),
+    /**
+   * If `true`, the scrollbar is visible. It can be useful when displaying
+   * a long vertical list of tabs.
+   * @default false
+   */ visibleScrollbar: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Tabs;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tabs/Tabs.js [app-client] (ecmascript) <export default as Tabs>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Tabs",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$Tabs$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tabs$2f$Tabs$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Tabs/Tabs.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/IconButton/iconButtonClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getIconButtonUtilityClass",
+    ()=>getIconButtonUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getIconButtonUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiIconButton', slot);
+}
+const iconButtonClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiIconButton', [
+    'root',
+    'disabled',
+    'colorInherit',
+    'colorPrimary',
+    'colorSecondary',
+    'colorError',
+    'colorInfo',
+    'colorSuccess',
+    'colorWarning',
+    'edgeStart',
+    'edgeEnd',
+    'sizeSmall',
+    'sizeMedium',
+    'sizeLarge',
+    'loading',
+    'loadingIndicator',
+    'loadingWrapper'
+]);
+const __TURBOPACK__default__export__ = iconButtonClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/IconButton/IconButton.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/chainPropTypes/chainPropTypes.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__unstable_useId$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useId.js [app-client] (ecmascript) <export default as unstable_useId>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSimplePaletteValueFilter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSimplePaletteValueFilter.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$ButtonBase$2f$ButtonBase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/ButtonBase/ButtonBase.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/CircularProgress/CircularProgress.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/capitalize.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$iconButtonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/IconButton/iconButtonClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { classes, disabled, color, edge, size, loading } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            loading && 'loading',
+            disabled && 'disabled',
+            color !== 'default' && `color${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(color)}`,
+            edge && `edge${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(edge)}`,
+            `size${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(size)}`
+        ],
+        loadingIndicator: [
+            'loadingIndicator'
+        ],
+        loadingWrapper: [
+            'loadingWrapper'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$iconButtonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getIconButtonUtilityClass"], classes);
+};
+const IconButtonRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$ButtonBase$2f$ButtonBase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiIconButton',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            ownerState.loading && styles.loading,
+            ownerState.color !== 'default' && styles[`color${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ownerState.color)}`],
+            ownerState.edge && styles[`edge${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ownerState.edge)}`],
+            styles[`size${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ownerState.size)}`]
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        textAlign: 'center',
+        flex: '0 0 auto',
+        fontSize: theme.typography.pxToRem(24),
+        padding: 8,
+        borderRadius: '50%',
+        color: (theme.vars || theme).palette.action.active,
+        transition: theme.transitions.create('background-color', {
+            duration: theme.transitions.duration.shortest
+        }),
+        variants: [
+            {
+                props: (props)=>!props.disableRipple,
+                style: {
+                    '--IconButton-hoverBg': theme.alpha((theme.vars || theme).palette.action.active, (theme.vars || theme).palette.action.hoverOpacity),
+                    '&:hover': {
+                        backgroundColor: 'var(--IconButton-hoverBg)',
+                        // Reset on touch devices, it doesn't add specificity
+                        '@media (hover: none)': {
+                            backgroundColor: 'transparent'
+                        }
+                    }
+                }
+            },
+            {
+                props: {
+                    edge: 'start'
+                },
+                style: {
+                    marginLeft: -12
+                }
+            },
+            {
+                props: {
+                    edge: 'start',
+                    size: 'small'
+                },
+                style: {
+                    marginLeft: -3
+                }
+            },
+            {
+                props: {
+                    edge: 'end'
+                },
+                style: {
+                    marginRight: -12
+                }
+            },
+            {
+                props: {
+                    edge: 'end',
+                    size: 'small'
+                },
+                style: {
+                    marginRight: -3
+                }
+            }
+        ]
+    })), (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        variants: [
+            {
+                props: {
+                    color: 'inherit'
+                },
+                style: {
+                    color: 'inherit'
+                }
+            },
+            ...Object.entries(theme.palette).filter((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSimplePaletteValueFilter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])()) // check all the used fields in the style below
+            .map(([color])=>({
+                    props: {
+                        color
+                    },
+                    style: {
+                        color: (theme.vars || theme).palette[color].main
+                    }
+                })),
+            ...Object.entries(theme.palette).filter((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSimplePaletteValueFilter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])()) // check all the used fields in the style below
+            .map(([color])=>({
+                    props: {
+                        color
+                    },
+                    style: {
+                        '--IconButton-hoverBg': theme.alpha((theme.vars || theme).palette[color].main, (theme.vars || theme).palette.action.hoverOpacity)
+                    }
+                })),
+            {
+                props: {
+                    size: 'small'
+                },
+                style: {
+                    padding: 5,
+                    fontSize: theme.typography.pxToRem(18)
+                }
+            },
+            {
+                props: {
+                    size: 'large'
+                },
+                style: {
+                    padding: 12,
+                    fontSize: theme.typography.pxToRem(28)
+                }
+            }
+        ],
+        [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$iconButtonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].disabled}`]: {
+            backgroundColor: 'transparent',
+            color: (theme.vars || theme).palette.action.disabled
+        },
+        [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$iconButtonClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].loading}`]: {
+            color: 'transparent'
+        }
+    })));
+const IconButtonLoadingIndicator = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('span', {
+    name: 'MuiIconButton',
+    slot: 'LoadingIndicator'
+})(({ theme })=>({
+        display: 'none',
+        position: 'absolute',
+        visibility: 'visible',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        color: (theme.vars || theme).palette.action.disabled,
+        variants: [
+            {
+                props: {
+                    loading: true
+                },
+                style: {
+                    display: 'flex'
+                }
+            }
+        ]
+    }));
+/**
+ * Refer to the [Icons](/material-ui/icons/) section of the documentation
+ * regarding the available icon options.
+ */ const IconButton = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function IconButton(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiIconButton'
+    });
+    const { edge = false, children, className, color = 'default', disabled = false, disableFocusRipple = false, size = 'medium', id: idProp, loading = null, loadingIndicator: loadingIndicatorProp, ...other } = props;
+    const loadingId = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__unstable_useId$3e$__["unstable_useId"])(idProp);
+    const loadingIndicator = loadingIndicatorProp ?? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        "aria-labelledby": loadingId,
+        color: "inherit",
+        size: 16
+    });
+    const ownerState = {
+        ...props,
+        edge,
+        color,
+        disabled,
+        disableFocusRipple,
+        loading,
+        loadingIndicator,
+        size
+    };
+    const classes = useUtilityClasses(ownerState);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(IconButtonRoot, {
+        id: loading ? loadingId : idProp,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        centerRipple: true,
+        focusRipple: !disableFocusRipple,
+        disabled: disabled || loading,
+        ref: ref,
+        ...other,
+        ownerState: ownerState,
+        children: [
+            typeof loading === 'boolean' && /*#__PURE__*/ // use plain HTML span to minimize the runtime overhead
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("span", {
+                className: classes.loadingWrapper,
+                style: {
+                    display: 'contents'
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(IconButtonLoadingIndicator, {
+                    className: classes.loadingIndicator,
+                    ownerState: ownerState,
+                    children: loading && loadingIndicator
+                })
+            }),
+            children
+        ]
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? IconButton.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * The icon to display.
+   */ children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node, (props)=>{
+        const found = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Children"].toArray(props.children).some((child)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](child) && child.props.onClick);
+        if (found) {
+            return new Error([
+                'MUI: You are providing an onClick event listener to a child of a button element.',
+                'Prefer applying it to the IconButton directly.',
+                'This guarantees that the whole <button> will be responsive to click events.'
+            ].join('\n'));
+        }
+        return null;
+    }),
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The color of the component.
+   * It supports both default and custom theme colors, which can be added as shown in the
+   * [palette customization guide](https://mui.com/material-ui/customization/palette/#custom-colors).
+   * @default 'default'
+   */ color: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'inherit',
+            'default',
+            'primary',
+            'secondary',
+            'error',
+            'info',
+            'success',
+            'warning'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * If `true`, the component is disabled.
+   * @default false
+   */ disabled: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the  keyboard focus ripple is disabled.
+   * @default false
+   */ disableFocusRipple: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the ripple effect is disabled.
+   *
+   * ⚠️ Without a ripple there is no styling for :focus-visible by default. Be sure
+   * to highlight the element by applying separate styles with the `.Mui-focusVisible` class.
+   * @default false
+   */ disableRipple: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If given, uses a negative margin to counteract the padding on one
+   * side (this is often helpful for aligning the left or right
+   * side of the icon with content above or below, without ruining the border
+   * size and shape).
+   * @default false
+   */ edge: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'end',
+        'start',
+        false
+    ]),
+    /**
+   * @ignore
+   */ id: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * If `true`, the loading indicator is visible and the button is disabled.
+   * If `true | false`, the loading wrapper is always rendered before the children to prevent [Google Translation Crash](https://github.com/mui/material-ui/issues/27853).
+   * @default null
+   */ loading: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Element placed before the children if the button is in loading state.
+   * The node should contain an element with `role="progressbar"` with an accessible name.
+   * By default, it renders a `CircularProgress` that is labeled by the button itself.
+   * @default <CircularProgress color="inherit" size={16} />
+   */ loadingIndicator: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * The size of the component.
+   * `small` is equivalent to the dense button styling.
+   * @default 'medium'
+   */ size: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'small',
+            'medium',
+            'large'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = IconButton;
+}),
+"[project]/invest/node_modules/@mui/material/esm/IconButton/IconButton.js [app-client] (ecmascript) <export default as IconButton>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "IconButton",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/IconButton/IconButton.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/transitions/utils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getTransitionProps",
+    ()=>getTransitionProps,
+    "reflow",
+    ()=>reflow
+]);
+const reflow = (node)=>node.scrollTop;
+function getTransitionProps(props, options) {
+    const { timeout, easing, style = {} } = props;
+    return {
+        duration: style.transitionDuration ?? (typeof timeout === 'number' ? timeout : timeout[options.mode] || 0),
+        easing: style.transitionTimingFunction ?? (typeof easing === 'object' ? easing[options.mode] : easing),
+        delay: style.transitionDelay
+    };
+}
+}),
+"[project]/invest/node_modules/@mui/material/esm/Grow/Grow.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useTimeout$2f$useTimeout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useTimeout/useTimeout.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/elementAcceptingRef/elementAcceptingRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/getReactElementRef/getReactElementRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Transition$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/react-transition-group/esm/Transition.js [app-client] (ecmascript) <export default as Transition>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/useTheme.js [app-client] (ecmascript) <export default as useTheme>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$transitions$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/transitions/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useForkRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function getScale(value) {
+    return `scale(${value}, ${value ** 2})`;
+}
+const styles = {
+    entering: {
+        opacity: 1,
+        transform: getScale(1)
+    },
+    entered: {
+        opacity: 1,
+        transform: 'none'
+    }
+};
+/*
+ TODO v6: remove
+ Conditionally apply a workaround for the CSS transition bug in Safari 15.4 / WebKit browsers.
+ */ const isWebKit154 = typeof navigator !== 'undefined' && /^((?!chrome|android).)*(safari|mobile)/i.test(navigator.userAgent) && /(os |version\/)15(.|_)4/i.test(navigator.userAgent);
+/**
+ * The Grow transition is used by the [Tooltip](/material-ui/react-tooltip/) and
+ * [Popover](/material-ui/react-popover/) components.
+ * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+ */ const Grow = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Grow(props, ref) {
+    const { addEndListener, appear = true, children, easing, in: inProp, onEnter, onEntered, onEntering, onExit, onExited, onExiting, style, timeout = 'auto', // eslint-disable-next-line react/prop-types
+    TransitionComponent = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Transition$3e$__["Transition"], ...other } = props;
+    const timer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useTimeout$2f$useTimeout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])();
+    const autoTimeout = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]();
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
+    const nodeRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const handleRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(nodeRef, (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(children), ref);
+    const normalizedTransitionCallback = (callback)=>(maybeIsAppearing)=>{
+            if (callback) {
+                const node = nodeRef.current;
+                // onEnterXxx and onExitXxx callbacks have a different arguments.length value.
+                if (maybeIsAppearing === undefined) {
+                    callback(node);
+                } else {
+                    callback(node, maybeIsAppearing);
+                }
+            }
+        };
+    const handleEntering = normalizedTransitionCallback(onEntering);
+    const handleEnter = normalizedTransitionCallback((node, isAppearing)=>{
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$transitions$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["reflow"])(node); // So the animation always start from the start.
+        const { duration: transitionDuration, delay, easing: transitionTimingFunction } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$transitions$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTransitionProps"])({
+            style,
+            timeout,
+            easing
+        }, {
+            mode: 'enter'
+        });
+        let duration;
+        if (timeout === 'auto') {
+            duration = theme.transitions.getAutoHeightDuration(node.clientHeight);
+            autoTimeout.current = duration;
+        } else {
+            duration = transitionDuration;
+        }
+        node.style.transition = [
+            theme.transitions.create('opacity', {
+                duration,
+                delay
+            }),
+            theme.transitions.create('transform', {
+                duration: isWebKit154 ? duration : duration * 0.666,
+                delay,
+                easing: transitionTimingFunction
+            })
+        ].join(',');
+        if (onEnter) {
+            onEnter(node, isAppearing);
+        }
+    });
+    const handleEntered = normalizedTransitionCallback(onEntered);
+    const handleExiting = normalizedTransitionCallback(onExiting);
+    const handleExit = normalizedTransitionCallback((node)=>{
+        const { duration: transitionDuration, delay, easing: transitionTimingFunction } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$transitions$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTransitionProps"])({
+            style,
+            timeout,
+            easing
+        }, {
+            mode: 'exit'
+        });
+        let duration;
+        if (timeout === 'auto') {
+            duration = theme.transitions.getAutoHeightDuration(node.clientHeight);
+            autoTimeout.current = duration;
+        } else {
+            duration = transitionDuration;
+        }
+        node.style.transition = [
+            theme.transitions.create('opacity', {
+                duration,
+                delay
+            }),
+            theme.transitions.create('transform', {
+                duration: isWebKit154 ? duration : duration * 0.666,
+                delay: isWebKit154 ? delay : delay || duration * 0.333,
+                easing: transitionTimingFunction
+            })
+        ].join(',');
+        node.style.opacity = 0;
+        node.style.transform = getScale(0.75);
+        if (onExit) {
+            onExit(node);
+        }
+    });
+    const handleExited = normalizedTransitionCallback(onExited);
+    const handleAddEndListener = (next)=>{
+        if (timeout === 'auto') {
+            timer.start(autoTimeout.current || 0, next);
+        }
+        if (addEndListener) {
+            // Old call signature before `react-transition-group` implemented `nodeRef`
+            addEndListener(nodeRef.current, next);
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(TransitionComponent, {
+        appear: appear,
+        in: inProp,
+        nodeRef: nodeRef,
+        onEnter: handleEnter,
+        onEntered: handleEntered,
+        onEntering: handleEntering,
+        onExit: handleExit,
+        onExited: handleExited,
+        onExiting: handleExiting,
+        addEndListener: handleAddEndListener,
+        timeout: timeout === 'auto' ? null : timeout,
+        ...other,
+        children: (state, { ownerState, ...restChildProps })=>{
+            return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](children, {
+                style: {
+                    opacity: 0,
+                    transform: getScale(0.75),
+                    visibility: state === 'exited' && !inProp ? 'hidden' : undefined,
+                    ...styles[state],
+                    ...style,
+                    ...children.props.style
+                },
+                ref: handleRef,
+                ...restChildProps
+            });
+        }
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Grow.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * Add a custom transition end trigger. Called with the transitioning DOM
+   * node and a done callback. Allows for more fine grained transition end
+   * logic. Note: Timeouts are still used as a fallback if provided.
+   */ addEndListener: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Perform the enter transition when it first mounts if `in` is also `true`.
+   * Set this to `false` to disable this behavior.
+   * @default true
+   */ appear: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * A single child content element.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].isRequired,
+    /**
+   * The transition timing function.
+   * You may specify a single easing or a object containing enter and exit values.
+   */ easing: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+            enter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+            exit: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+        }),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * If `true`, the component will transition in.
+   */ in: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * @ignore
+   */ onEnter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onEntered: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onEntering: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onExit: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onExited: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onExiting: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ style: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   *
+   * Set to 'auto' to automatically calculate transition time based on height.
+   * @default 'auto'
+   */ timeout: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'auto'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+            appear: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+            enter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+            exit: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number
+        })
+    ])
+} : "TURBOPACK unreachable";
+if (Grow) {
+    Grow.muiSupportAuto = true;
+}
+const __TURBOPACK__default__export__ = Grow;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Portal/Portal.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEnhancedEffect$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useForkRef/useForkRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$setRef$2f$setRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/setRef/setRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/getReactElementRef/getReactElementRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$exactProp$2f$exactProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/exactProp/exactProp.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/HTMLElementType/HTMLElementType.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function getContainer(container) {
+    return typeof container === 'function' ? container() : container;
+}
+/**
+ * Portals provide a first-class way to render children into a DOM node
+ * that exists outside the DOM hierarchy of the parent component.
+ *
+ * Demos:
+ *
+ * - [Portal](https://mui.com/material-ui/react-portal/)
+ *
+ * API:
+ *
+ * - [Portal API](https://mui.com/material-ui/api/portal/)
+ */ const Portal = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Portal(props, forwardedRef) {
+    const { children, container, disablePortal = false } = props;
+    const [mountNode, setMountNode] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const handleRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](children) ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(children) : null, forwardedRef);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEnhancedEffect$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "Portal.Portal.useEnhancedEffect": ()=>{
+            if (!disablePortal) {
+                setMountNode(getContainer(container) || document.body);
+            }
+        }
+    }["Portal.Portal.useEnhancedEffect"], [
+        container,
+        disablePortal
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEnhancedEffect$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "Portal.Portal.useEnhancedEffect": ()=>{
+            if (mountNode && !disablePortal) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$setRef$2f$setRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(forwardedRef, mountNode);
+                return ({
+                    "Portal.Portal.useEnhancedEffect": ()=>{
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$setRef$2f$setRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(forwardedRef, null);
+                    }
+                })["Portal.Portal.useEnhancedEffect"];
+            }
+            return undefined;
+        }
+    }["Portal.Portal.useEnhancedEffect"], [
+        forwardedRef,
+        mountNode,
+        disablePortal
+    ]);
+    if (disablePortal) {
+        if (/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](children)) {
+            const newProps = {
+                ref: handleRef
+            };
+            return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](children, newProps);
+        }
+        return children;
+    }
+    return mountNode ? /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createPortal"](children, mountNode) : mountNode;
+});
+("TURBOPACK compile-time truthy", 1) ? Portal.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │ To update them, edit the TypeScript types and run `pnpm proptypes`. │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * The children to render into the `container`.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * An HTML element or function that returns one.
+   * The `container` will have the portal children appended to it.
+   *
+   * You can also provide a callback, which is called in a React layout effect.
+   * This lets you set the container from a ref, and also makes server-side rendering possible.
+   *
+   * By default, it uses the body of the top-level document object,
+   * so it's simply `document.body` most of the time.
+   */ container: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func
+    ]),
+    /**
+   * The `children` will be under the DOM hierarchy of the parent component.
+   * @default false
+   */ disablePortal: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+} : "TURBOPACK unreachable";
+if ("TURBOPACK compile-time truthy", 1) {
+    // eslint-disable-next-line
+    Portal['propTypes' + ''] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$exactProp$2f$exactProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(Portal.propTypes);
+}
+const __TURBOPACK__default__export__ = Portal;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Popper/popperClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getPopperUtilityClass",
+    ()=>getPopperUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getPopperUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiPopper', slot);
+}
+const popperClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiPopper', [
+    'root'
+]);
+const __TURBOPACK__default__export__ = popperClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Popper/BasePopper.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/ownerDocument/ownerDocument.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEnhancedEffect$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useForkRef/useForkRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/chainPropTypes/chainPropTypes.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/HTMLElementType/HTMLElementType.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$refType$2f$refType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/refType/refType.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$popperjs$2f$core$2f$lib$2f$popper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@popperjs/core/lib/popper.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useSlotProps$2f$useSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useSlotProps/useSlotProps.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Portal$2f$Portal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Portal/Portal.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$popperClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Popper/popperClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function flipPlacement(placement, direction) {
+    if (direction === 'ltr') {
+        return placement;
+    }
+    switch(placement){
+        case 'bottom-end':
+            return 'bottom-start';
+        case 'bottom-start':
+            return 'bottom-end';
+        case 'top-end':
+            return 'top-start';
+        case 'top-start':
+            return 'top-end';
+        default:
+            return placement;
+    }
+}
+function resolveAnchorEl(anchorEl) {
+    return typeof anchorEl === 'function' ? anchorEl() : anchorEl;
+}
+function isHTMLElement(element) {
+    return element.nodeType !== undefined;
+}
+function isVirtualElement(element) {
+    return !isHTMLElement(element);
+}
+const useUtilityClasses = (ownerState)=>{
+    const { classes } = ownerState;
+    const slots = {
+        root: [
+            'root'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$popperClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getPopperUtilityClass"], classes);
+};
+const defaultPopperOptions = {};
+const PopperTooltip = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function PopperTooltip(props, forwardedRef) {
+    const { anchorEl, children, direction, disablePortal, modifiers, open, placement: initialPlacement, popperOptions, popperRef: popperRefProp, slotProps = {}, slots = {}, TransitionProps, // @ts-ignore internal logic
+    ownerState: ownerStateProp, // prevent from spreading to DOM, it can come from the parent component e.g. Select.
+    ...other } = props;
+    const tooltipRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const ownRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(tooltipRef, forwardedRef);
+    const popperRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const handlePopperRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(popperRef, popperRefProp);
+    const handlePopperRefRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](handlePopperRef);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEnhancedEffect$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "PopperTooltip.PopperTooltip.useEnhancedEffect": ()=>{
+            handlePopperRefRef.current = handlePopperRef;
+        }
+    }["PopperTooltip.PopperTooltip.useEnhancedEffect"], [
+        handlePopperRef
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useImperativeHandle"](popperRefProp, {
+        "PopperTooltip.PopperTooltip.useImperativeHandle": ()=>popperRef.current
+    }["PopperTooltip.PopperTooltip.useImperativeHandle"], []);
+    const rtlPlacement = flipPlacement(initialPlacement, direction);
+    /**
+   * placement initialized from prop but can change during lifetime if modifiers.flip.
+   * modifiers.flip is essentially a flip for controlled/uncontrolled behavior
+   */ const [placement, setPlacement] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](rtlPlacement);
+    const [resolvedAnchorElement, setResolvedAnchorElement] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](resolveAnchorEl(anchorEl));
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "PopperTooltip.PopperTooltip.useEffect": ()=>{
+            if (popperRef.current) {
+                popperRef.current.forceUpdate();
+            }
+        }
+    }["PopperTooltip.PopperTooltip.useEffect"]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "PopperTooltip.PopperTooltip.useEffect": ()=>{
+            if (anchorEl) {
+                setResolvedAnchorElement(resolveAnchorEl(anchorEl));
+            }
+        }
+    }["PopperTooltip.PopperTooltip.useEffect"], [
+        anchorEl
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEnhancedEffect$2f$useEnhancedEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "PopperTooltip.PopperTooltip.useEnhancedEffect": ()=>{
+            if (!resolvedAnchorElement || !open) {
+                return undefined;
+            }
+            const handlePopperUpdate = {
+                "PopperTooltip.PopperTooltip.useEnhancedEffect.handlePopperUpdate": (data)=>{
+                    setPlacement(data.placement);
+                }
+            }["PopperTooltip.PopperTooltip.useEnhancedEffect.handlePopperUpdate"];
+            if ("TURBOPACK compile-time truthy", 1) {
+                if (resolvedAnchorElement && isHTMLElement(resolvedAnchorElement) && resolvedAnchorElement.nodeType === 1) {
+                    const box = resolvedAnchorElement.getBoundingClientRect();
+                    if (("TURBOPACK compile-time value", "development") !== 'test' && box.top === 0 && box.left === 0 && box.right === 0 && box.bottom === 0) {
+                        console.warn([
+                            'MUI: The `anchorEl` prop provided to the component is invalid.',
+                            'The anchor element should be part of the document layout.',
+                            "Make sure the element is present in the document or that it's not display none."
+                        ].join('\n'));
+                    }
+                }
+            }
+            let popperModifiers = [
+                {
+                    name: 'preventOverflow',
+                    options: {
+                        altBoundary: disablePortal
+                    }
+                },
+                {
+                    name: 'flip',
+                    options: {
+                        altBoundary: disablePortal
+                    }
+                },
+                {
+                    name: 'onUpdate',
+                    enabled: true,
+                    phase: 'afterWrite',
+                    fn: {
+                        "PopperTooltip.PopperTooltip.useEnhancedEffect": ({ state })=>{
+                            handlePopperUpdate(state);
+                        }
+                    }["PopperTooltip.PopperTooltip.useEnhancedEffect"]
+                }
+            ];
+            if (modifiers != null) {
+                popperModifiers = popperModifiers.concat(modifiers);
+            }
+            if (popperOptions && popperOptions.modifiers != null) {
+                popperModifiers = popperModifiers.concat(popperOptions.modifiers);
+            }
+            const popper = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$popperjs$2f$core$2f$lib$2f$popper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createPopper"])(resolvedAnchorElement, tooltipRef.current, {
+                placement: rtlPlacement,
+                ...popperOptions,
+                modifiers: popperModifiers
+            });
+            handlePopperRefRef.current(popper);
+            return ({
+                "PopperTooltip.PopperTooltip.useEnhancedEffect": ()=>{
+                    popper.destroy();
+                    handlePopperRefRef.current(null);
+                }
+            })["PopperTooltip.PopperTooltip.useEnhancedEffect"];
+        }
+    }["PopperTooltip.PopperTooltip.useEnhancedEffect"], [
+        resolvedAnchorElement,
+        disablePortal,
+        modifiers,
+        open,
+        popperOptions,
+        rtlPlacement
+    ]);
+    const childProps = {
+        placement: placement
+    };
+    if (TransitionProps !== null) {
+        childProps.TransitionProps = TransitionProps;
+    }
+    const classes = useUtilityClasses(props);
+    const Root = slots.root ?? 'div';
+    const rootProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useSlotProps$2f$useSlotProps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        elementType: Root,
+        externalSlotProps: slotProps.root,
+        externalForwardedProps: other,
+        additionalProps: {
+            role: 'tooltip',
+            ref: ownRef
+        },
+        ownerState: props,
+        className: classes.root
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(Root, {
+        ...rootProps,
+        children: typeof children === 'function' ? children(childProps) : children
+    });
+});
+/**
+ * @ignore - internal component.
+ */ const Popper = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Popper(props, forwardedRef) {
+    const { anchorEl, children, container: containerProp, direction = 'ltr', disablePortal = false, keepMounted = false, modifiers, open, placement = 'bottom', popperOptions = defaultPopperOptions, popperRef, style, transition = false, slotProps = {}, slots = {}, ...other } = props;
+    const [exited, setExited] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](true);
+    const handleEnter = ()=>{
+        setExited(false);
+    };
+    const handleExited = ()=>{
+        setExited(true);
+    };
+    if (!keepMounted && !open && (!transition || exited)) {
+        return null;
+    }
+    // If the container prop is provided, use that
+    // If the anchorEl prop is provided, use its parent body element as the container
+    // If neither are provided let the Modal take care of choosing the container
+    let container;
+    if (containerProp) {
+        container = containerProp;
+    } else if (anchorEl) {
+        const resolvedAnchorEl = resolveAnchorEl(anchorEl);
+        container = resolvedAnchorEl && isHTMLElement(resolvedAnchorEl) ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(resolvedAnchorEl).body : (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(null).body;
+    }
+    const display = !open && keepMounted && (!transition || exited) ? 'none' : undefined;
+    const transitionProps = transition ? {
+        in: open,
+        onEnter: handleEnter,
+        onExited: handleExited
+    } : undefined;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Portal$2f$Portal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        disablePortal: disablePortal,
+        container: container,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(PopperTooltip, {
+            anchorEl: anchorEl,
+            direction: direction,
+            disablePortal: disablePortal,
+            modifiers: modifiers,
+            ref: forwardedRef,
+            open: transition ? !exited : open,
+            placement: placement,
+            popperOptions: popperOptions,
+            popperRef: popperRef,
+            slotProps: slotProps,
+            slots: slots,
+            ...other,
+            style: {
+                // Prevents scroll issue, waiting for Popper.js to add this style once initiated.
+                position: 'fixed',
+                // Fix Popper.js display issue
+                top: 0,
+                left: 0,
+                display,
+                ...style
+            },
+            TransitionProps: transitionProps,
+            children: children
+        })
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Popper.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │ To update them, edit the TypeScript types and run `pnpm proptypes`. │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * An HTML element, [virtualElement](https://popper.js.org/docs/v2/virtual-elements/),
+   * or a function that returns either.
+   * It's used to set the position of the popper.
+   * The return value will passed as the reference object of the Popper instance.
+   */ anchorEl: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func
+    ]), (props)=>{
+        if (props.open) {
+            const resolvedAnchorEl = resolveAnchorEl(props.anchorEl);
+            if (resolvedAnchorEl && isHTMLElement(resolvedAnchorEl) && resolvedAnchorEl.nodeType === 1) {
+                const box = resolvedAnchorEl.getBoundingClientRect();
+                if (("TURBOPACK compile-time value", "development") !== 'test' && box.top === 0 && box.left === 0 && box.right === 0 && box.bottom === 0) {
+                    return new Error([
+                        'MUI: The `anchorEl` prop provided to the component is invalid.',
+                        'The anchor element should be part of the document layout.',
+                        "Make sure the element is present in the document or that it's not display none."
+                    ].join('\n'));
+                }
+            } else if (!resolvedAnchorEl || typeof resolvedAnchorEl.getBoundingClientRect !== 'function' || isVirtualElement(resolvedAnchorEl) && resolvedAnchorEl.contextElement != null && resolvedAnchorEl.contextElement.nodeType !== 1) {
+                return new Error([
+                    'MUI: The `anchorEl` prop provided to the component is invalid.',
+                    'It should be an HTML element instance or a virtualElement ',
+                    '(https://popper.js.org/docs/v2/virtual-elements/).'
+                ].join('\n'));
+            }
+        }
+        return null;
+    }),
+    /**
+   * Popper render function or node.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func
+    ]),
+    /**
+   * An HTML element or function that returns one.
+   * The `container` will have the portal children appended to it.
+   *
+   * You can also provide a callback, which is called in a React layout effect.
+   * This lets you set the container from a ref, and also makes server-side rendering possible.
+   *
+   * By default, it uses the body of the top-level document object,
+   * so it's simply `document.body` most of the time.
+   */ container: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func
+    ]),
+    /**
+   * Direction of the text.
+   * @default 'ltr'
+   */ direction: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'ltr',
+        'rtl'
+    ]),
+    /**
+   * The `children` will be under the DOM hierarchy of the parent component.
+   * @default false
+   */ disablePortal: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Always keep the children in the DOM.
+   * This prop can be useful in SEO situation or
+   * when you want to maximize the responsiveness of the Popper.
+   * @default false
+   */ keepMounted: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Popper.js is based on a "plugin-like" architecture,
+   * most of its features are fully encapsulated "modifiers".
+   *
+   * A modifier is a function that is called each time Popper.js needs to
+   * compute the position of the popper.
+   * For this reason, modifiers should be very performant to avoid bottlenecks.
+   * To learn how to create a modifier, [read the modifiers documentation](https://popper.js.org/docs/v2/modifiers/).
+   */ modifiers: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        data: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        effect: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        enabled: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+        fn: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        name: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].any,
+        options: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        phase: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'afterMain',
+            'afterRead',
+            'afterWrite',
+            'beforeMain',
+            'beforeRead',
+            'beforeWrite',
+            'main',
+            'read',
+            'write'
+        ]),
+        requires: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string),
+        requiresIfExists: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string)
+    })),
+    /**
+   * If `true`, the component is shown.
+   */ open: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    /**
+   * Popper placement.
+   * @default 'bottom'
+   */ placement: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'auto-end',
+        'auto-start',
+        'auto',
+        'bottom-end',
+        'bottom-start',
+        'bottom',
+        'left-end',
+        'left-start',
+        'left',
+        'right-end',
+        'right-start',
+        'right',
+        'top-end',
+        'top-start',
+        'top'
+    ]),
+    /**
+   * Options provided to the [`Popper.js`](https://popper.js.org/docs/v2/constructors/#options) instance.
+   * @default {}
+   */ popperOptions: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        modifiers: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].array,
+        onFirstUpdate: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        placement: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'auto-end',
+            'auto-start',
+            'auto',
+            'bottom-end',
+            'bottom-start',
+            'bottom',
+            'left-end',
+            'left-start',
+            'left',
+            'right-end',
+            'right-start',
+            'right',
+            'top-end',
+            'top-start',
+            'top'
+        ]),
+        strategy: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'absolute',
+            'fixed'
+        ])
+    }),
+    /**
+   * A ref that points to the used popper instance.
+   */ popperRef: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$refType$2f$refType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+    /**
+   * The props used for each slot inside the Popper.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside the Popper.
+   * Either a string to use a HTML element or a component.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * Help supporting a react-transition-group/Transition component.
+   * @default false
+   */ transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Popper;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Popper/Popper.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/system/esm/RtlProvider/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$refType$2f$refType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/refType/refType.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/HTMLElementType/HTMLElementType.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$BasePopper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Popper/BasePopper.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const PopperRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$BasePopper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiPopper',
+    slot: 'Root'
+})({});
+/**
+ *
+ * Demos:
+ *
+ * - [Autocomplete](https://mui.com/material-ui/react-autocomplete/)
+ * - [Menu](https://mui.com/material-ui/react-menu/)
+ * - [Popper](https://mui.com/material-ui/react-popper/)
+ *
+ * API:
+ *
+ * - [Popper API](https://mui.com/material-ui/api/popper/)
+ */ const Popper = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Popper(inProps, ref) {
+    const isRtl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRtl"])();
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiPopper'
+    });
+    const { anchorEl, component, components, componentsProps, container, disablePortal, keepMounted, modifiers, open, placement, popperOptions, popperRef, transition, slots, slotProps, ...other } = props;
+    const RootComponent = slots?.root ?? components?.Root;
+    const otherProps = {
+        anchorEl,
+        container,
+        disablePortal,
+        keepMounted,
+        modifiers,
+        open,
+        placement,
+        popperOptions,
+        popperRef,
+        transition,
+        ...other
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(PopperRoot, {
+        as: component,
+        direction: isRtl ? 'rtl' : 'ltr',
+        slots: {
+            root: RootComponent
+        },
+        slotProps: slotProps ?? componentsProps,
+        ...otherProps,
+        ref: ref
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Popper.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │ To update them, edit the TypeScript types and run `pnpm proptypes`. │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * An HTML element, [virtualElement](https://popper.js.org/docs/v2/virtual-elements/),
+   * or a function that returns either.
+   * It's used to set the position of the popper.
+   * The return value will passed as the reference object of the Popper instance.
+   */ anchorEl: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func
+    ]),
+    /**
+   * Popper render function or node.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func
+    ]),
+    /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */ component: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * The components used for each slot inside the Popper.
+   * Either a string to use a HTML element or a component.
+   *
+   * @deprecated use the `slots` prop instead. This prop will be removed in a future major release. [How to migrate](/material-ui/migration/migrating-from-deprecated-apis/).
+   * @default {}
+   */ components: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        Root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The props used for each slot inside the Popper.
+   *
+   * @deprecated use the `slotProps` prop instead. This prop will be removed in a future major release. [How to migrate](/material-ui/migration/migrating-from-deprecated-apis/).
+   * @default {}
+   */ componentsProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * An HTML element or function that returns one.
+   * The `container` will have the portal children appended to it.
+   *
+   * You can also provide a callback, which is called in a React layout effect.
+   * This lets you set the container from a ref, and also makes server-side rendering possible.
+   *
+   * By default, it uses the body of the top-level document object,
+   * so it's simply `document.body` most of the time.
+   */ container: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func
+    ]),
+    /**
+   * The `children` will be under the DOM hierarchy of the parent component.
+   * @default false
+   */ disablePortal: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Always keep the children in the DOM.
+   * This prop can be useful in SEO situation or
+   * when you want to maximize the responsiveness of the Popper.
+   * @default false
+   */ keepMounted: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Popper.js is based on a "plugin-like" architecture,
+   * most of its features are fully encapsulated "modifiers".
+   *
+   * A modifier is a function that is called each time Popper.js needs to
+   * compute the position of the popper.
+   * For this reason, modifiers should be very performant to avoid bottlenecks.
+   * To learn how to create a modifier, [read the modifiers documentation](https://popper.js.org/docs/v2/modifiers/).
+   */ modifiers: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        data: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        effect: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        enabled: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+        fn: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        name: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].any,
+        options: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        phase: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'afterMain',
+            'afterRead',
+            'afterWrite',
+            'beforeMain',
+            'beforeRead',
+            'beforeWrite',
+            'main',
+            'read',
+            'write'
+        ]),
+        requires: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string),
+        requiresIfExists: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string)
+    })),
+    /**
+   * If `true`, the component is shown.
+   */ open: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    /**
+   * Popper placement.
+   * @default 'bottom'
+   */ placement: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'auto-end',
+        'auto-start',
+        'auto',
+        'bottom-end',
+        'bottom-start',
+        'bottom',
+        'left-end',
+        'left-start',
+        'left',
+        'right-end',
+        'right-start',
+        'right',
+        'top-end',
+        'top-start',
+        'top'
+    ]),
+    /**
+   * Options provided to the [`Popper.js`](https://popper.js.org/docs/v2/constructors/#options) instance.
+   * @default {}
+   */ popperOptions: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        modifiers: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].array,
+        onFirstUpdate: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        placement: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'auto-end',
+            'auto-start',
+            'auto',
+            'bottom-end',
+            'bottom-start',
+            'bottom',
+            'left-end',
+            'left-start',
+            'left',
+            'right-end',
+            'right-start',
+            'right',
+            'top-end',
+            'top-start',
+            'top'
+        ]),
+        strategy: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'absolute',
+            'fixed'
+        ])
+    }),
+    /**
+   * A ref that points to the used popper instance.
+   */ popperRef: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$refType$2f$refType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+    /**
+   * The props used for each slot inside the Popper.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside the Popper.
+   * Either a string to use a HTML element or a component.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * Help supporting a react-transition-group/Transition component.
+   * @default false
+   */ transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Popper;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tooltip/tooltipClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getTooltipUtilityClass",
+    ()=>getTooltipUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getTooltipUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiTooltip', slot);
+}
+const tooltipClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiTooltip', [
+    'popper',
+    'popperInteractive',
+    'popperArrow',
+    'popperClose',
+    'tooltip',
+    'tooltipArrow',
+    'touch',
+    'tooltipPlacementLeft',
+    'tooltipPlacementRight',
+    'tooltipPlacementTop',
+    'tooltipPlacementBottom',
+    'arrow'
+]);
+const __TURBOPACK__default__export__ = tooltipClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tooltip/Tooltip.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "testReset",
+    ()=>testReset
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useTimeout$2f$useTimeout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useTimeout/useTimeout.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/elementAcceptingRef/elementAcceptingRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/system/esm/RtlProvider/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$isFocusVisible$2f$isFocusVisible$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/isFocusVisible/isFocusVisible.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/getReactElementRef/getReactElementRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/useTheme.js [app-client] (ecmascript) <export default as useTheme>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/capitalize.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grow$2f$Grow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Grow/Grow.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$Popper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Popper/Popper.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useEventCallback.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useForkRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useId.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useControlled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useControlled.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Tooltip/tooltipClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function round(value) {
+    return Math.round(value * 1e5) / 1e5;
+}
+const useUtilityClasses = (ownerState)=>{
+    const { classes, disableInteractive, arrow, touch, placement } = ownerState;
+    const slots = {
+        popper: [
+            'popper',
+            !disableInteractive && 'popperInteractive',
+            arrow && 'popperArrow'
+        ],
+        tooltip: [
+            'tooltip',
+            arrow && 'tooltipArrow',
+            touch && 'touch',
+            `tooltipPlacement${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(placement.split('-')[0])}`
+        ],
+        arrow: [
+            'arrow'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTooltipUtilityClass"], classes);
+};
+const TooltipPopper = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$Popper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiTooltip',
+    slot: 'Popper',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.popper,
+            !ownerState.disableInteractive && styles.popperInteractive,
+            ownerState.arrow && styles.popperArrow,
+            !ownerState.open && styles.popperClose
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        zIndex: (theme.vars || theme).zIndex.tooltip,
+        pointerEvents: 'none',
+        variants: [
+            {
+                props: ({ ownerState })=>!ownerState.disableInteractive,
+                style: {
+                    pointerEvents: 'auto'
+                }
+            },
+            {
+                props: ({ open })=>!open,
+                style: {
+                    pointerEvents: 'none'
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.arrow,
+                style: {
+                    [`&[data-popper-placement*="bottom"] .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrow}`]: {
+                        top: 0,
+                        marginTop: '-0.71em',
+                        '&::before': {
+                            transformOrigin: '0 100%'
+                        }
+                    },
+                    [`&[data-popper-placement*="top"] .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrow}`]: {
+                        bottom: 0,
+                        marginBottom: '-0.71em',
+                        '&::before': {
+                            transformOrigin: '100% 0'
+                        }
+                    },
+                    [`&[data-popper-placement*="right"] .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrow}`]: {
+                        height: '1em',
+                        width: '0.71em',
+                        '&::before': {
+                            transformOrigin: '100% 100%'
+                        }
+                    },
+                    [`&[data-popper-placement*="left"] .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrow}`]: {
+                        height: '1em',
+                        width: '0.71em',
+                        '&::before': {
+                            transformOrigin: '0 0'
+                        }
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.arrow && !ownerState.isRtl,
+                style: {
+                    [`&[data-popper-placement*="right"] .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrow}`]: {
+                        left: 0,
+                        marginLeft: '-0.71em'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.arrow && !!ownerState.isRtl,
+                style: {
+                    [`&[data-popper-placement*="right"] .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrow}`]: {
+                        right: 0,
+                        marginRight: '-0.71em'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.arrow && !ownerState.isRtl,
+                style: {
+                    [`&[data-popper-placement*="left"] .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrow}`]: {
+                        right: 0,
+                        marginRight: '-0.71em'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.arrow && !!ownerState.isRtl,
+                style: {
+                    [`&[data-popper-placement*="left"] .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrow}`]: {
+                        left: 0,
+                        marginLeft: '-0.71em'
+                    }
+                }
+            }
+        ]
+    })));
+const TooltipTooltip = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiTooltip',
+    slot: 'Tooltip',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.tooltip,
+            ownerState.touch && styles.touch,
+            ownerState.arrow && styles.tooltipArrow,
+            styles[`tooltipPlacement${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ownerState.placement.split('-')[0])}`]
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        backgroundColor: theme.vars ? theme.vars.palette.Tooltip.bg : theme.alpha(theme.palette.grey[700], 0.92),
+        borderRadius: (theme.vars || theme).shape.borderRadius,
+        color: (theme.vars || theme).palette.common.white,
+        fontFamily: theme.typography.fontFamily,
+        padding: '4px 8px',
+        fontSize: theme.typography.pxToRem(11),
+        maxWidth: 300,
+        margin: 2,
+        wordWrap: 'break-word',
+        fontWeight: theme.typography.fontWeightMedium,
+        [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="left"] &`]: {
+            transformOrigin: 'right center'
+        },
+        [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="right"] &`]: {
+            transformOrigin: 'left center'
+        },
+        [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="top"] &`]: {
+            transformOrigin: 'center bottom',
+            marginBottom: '14px'
+        },
+        [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="bottom"] &`]: {
+            transformOrigin: 'center top',
+            marginTop: '14px'
+        },
+        variants: [
+            {
+                props: ({ ownerState })=>ownerState.arrow,
+                style: {
+                    position: 'relative',
+                    margin: 0
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.touch,
+                style: {
+                    padding: '8px 16px',
+                    fontSize: theme.typography.pxToRem(14),
+                    lineHeight: `${round(16 / 14)}em`,
+                    fontWeight: theme.typography.fontWeightRegular
+                }
+            },
+            {
+                props: ({ ownerState })=>!ownerState.isRtl,
+                style: {
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="left"] &`]: {
+                        marginRight: '14px'
+                    },
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="right"] &`]: {
+                        marginLeft: '14px'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>!ownerState.isRtl && ownerState.touch,
+                style: {
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="left"] &`]: {
+                        marginRight: '24px'
+                    },
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="right"] &`]: {
+                        marginLeft: '24px'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>!!ownerState.isRtl,
+                style: {
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="left"] &`]: {
+                        marginLeft: '14px'
+                    },
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="right"] &`]: {
+                        marginRight: '14px'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>!!ownerState.isRtl && ownerState.touch,
+                style: {
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="left"] &`]: {
+                        marginLeft: '24px'
+                    },
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="right"] &`]: {
+                        marginRight: '24px'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.touch,
+                style: {
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="top"] &`]: {
+                        marginBottom: '24px'
+                    }
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.touch,
+                style: {
+                    [`.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$tooltipClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].popper}[data-popper-placement*="bottom"] &`]: {
+                        marginTop: '24px'
+                    }
+                }
+            }
+        ]
+    })));
+const TooltipArrow = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('span', {
+    name: 'MuiTooltip',
+    slot: 'Arrow'
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        overflow: 'hidden',
+        position: 'absolute',
+        width: '1em',
+        height: '0.71em' /* = width / sqrt(2) = (length of the hypotenuse) */ ,
+        boxSizing: 'border-box',
+        color: theme.vars ? theme.vars.palette.Tooltip.bg : theme.alpha(theme.palette.grey[700], 0.9),
+        '&::before': {
+            content: '""',
+            margin: 'auto',
+            display: 'block',
+            width: '100%',
+            height: '100%',
+            backgroundColor: 'currentColor',
+            transform: 'rotate(45deg)'
+        }
+    })));
+let hystersisOpen = false;
+const hystersisTimer = new __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useTimeout$2f$useTimeout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Timeout"]();
+let cursorPosition = {
+    x: 0,
+    y: 0
+};
+function testReset() {
+    hystersisOpen = false;
+    hystersisTimer.clear();
+}
+function composeEventHandler(handler, eventHandler) {
+    return (event, ...params)=>{
+        if (eventHandler) {
+            eventHandler(event, ...params);
+        }
+        handler(event, ...params);
+    };
+}
+// TODO v6: Remove PopperComponent, PopperProps, TransitionComponent and TransitionProps.
+const Tooltip = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Tooltip(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiTooltip'
+    });
+    const { arrow = false, children: childrenProp, classes: classesProp, components = {}, componentsProps = {}, describeChild = false, disableFocusListener = false, disableHoverListener = false, disableInteractive: disableInteractiveProp = false, disableTouchListener = false, enterDelay = 100, enterNextDelay = 0, enterTouchDelay = 700, followCursor = false, id: idProp, leaveDelay = 0, leaveTouchDelay = 1500, onClose, onOpen, open: openProp, placement = 'bottom', PopperComponent: PopperComponentProp, PopperProps = {}, slotProps = {}, slots = {}, title, TransitionComponent: TransitionComponentProp, TransitionProps, ...other } = props;
+    // to prevent runtime errors, developers will need to provide a child as a React element anyway.
+    const children = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](childrenProp) ? childrenProp : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("span", {
+        children: childrenProp
+    });
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
+    const isRtl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$RtlProvider$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRtl"])();
+    const [childNode, setChildNode] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]();
+    const [arrowRef, setArrowRef] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const ignoreNonTouchEvents = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](false);
+    const disableInteractive = disableInteractiveProp || followCursor;
+    const closeTimer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useTimeout$2f$useTimeout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])();
+    const enterTimer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useTimeout$2f$useTimeout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])();
+    const leaveTimer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useTimeout$2f$useTimeout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])();
+    const touchTimer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useTimeout$2f$useTimeout$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])();
+    const [openState, setOpenState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useControlled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        controlled: openProp,
+        default: false,
+        name: 'Tooltip',
+        state: 'open'
+    });
+    let open = openState;
+    if ("TURBOPACK compile-time truthy", 1) {
+        // TODO: uncomment once we enable eslint-plugin-react-compiler // eslint-disable-next-line react-compiler/react-compiler
+        // eslint-disable-next-line react-hooks/rules-of-hooks -- process.env never changes
+        const { current: isControlled } = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](openProp !== undefined);
+        // TODO: uncomment once we enable eslint-plugin-react-compiler // eslint-disable-next-line react-compiler/react-compiler
+        // eslint-disable-next-line react-hooks/rules-of-hooks -- process.env never changes
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+            "Tooltip.Tooltip.useEffect": ()=>{
+                if (childNode && childNode.disabled && !isControlled && title !== '' && childNode.tagName.toLowerCase() === 'button') {
+                    console.warn([
+                        'MUI: You are providing a disabled `button` child to the Tooltip component.',
+                        'A disabled element does not fire events.',
+                        "Tooltip needs to listen to the child element's events to display the title.",
+                        '',
+                        'Add a simple wrapper element, such as a `span`.'
+                    ].join('\n'));
+                }
+            }
+        }["Tooltip.Tooltip.useEffect"], [
+            title,
+            childNode,
+            isControlled
+        ]);
+    }
+    const id = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(idProp);
+    const prevUserSelect = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]();
+    const stopTouchInteraction = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "Tooltip.Tooltip.useEventCallback[stopTouchInteraction]": ()=>{
+            if (prevUserSelect.current !== undefined) {
+                document.body.style.WebkitUserSelect = prevUserSelect.current;
+                prevUserSelect.current = undefined;
+            }
+            touchTimer.clear();
+        }
+    }["Tooltip.Tooltip.useEventCallback[stopTouchInteraction]"]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "Tooltip.Tooltip.useEffect": ()=>stopTouchInteraction
+    }["Tooltip.Tooltip.useEffect"], [
+        stopTouchInteraction
+    ]);
+    const handleOpen = (event)=>{
+        hystersisTimer.clear();
+        hystersisOpen = true;
+        // The mouseover event will trigger for every nested element in the tooltip.
+        // We can skip rerendering when the tooltip is already open.
+        // We are using the mouseover event instead of the mouseenter event to fix a hide/show issue.
+        setOpenState(true);
+        if (onOpen && !open) {
+            onOpen(event);
+        }
+    };
+    const handleClose = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "Tooltip.Tooltip.useEventCallback[handleClose]": /**
+   * @param {React.SyntheticEvent | Event} event
+   */ (event)=>{
+            hystersisTimer.start(800 + leaveDelay, {
+                "Tooltip.Tooltip.useEventCallback[handleClose]": ()=>{
+                    hystersisOpen = false;
+                }
+            }["Tooltip.Tooltip.useEventCallback[handleClose]"]);
+            setOpenState(false);
+            if (onClose && open) {
+                onClose(event);
+            }
+            closeTimer.start(theme.transitions.duration.shortest, {
+                "Tooltip.Tooltip.useEventCallback[handleClose]": ()=>{
+                    ignoreNonTouchEvents.current = false;
+                }
+            }["Tooltip.Tooltip.useEventCallback[handleClose]"]);
+        }
+    }["Tooltip.Tooltip.useEventCallback[handleClose]"]);
+    const handleMouseOver = (event)=>{
+        if (ignoreNonTouchEvents.current && event.type !== 'touchstart') {
+            return;
+        }
+        // Remove the title ahead of time.
+        // We don't want to wait for the next render commit.
+        // We would risk displaying two tooltips at the same time (native + this one).
+        if (childNode) {
+            childNode.removeAttribute('title');
+        }
+        enterTimer.clear();
+        leaveTimer.clear();
+        if (enterDelay || hystersisOpen && enterNextDelay) {
+            enterTimer.start(hystersisOpen ? enterNextDelay : enterDelay, ()=>{
+                handleOpen(event);
+            });
+        } else {
+            handleOpen(event);
+        }
+    };
+    const handleMouseLeave = (event)=>{
+        enterTimer.clear();
+        leaveTimer.start(leaveDelay, ()=>{
+            handleClose(event);
+        });
+    };
+    const [, setChildIsFocusVisible] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const handleBlur = (event)=>{
+        if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$isFocusVisible$2f$isFocusVisible$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(event.target)) {
+            setChildIsFocusVisible(false);
+            handleMouseLeave(event);
+        }
+    };
+    const handleFocus = (event)=>{
+        // Workaround for https://github.com/facebook/react/issues/7769
+        // The autoFocus of React might trigger the event before the componentDidMount.
+        // We need to account for this eventuality.
+        if (!childNode) {
+            setChildNode(event.currentTarget);
+        }
+        if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$isFocusVisible$2f$isFocusVisible$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(event.target)) {
+            setChildIsFocusVisible(true);
+            handleMouseOver(event);
+        }
+    };
+    const detectTouchStart = (event)=>{
+        ignoreNonTouchEvents.current = true;
+        const childrenProps = children.props;
+        if (childrenProps.onTouchStart) {
+            childrenProps.onTouchStart(event);
+        }
+    };
+    const handleTouchStart = (event)=>{
+        detectTouchStart(event);
+        leaveTimer.clear();
+        closeTimer.clear();
+        stopTouchInteraction();
+        prevUserSelect.current = document.body.style.WebkitUserSelect;
+        // Prevent iOS text selection on long-tap.
+        document.body.style.WebkitUserSelect = 'none';
+        touchTimer.start(enterTouchDelay, ()=>{
+            document.body.style.WebkitUserSelect = prevUserSelect.current;
+            handleMouseOver(event);
+        });
+    };
+    const handleTouchEnd = (event)=>{
+        if (children.props.onTouchEnd) {
+            children.props.onTouchEnd(event);
+        }
+        stopTouchInteraction();
+        leaveTimer.start(leaveTouchDelay, ()=>{
+            handleClose(event);
+        });
+    };
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "Tooltip.Tooltip.useEffect": ()=>{
+            if (!open) {
+                return undefined;
+            }
+            /**
+     * @param {KeyboardEvent} nativeEvent
+     */ function handleKeyDown(nativeEvent) {
+                if (nativeEvent.key === 'Escape') {
+                    handleClose(nativeEvent);
+                }
+            }
+            document.addEventListener('keydown', handleKeyDown);
+            return ({
+                "Tooltip.Tooltip.useEffect": ()=>{
+                    document.removeEventListener('keydown', handleKeyDown);
+                }
+            })["Tooltip.Tooltip.useEffect"];
+        }
+    }["Tooltip.Tooltip.useEffect"], [
+        handleClose,
+        open
+    ]);
+    const handleRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(children), setChildNode, ref);
+    // There is no point in displaying an empty tooltip.
+    // So we exclude all falsy values, except 0, which is valid.
+    if (!title && title !== 0) {
+        open = false;
+    }
+    const popperRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]();
+    const handleMouseMove = (event)=>{
+        const childrenProps = children.props;
+        if (childrenProps.onMouseMove) {
+            childrenProps.onMouseMove(event);
+        }
+        cursorPosition = {
+            x: event.clientX,
+            y: event.clientY
+        };
+        if (popperRef.current) {
+            popperRef.current.update();
+        }
+    };
+    const nameOrDescProps = {};
+    const titleIsString = typeof title === 'string';
+    if (describeChild) {
+        nameOrDescProps.title = !open && titleIsString && !disableHoverListener ? title : null;
+        nameOrDescProps['aria-describedby'] = open ? id : null;
+    } else {
+        nameOrDescProps['aria-label'] = titleIsString ? title : null;
+        nameOrDescProps['aria-labelledby'] = open && !titleIsString ? id : null;
+    }
+    const childrenProps = {
+        ...nameOrDescProps,
+        ...other,
+        ...children.props,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(other.className, children.props.className),
+        onTouchStart: detectTouchStart,
+        ref: handleRef,
+        ...followCursor ? {
+            onMouseMove: handleMouseMove
+        } : {}
+    };
+    if ("TURBOPACK compile-time truthy", 1) {
+        childrenProps['data-mui-internal-clone-element'] = true;
+        // TODO: uncomment once we enable eslint-plugin-react-compiler // eslint-disable-next-line react-compiler/react-compiler
+        // eslint-disable-next-line react-hooks/rules-of-hooks -- process.env never changes
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+            "Tooltip.Tooltip.useEffect": ()=>{
+                if (childNode && !childNode.getAttribute('data-mui-internal-clone-element')) {
+                    console.error([
+                        'MUI: The `children` component of the Tooltip is not forwarding its props correctly.',
+                        'Please make sure that props are spread on the same element that the ref is applied to.'
+                    ].join('\n'));
+                }
+            }
+        }["Tooltip.Tooltip.useEffect"], [
+            childNode
+        ]);
+    }
+    const interactiveWrapperListeners = {};
+    if (!disableTouchListener) {
+        childrenProps.onTouchStart = handleTouchStart;
+        childrenProps.onTouchEnd = handleTouchEnd;
+    }
+    if (!disableHoverListener) {
+        childrenProps.onMouseOver = composeEventHandler(handleMouseOver, childrenProps.onMouseOver);
+        childrenProps.onMouseLeave = composeEventHandler(handleMouseLeave, childrenProps.onMouseLeave);
+        if (!disableInteractive) {
+            interactiveWrapperListeners.onMouseOver = handleMouseOver;
+            interactiveWrapperListeners.onMouseLeave = handleMouseLeave;
+        }
+    }
+    if (!disableFocusListener) {
+        childrenProps.onFocus = composeEventHandler(handleFocus, childrenProps.onFocus);
+        childrenProps.onBlur = composeEventHandler(handleBlur, childrenProps.onBlur);
+        if (!disableInteractive) {
+            interactiveWrapperListeners.onFocus = handleFocus;
+            interactiveWrapperListeners.onBlur = handleBlur;
+        }
+    }
+    if ("TURBOPACK compile-time truthy", 1) {
+        if (children.props.title) {
+            console.error([
+                'MUI: You have provided a `title` prop to the child of <Tooltip />.',
+                `Remove this title prop \`${children.props.title}\` or the Tooltip component.`
+            ].join('\n'));
+        }
+    }
+    const ownerState = {
+        ...props,
+        isRtl,
+        arrow,
+        disableInteractive,
+        placement,
+        PopperComponentProp,
+        touch: ignoreNonTouchEvents.current
+    };
+    const resolvedPopperProps = typeof slotProps.popper === 'function' ? slotProps.popper(ownerState) : slotProps.popper;
+    const popperOptions = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"]({
+        "Tooltip.Tooltip.useMemo[popperOptions]": ()=>{
+            let tooltipModifiers = [
+                {
+                    name: 'arrow',
+                    enabled: Boolean(arrowRef),
+                    options: {
+                        element: arrowRef,
+                        padding: 4
+                    }
+                }
+            ];
+            if (PopperProps.popperOptions?.modifiers) {
+                tooltipModifiers = tooltipModifiers.concat(PopperProps.popperOptions.modifiers);
+            }
+            if (resolvedPopperProps?.popperOptions?.modifiers) {
+                tooltipModifiers = tooltipModifiers.concat(resolvedPopperProps.popperOptions.modifiers);
+            }
+            return {
+                ...PopperProps.popperOptions,
+                ...resolvedPopperProps?.popperOptions,
+                modifiers: tooltipModifiers
+            };
+        }
+    }["Tooltip.Tooltip.useMemo[popperOptions]"], [
+        arrowRef,
+        PopperProps.popperOptions,
+        resolvedPopperProps?.popperOptions
+    ]);
+    const classes = useUtilityClasses(ownerState);
+    const resolvedTransitionProps = typeof slotProps.transition === 'function' ? slotProps.transition(ownerState) : slotProps.transition;
+    const externalForwardedProps = {
+        slots: {
+            popper: components.Popper,
+            transition: components.Transition ?? TransitionComponentProp,
+            tooltip: components.Tooltip,
+            arrow: components.Arrow,
+            ...slots
+        },
+        slotProps: {
+            arrow: slotProps.arrow ?? componentsProps.arrow,
+            popper: {
+                ...PopperProps,
+                ...resolvedPopperProps ?? componentsProps.popper
+            },
+            // resolvedPopperProps can be spread because it's already an object
+            tooltip: slotProps.tooltip ?? componentsProps.tooltip,
+            transition: {
+                ...TransitionProps,
+                ...resolvedTransitionProps ?? componentsProps.transition
+            }
+        }
+    };
+    const [PopperSlot, popperSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('popper', {
+        elementType: TooltipPopper,
+        externalForwardedProps,
+        ownerState,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.popper, PopperProps?.className)
+    });
+    const [TransitionSlot, transitionSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('transition', {
+        elementType: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grow$2f$Grow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        externalForwardedProps,
+        ownerState
+    });
+    const [TooltipSlot, tooltipSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('tooltip', {
+        elementType: TooltipTooltip,
+        className: classes.tooltip,
+        externalForwardedProps,
+        ownerState
+    });
+    const [ArrowSlot, arrowSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('arrow', {
+        elementType: TooltipArrow,
+        className: classes.arrow,
+        externalForwardedProps,
+        ownerState,
+        ref: setArrowRef
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](children, childrenProps),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(PopperSlot, {
+                as: PopperComponentProp ?? __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$Popper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+                placement: placement,
+                anchorEl: followCursor ? {
+                    getBoundingClientRect: ()=>({
+                            top: cursorPosition.y,
+                            left: cursorPosition.x,
+                            right: cursorPosition.x,
+                            bottom: cursorPosition.y,
+                            width: 0,
+                            height: 0
+                        })
+                } : childNode,
+                popperRef: popperRef,
+                open: childNode ? open : false,
+                id: id,
+                transition: true,
+                ...interactiveWrapperListeners,
+                ...popperSlotProps,
+                popperOptions: popperOptions,
+                children: ({ TransitionProps: TransitionPropsInner })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(TransitionSlot, {
+                        timeout: theme.transitions.duration.shorter,
+                        ...TransitionPropsInner,
+                        ...transitionSlotProps,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(TooltipSlot, {
+                            ...tooltipSlotProps,
+                            children: [
+                                title,
+                                arrow ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ArrowSlot, {
+                                    ...arrowSlotProps
+                                }) : null
+                            ]
+                        })
+                    })
+            })
+        ]
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Tooltip.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * If `true`, adds an arrow to the tooltip.
+   * @default false
+   */ arrow: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Tooltip reference element.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].isRequired,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The components used for each slot inside.
+   *
+   * @deprecated use the `slots` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   *
+   * @default {}
+   */ components: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        Arrow: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        Popper: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        Tooltip: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        Transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The extra props for the slot components.
+   * You can override the existing props or add new ones.
+   *
+   * @deprecated use the `slotProps` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   *
+   * @default {}
+   */ componentsProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        arrow: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        popper: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        tooltip: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    }),
+    /**
+   * Set to `true` if the `title` acts as an accessible description.
+   * By default the `title` acts as an accessible label for the child.
+   * @default false
+   */ describeChild: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Do not respond to focus-visible events.
+   * @default false
+   */ disableFocusListener: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Do not respond to hover events.
+   * @default false
+   */ disableHoverListener: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Makes a tooltip not interactive, i.e. it will close when the user
+   * hovers over the tooltip before the `leaveDelay` is expired.
+   * @default false
+   */ disableInteractive: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Do not respond to long press touch events.
+   * @default false
+   */ disableTouchListener: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The number of milliseconds to wait before showing the tooltip.
+   * This prop won't impact the enter touch delay (`enterTouchDelay`).
+   * @default 100
+   */ enterDelay: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * The number of milliseconds to wait before showing the tooltip when one was already recently opened.
+   * @default 0
+   */ enterNextDelay: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * The number of milliseconds a user must touch the element before showing the tooltip.
+   * @default 700
+   */ enterTouchDelay: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * If `true`, the tooltip follow the cursor over the wrapped element.
+   * @default false
+   */ followCursor: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * This prop is used to help implement the accessibility logic.
+   * If you don't provide this prop. It falls back to a randomly generated id.
+   */ id: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The number of milliseconds to wait before hiding the tooltip.
+   * This prop won't impact the leave touch delay (`leaveTouchDelay`).
+   * @default 0
+   */ leaveDelay: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * The number of milliseconds after the user stops touching an element before hiding the tooltip.
+   * @default 1500
+   */ leaveTouchDelay: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * Callback fired when the component requests to be closed.
+   *
+   * @param {React.SyntheticEvent} event The event source of the callback.
+   */ onClose: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the component requests to be open.
+   *
+   * @param {React.SyntheticEvent} event The event source of the callback.
+   */ onOpen: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * If `true`, the component is shown.
+   */ open: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Tooltip placement.
+   * @default 'bottom'
+   */ placement: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'auto-end',
+        'auto-start',
+        'auto',
+        'bottom-end',
+        'bottom-start',
+        'bottom',
+        'left-end',
+        'left-start',
+        'left',
+        'right-end',
+        'right-start',
+        'right',
+        'top-end',
+        'top-start',
+        'top'
+    ]),
+    /**
+   * The component used for the popper.
+   * @deprecated use the `slots.popper` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   */ PopperComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Props applied to the [`Popper`](https://mui.com/material-ui/api/popper/) element.
+   * @deprecated use the `slotProps.popper` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   * @default {}
+   */ PopperProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * The props used for each slot inside.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        arrow: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        popper: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        tooltip: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        arrow: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        popper: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        tooltip: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * Tooltip title. Zero-length titles string, undefined, null and false are never displayed.
+   */ title: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * The component used for the transition.
+   * [Follow this guide](https://mui.com/material-ui/transitions/#transitioncomponent-prop) to learn more about the requirements for this component.
+   * @deprecated use the `slots.transition` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   */ TransitionComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Props applied to the transition element.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
+   * @deprecated use the `slotProps.transition` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   * @default {}
+   */ TransitionProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Tooltip;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Tooltip/Tooltip.js [app-client] (ecmascript) <export default as Tooltip>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Tooltip",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Tooltip/Tooltip.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/Paper/paperClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getPaperUtilityClass",
+    ()=>getPaperUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getPaperUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiPaper', slot);
+}
+const paperClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiPaper', [
+    'root',
+    'rounded',
+    'outlined',
+    'elevation',
+    'elevation0',
+    'elevation1',
+    'elevation2',
+    'elevation3',
+    'elevation4',
+    'elevation5',
+    'elevation6',
+    'elevation7',
+    'elevation8',
+    'elevation9',
+    'elevation10',
+    'elevation11',
+    'elevation12',
+    'elevation13',
+    'elevation14',
+    'elevation15',
+    'elevation16',
+    'elevation17',
+    'elevation18',
+    'elevation19',
+    'elevation20',
+    'elevation21',
+    'elevation22',
+    'elevation23',
+    'elevation24'
+]);
+const __TURBOPACK__default__export__ = paperClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Paper/Paper.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$integerPropType$2f$integerPropType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/integerPropType/integerPropType.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/chainPropTypes/chainPropTypes.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$colorManipulator$2f$colorManipulator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/system/esm/colorManipulator/colorManipulator.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/useTheme.js [app-client] (ecmascript) <export default as useTheme>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$getOverlayAlpha$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/getOverlayAlpha.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$paperClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Paper/paperClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { square, elevation, variant, classes } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            variant,
+            !square && 'rounded',
+            variant === 'elevation' && `elevation${elevation}`
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$paperClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getPaperUtilityClass"], classes);
+};
+const PaperRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiPaper',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            styles[ownerState.variant],
+            !ownerState.square && styles.rounded,
+            ownerState.variant === 'elevation' && styles[`elevation${ownerState.elevation}`]
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        backgroundColor: (theme.vars || theme).palette.background.paper,
+        color: (theme.vars || theme).palette.text.primary,
+        transition: theme.transitions.create('box-shadow'),
+        variants: [
+            {
+                props: ({ ownerState })=>!ownerState.square,
+                style: {
+                    borderRadius: theme.shape.borderRadius
+                }
+            },
+            {
+                props: {
+                    variant: 'outlined'
+                },
+                style: {
+                    border: `1px solid ${(theme.vars || theme).palette.divider}`
+                }
+            },
+            {
+                props: {
+                    variant: 'elevation'
+                },
+                style: {
+                    boxShadow: 'var(--Paper-shadow)',
+                    backgroundImage: 'var(--Paper-overlay)'
+                }
+            }
+        ]
+    })));
+const Paper = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Paper(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiPaper'
+    });
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
+    const { className, component = 'div', elevation = 1, square = false, variant = 'elevation', ...other } = props;
+    const ownerState = {
+        ...props,
+        component,
+        elevation,
+        square,
+        variant
+    };
+    const classes = useUtilityClasses(ownerState);
+    if ("TURBOPACK compile-time truthy", 1) {
+        if (theme.shadows[elevation] === undefined) {
+            console.error([
+                `MUI: The elevation provided <Paper elevation={${elevation}}> is not available in the theme.`,
+                `Please make sure that \`theme.shadows[${elevation}]\` is defined.`
+            ].join('\n'));
+        }
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(PaperRoot, {
+        as: component,
+        ownerState: ownerState,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        ref: ref,
+        ...other,
+        style: {
+            ...variant === 'elevation' && {
+                '--Paper-shadow': (theme.vars || theme).shadows[elevation],
+                ...theme.vars && {
+                    '--Paper-overlay': theme.vars.overlays?.[elevation]
+                },
+                ...!theme.vars && theme.palette.mode === 'dark' && {
+                    '--Paper-overlay': `linear-gradient(${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$colorManipulator$2f$colorManipulator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["alpha"])('#fff', (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$getOverlayAlpha$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(elevation))}, ${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$system$2f$esm$2f$colorManipulator$2f$colorManipulator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["alpha"])('#fff', (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$getOverlayAlpha$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(elevation))})`
+                }
+            },
+            ...other.style
+        }
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Paper.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * The content of the component.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */ component: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Shadow depth, corresponds to `dp` in the spec.
+   * It accepts values between 0 and 24 inclusive.
+   * @default 1
+   */ elevation: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$integerPropType$2f$integerPropType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], (props)=>{
+        const { elevation, variant } = props;
+        if (elevation > 0 && variant === 'outlined') {
+            return new Error(`MUI: Combining \`elevation={${elevation}}\` with \`variant="${variant}"\` has no effect. Either use \`elevation={0}\` or use a different \`variant\`.`);
+        }
+        return null;
+    }),
+    /**
+   * If `true`, rounded corners are disabled.
+   * @default false
+   */ square: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * @ignore
+   */ style: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * The variant to use.
+   * @default 'elevation'
+   */ variant: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'elevation',
+            'outlined'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Paper;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Alert/alertClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getAlertUtilityClass",
+    ()=>getAlertUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getAlertUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiAlert', slot);
+}
+const alertClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiAlert', [
+    'root',
+    'action',
+    'icon',
+    'message',
+    'filled',
+    'colorSuccess',
+    'colorInfo',
+    'colorWarning',
+    'colorError',
+    'filledSuccess',
+    'filledInfo',
+    'filledWarning',
+    'filledError',
+    'outlined',
+    'outlinedSuccess',
+    'outlinedInfo',
+    'outlinedWarning',
+    'outlinedError',
+    'standard',
+    'standardSuccess',
+    'standardInfo',
+    'standardWarning',
+    'standardError'
+]);
+const __TURBOPACK__default__export__ = alertClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/SuccessOutlined.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+}), 'SuccessOutlined');
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/ReportProblemOutlined.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"
+}), 'ReportProblemOutlined');
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/ErrorOutline.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+}), 'ErrorOutline');
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/InfoOutlined.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20, 12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10, 10 0 0,0 12,2M11,17H13V11H11V17Z"
+}), 'InfoOutlined');
+}),
+"[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/Close.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSvgIcon.js [app-client] (ecmascript)");
+/**
+ * @ignore - internal component.
+ *
+ * Alias to `Clear`.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSvgIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("path", {
+    d: "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+}), 'Close');
+}),
+"[project]/invest/node_modules/@mui/material/esm/Alert/Alert.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/capitalize.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSimplePaletteValueFilter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/createSimplePaletteValueFilter.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Paper/Paper.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$alertClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Alert/alertClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/IconButton/IconButton.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$SuccessOutlined$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/SuccessOutlined.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$ReportProblemOutlined$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/ReportProblemOutlined.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$ErrorOutline$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/ErrorOutline.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$InfoOutlined$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/InfoOutlined.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$Close$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/internal/svg-icons/Close.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { variant, color, severity, classes } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            `color${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(color || severity)}`,
+            `${variant}${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(color || severity)}`,
+            `${variant}`
+        ],
+        icon: [
+            'icon'
+        ],
+        message: [
+            'message'
+        ],
+        action: [
+            'action'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$alertClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getAlertUtilityClass"], classes);
+};
+const AlertRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiAlert',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            styles[ownerState.variant],
+            styles[`${ownerState.variant}${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ownerState.color || ownerState.severity)}`]
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>{
+    const getColor = theme.palette.mode === 'light' ? theme.darken : theme.lighten;
+    const getBackgroundColor = theme.palette.mode === 'light' ? theme.lighten : theme.darken;
+    return {
+        ...theme.typography.body2,
+        backgroundColor: 'transparent',
+        display: 'flex',
+        padding: '6px 16px',
+        variants: [
+            ...Object.entries(theme.palette).filter((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSimplePaletteValueFilter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])([
+                'light'
+            ])).map(([color])=>({
+                    props: {
+                        colorSeverity: color,
+                        variant: 'standard'
+                    },
+                    style: {
+                        color: theme.vars ? theme.vars.palette.Alert[`${color}Color`] : getColor(theme.palette[color].light, 0.6),
+                        backgroundColor: theme.vars ? theme.vars.palette.Alert[`${color}StandardBg`] : getBackgroundColor(theme.palette[color].light, 0.9),
+                        [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$alertClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].icon}`]: theme.vars ? {
+                            color: theme.vars.palette.Alert[`${color}IconColor`]
+                        } : {
+                            color: theme.palette[color].main
+                        }
+                    }
+                })),
+            ...Object.entries(theme.palette).filter((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSimplePaletteValueFilter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])([
+                'light'
+            ])).map(([color])=>({
+                    props: {
+                        colorSeverity: color,
+                        variant: 'outlined'
+                    },
+                    style: {
+                        color: theme.vars ? theme.vars.palette.Alert[`${color}Color`] : getColor(theme.palette[color].light, 0.6),
+                        border: `1px solid ${(theme.vars || theme).palette[color].light}`,
+                        [`& .${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$alertClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].icon}`]: theme.vars ? {
+                            color: theme.vars.palette.Alert[`${color}IconColor`]
+                        } : {
+                            color: theme.palette[color].main
+                        }
+                    }
+                })),
+            ...Object.entries(theme.palette).filter((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$createSimplePaletteValueFilter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])([
+                'dark'
+            ])).map(([color])=>({
+                    props: {
+                        colorSeverity: color,
+                        variant: 'filled'
+                    },
+                    style: {
+                        fontWeight: theme.typography.fontWeightMedium,
+                        ...theme.vars ? {
+                            color: theme.vars.palette.Alert[`${color}FilledColor`],
+                            backgroundColor: theme.vars.palette.Alert[`${color}FilledBg`]
+                        } : {
+                            backgroundColor: theme.palette.mode === 'dark' ? theme.palette[color].dark : theme.palette[color].main,
+                            color: theme.palette.getContrastText(theme.palette[color].main)
+                        }
+                    }
+                }))
+        ]
+    };
+}));
+const AlertIcon = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiAlert',
+    slot: 'Icon'
+})({
+    marginRight: 12,
+    padding: '7px 0',
+    display: 'flex',
+    fontSize: 22,
+    opacity: 0.9
+});
+const AlertMessage = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiAlert',
+    slot: 'Message'
+})({
+    padding: '8px 0',
+    minWidth: 0,
+    overflow: 'auto'
+});
+const AlertAction = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiAlert',
+    slot: 'Action'
+})({
+    display: 'flex',
+    alignItems: 'flex-start',
+    padding: '4px 0 0 16px',
+    marginLeft: 'auto',
+    marginRight: -8
+});
+const defaultIconMapping = {
+    success: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$SuccessOutlined$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        fontSize: "inherit"
+    }),
+    warning: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$ReportProblemOutlined$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        fontSize: "inherit"
+    }),
+    error: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$ErrorOutline$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        fontSize: "inherit"
+    }),
+    info: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$InfoOutlined$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        fontSize: "inherit"
+    })
+};
+const Alert = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Alert(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiAlert'
+    });
+    const { action, children, className, closeText = 'Close', color, components = {}, componentsProps = {}, icon, iconMapping = defaultIconMapping, onClose, role = 'alert', severity = 'success', slotProps = {}, slots = {}, variant = 'standard', ...other } = props;
+    const ownerState = {
+        ...props,
+        color,
+        severity,
+        variant,
+        colorSeverity: color || severity
+    };
+    const classes = useUtilityClasses(ownerState);
+    const externalForwardedProps = {
+        slots: {
+            closeButton: components.CloseButton,
+            closeIcon: components.CloseIcon,
+            ...slots
+        },
+        slotProps: {
+            ...componentsProps,
+            ...slotProps
+        }
+    };
+    const [RootSlot, rootSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('root', {
+        ref,
+        shouldForwardComponentProp: true,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        elementType: AlertRoot,
+        externalForwardedProps: {
+            ...externalForwardedProps,
+            ...other
+        },
+        ownerState,
+        additionalProps: {
+            role,
+            elevation: 0
+        }
+    });
+    const [IconSlot, iconSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('icon', {
+        className: classes.icon,
+        elementType: AlertIcon,
+        externalForwardedProps,
+        ownerState
+    });
+    const [MessageSlot, messageSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('message', {
+        className: classes.message,
+        elementType: AlertMessage,
+        externalForwardedProps,
+        ownerState
+    });
+    const [ActionSlot, actionSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('action', {
+        className: classes.action,
+        elementType: AlertAction,
+        externalForwardedProps,
+        ownerState
+    });
+    const [CloseButtonSlot, closeButtonProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('closeButton', {
+        elementType: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        externalForwardedProps,
+        ownerState
+    });
+    const [CloseIconSlot, closeIconProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('closeIcon', {
+        elementType: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$internal$2f$svg$2d$icons$2f$Close$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        externalForwardedProps,
+        ownerState
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(RootSlot, {
+        ...rootSlotProps,
+        children: [
+            icon !== false ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(IconSlot, {
+                ...iconSlotProps,
+                children: icon || iconMapping[severity] || defaultIconMapping[severity]
+            }) : null,
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(MessageSlot, {
+                ...messageSlotProps,
+                children: children
+            }),
+            action != null ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ActionSlot, {
+                ...actionSlotProps,
+                children: action
+            }) : null,
+            action == null && onClose ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ActionSlot, {
+                ...actionSlotProps,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(CloseButtonSlot, {
+                    size: "small",
+                    "aria-label": closeText,
+                    title: closeText,
+                    color: "inherit",
+                    onClick: onClose,
+                    ...closeButtonProps,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(CloseIconSlot, {
+                        fontSize: "small",
+                        ...closeIconProps
+                    })
+                })
+            }) : null
+        ]
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Alert.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * The action to display. It renders after the message, at the end of the alert.
+   */ action: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * The content of the component.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * Override the default label for the *close popup* icon button.
+   *
+   * For localization purposes, you can use the provided [translations](https://mui.com/material-ui/guides/localization/).
+   * @default 'Close'
+   */ closeText: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The color of the component. Unless provided, the value is taken from the `severity` prop.
+   * It supports both default and custom theme colors, which can be added as shown in the
+   * [palette customization guide](https://mui.com/material-ui/customization/palette/#custom-colors).
+   */ color: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'error',
+            'info',
+            'success',
+            'warning'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * The components used for each slot inside.
+   *
+   * @deprecated use the `slots` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   *
+   * @default {}
+   */ components: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        CloseButton: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        CloseIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The extra props for the slot components.
+   * You can override the existing props or add new ones.
+   *
+   * @deprecated use the `slotProps` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   *
+   * @default {}
+   */ componentsProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        closeButton: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+        closeIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    }),
+    /**
+   * Override the icon displayed before the children.
+   * Unless provided, the icon is mapped to the value of the `severity` prop.
+   * Set to `false` to remove the `icon`.
+   */ icon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * The component maps the `severity` prop to a range of different icons,
+   * for instance success to `<SuccessOutlined>`.
+   * If you wish to change this mapping, you can provide your own.
+   * Alternatively, you can use the `icon` prop to override the icon displayed.
+   */ iconMapping: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        error: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+        info: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+        success: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+        warning: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node
+    }),
+    /**
+   * Callback fired when the component requests to be closed.
+   * When provided and no `action` prop is set, a close icon button is displayed that triggers the callback when clicked.
+   * @param {React.SyntheticEvent} event The event source of the callback.
+   */ onClose: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * The ARIA role attribute of the element.
+   * @default 'alert'
+   */ role: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The severity of the alert. This defines the color and icon used.
+   * @default 'success'
+   */ severity: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'error',
+            'info',
+            'success',
+            'warning'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * The props used for each slot inside.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        action: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        closeButton: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        closeIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        message: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        action: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        closeButton: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        closeIcon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        message: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * The variant to use.
+   * @default 'standard'
+   */ variant: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'filled',
+            'outlined',
+            'standard'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Alert;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Alert/Alert.js [app-client] (ecmascript) <export default as Alert>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Alert",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Alert/Alert.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/CircularProgress/CircularProgress.js [app-client] (ecmascript) <export default as CircularProgress>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CircularProgress",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/CircularProgress/CircularProgress.js [app-client] (ecmascript)");
+}),
+"[project]/invest/node_modules/@mui/material/esm/Unstable_TrapFocus/FocusTrap.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+/* eslint-disable consistent-return, jsx-a11y/no-noninteractive-tabindex */ var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useForkRef/useForkRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/ownerDocument/ownerDocument.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/getReactElementRef/getReactElementRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$exactProp$2f$exactProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/exactProp/exactProp.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/elementAcceptingRef/elementAcceptingRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/getActiveElement.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+// Inspired by https://github.com/focus-trap/tabbable
+const candidatesSelector = [
+    'input',
+    'select',
+    'textarea',
+    'a[href]',
+    'button',
+    '[tabindex]',
+    'audio[controls]',
+    'video[controls]',
+    '[contenteditable]:not([contenteditable="false"])'
+].join(',');
+function getTabIndex(node) {
+    const tabindexAttr = parseInt(node.getAttribute('tabindex') || '', 10);
+    if (!Number.isNaN(tabindexAttr)) {
+        return tabindexAttr;
+    }
+    // Browsers do not return `tabIndex` correctly for contentEditable nodes;
+    // https://issues.chromium.org/issues/41283952
+    // so if they don't have a tabindex attribute specifically set, assume it's 0.
+    // in Chrome, <details/>, <audio controls/> and <video controls/> elements get a default
+    //  `tabIndex` of -1 when the 'tabindex' attribute isn't specified in the DOM,
+    //  yet they are still part of the regular tab order; in FF, they get a default
+    //  `tabIndex` of 0; since Chrome still puts those elements in the regular tab
+    //  order, consider their tab index to be 0.
+    if (node.contentEditable === 'true' || (node.nodeName === 'AUDIO' || node.nodeName === 'VIDEO' || node.nodeName === 'DETAILS') && node.getAttribute('tabindex') === null) {
+        return 0;
+    }
+    return node.tabIndex;
+}
+function isNonTabbableRadio(node) {
+    if (node.tagName !== 'INPUT' || node.type !== 'radio') {
+        return false;
+    }
+    if (!node.name) {
+        return false;
+    }
+    const getRadio = (selector)=>node.ownerDocument.querySelector(`input[type="radio"]${selector}`);
+    let roving = getRadio(`[name="${node.name}"]:checked`);
+    if (!roving) {
+        roving = getRadio(`[name="${node.name}"]`);
+    }
+    return roving !== node;
+}
+function isNodeMatchingSelectorFocusable(node) {
+    if (node.disabled || node.tagName === 'INPUT' && node.type === 'hidden' || isNonTabbableRadio(node)) {
+        return false;
+    }
+    return true;
+}
+function defaultGetTabbable(root) {
+    const regularTabNodes = [];
+    const orderedTabNodes = [];
+    Array.from(root.querySelectorAll(candidatesSelector)).forEach((node, i)=>{
+        const nodeTabIndex = getTabIndex(node);
+        if (nodeTabIndex === -1 || !isNodeMatchingSelectorFocusable(node)) {
+            return;
+        }
+        if (nodeTabIndex === 0) {
+            regularTabNodes.push(node);
+        } else {
+            orderedTabNodes.push({
+                documentOrder: i,
+                tabIndex: nodeTabIndex,
+                node: node
+            });
+        }
+    });
+    return orderedTabNodes.sort((a, b)=>a.tabIndex === b.tabIndex ? a.documentOrder - b.documentOrder : a.tabIndex - b.tabIndex).map((a)=>a.node).concat(regularTabNodes);
+}
+function defaultIsEnabled() {
+    return true;
+}
+/**
+ * @ignore - internal component.
+ */ function FocusTrap(props) {
+    const { children, disableAutoFocus = false, disableEnforceFocus = false, disableRestoreFocus = false, getTabbable = defaultGetTabbable, isEnabled = defaultIsEnabled, open } = props;
+    const ignoreNextEnforceFocus = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](false);
+    const sentinelStart = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const sentinelEnd = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const nodeToRestore = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const reactFocusEventTarget = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    // This variable is useful when disableAutoFocus is true.
+    // It waits for the active element to move into the component to activate.
+    const activated = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](false);
+    const rootRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const handleRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(children), rootRef);
+    const lastKeydown = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "FocusTrap.useEffect": ()=>{
+            // We might render an empty child.
+            if (!open || !rootRef.current) {
+                return;
+            }
+            activated.current = !disableAutoFocus;
+        }
+    }["FocusTrap.useEffect"], [
+        disableAutoFocus,
+        open
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "FocusTrap.useEffect": ()=>{
+            // We might render an empty child.
+            if (!open || !rootRef.current) {
+                return;
+            }
+            const doc = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(rootRef.current);
+            const activeElement = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(doc);
+            if (!rootRef.current.contains(activeElement)) {
+                if (!rootRef.current.hasAttribute('tabIndex')) {
+                    if ("TURBOPACK compile-time truthy", 1) {
+                        console.error([
+                            'MUI: The modal content node does not accept focus.',
+                            'For the benefit of assistive technologies, ' + 'the tabIndex of the node is being set to "-1".'
+                        ].join('\n'));
+                    }
+                    rootRef.current.setAttribute('tabIndex', '-1');
+                }
+                if (activated.current) {
+                    rootRef.current.focus();
+                }
+            }
+            return ({
+                "FocusTrap.useEffect": ()=>{
+                    // restoreLastFocus()
+                    if (!disableRestoreFocus) {
+                        // In IE11 it is possible for document.activeElement to be null resulting
+                        // in nodeToRestore.current being null.
+                        // Not all elements in IE11 have a focus method.
+                        // Once IE11 support is dropped the focus() call can be unconditional.
+                        if (nodeToRestore.current && nodeToRestore.current.focus) {
+                            ignoreNextEnforceFocus.current = true;
+                            nodeToRestore.current.focus();
+                        }
+                        nodeToRestore.current = null;
+                    }
+                }
+            })["FocusTrap.useEffect"];
+        // Missing `disableRestoreFocus` which is fine.
+        // We don't support changing that prop on an open FocusTrap
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        }
+    }["FocusTrap.useEffect"], [
+        open
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "FocusTrap.useEffect": ()=>{
+            // We might render an empty child.
+            if (!open || !rootRef.current) {
+                return;
+            }
+            const doc = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(rootRef.current);
+            const activeElement = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(doc);
+            const loopFocus = {
+                "FocusTrap.useEffect.loopFocus": (nativeEvent)=>{
+                    lastKeydown.current = nativeEvent;
+                    if (disableEnforceFocus || !isEnabled() || nativeEvent.key !== 'Tab') {
+                        return;
+                    }
+                    // Make sure the next tab starts from the right place.
+                    // activeElement refers to the origin.
+                    if (activeElement === rootRef.current && nativeEvent.shiftKey) {
+                        // We need to ignore the next contain as
+                        // it will try to move the focus back to the rootRef element.
+                        ignoreNextEnforceFocus.current = true;
+                        if (sentinelEnd.current) {
+                            sentinelEnd.current.focus();
+                        }
+                    }
+                }
+            }["FocusTrap.useEffect.loopFocus"];
+            const contain = {
+                "FocusTrap.useEffect.contain": ()=>{
+                    const rootElement = rootRef.current;
+                    // Cleanup functions are executed lazily in React 17.
+                    // Contain can be called between the component being unmounted and its cleanup function being run.
+                    if (rootElement === null) {
+                        return;
+                    }
+                    const activeEl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(doc);
+                    if (!doc.hasFocus() || !isEnabled() || ignoreNextEnforceFocus.current) {
+                        ignoreNextEnforceFocus.current = false;
+                        return;
+                    }
+                    // The focus is already inside
+                    if (rootElement.contains(activeEl)) {
+                        return;
+                    }
+                    // The disableEnforceFocus is set and the focus is outside of the focus trap (and sentinel nodes)
+                    if (disableEnforceFocus && activeEl !== sentinelStart.current && activeEl !== sentinelEnd.current) {
+                        return;
+                    }
+                    // if the focus event is not coming from inside the children's react tree, reset the refs
+                    if (activeEl !== reactFocusEventTarget.current) {
+                        reactFocusEventTarget.current = null;
+                    } else if (reactFocusEventTarget.current !== null) {
+                        return;
+                    }
+                    if (!activated.current) {
+                        return;
+                    }
+                    let tabbable = [];
+                    if (activeEl === sentinelStart.current || activeEl === sentinelEnd.current) {
+                        tabbable = getTabbable(rootRef.current);
+                    }
+                    // one of the sentinel nodes was focused, so move the focus
+                    // to the first/last tabbable element inside the focus trap
+                    if (tabbable.length > 0) {
+                        const isShiftTab = Boolean(lastKeydown.current?.shiftKey && lastKeydown.current?.key === 'Tab');
+                        const focusNext = tabbable[0];
+                        const focusPrevious = tabbable[tabbable.length - 1];
+                        if (typeof focusNext !== 'string' && typeof focusPrevious !== 'string') {
+                            if (isShiftTab) {
+                                focusPrevious.focus();
+                            } else {
+                                focusNext.focus();
+                            }
+                        }
+                    // no tabbable elements in the trap focus or the focus was outside of the focus trap
+                    } else {
+                        rootElement.focus();
+                    }
+                }
+            }["FocusTrap.useEffect.contain"];
+            doc.addEventListener('focusin', contain);
+            doc.addEventListener('keydown', loopFocus, true);
+            // With Edge, Safari and Firefox, no focus related events are fired when the focused area stops being a focused area.
+            // for example https://bugzilla.mozilla.org/show_bug.cgi?id=559561.
+            // Instead, we can look if the active element was restored on the BODY element.
+            //
+            // The whatwg spec defines how the browser should behave but does not explicitly mention any events:
+            // https://html.spec.whatwg.org/multipage/interaction.html#focus-fixup-rule.
+            const interval = setInterval({
+                "FocusTrap.useEffect.interval": ()=>{
+                    const activeEl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$getActiveElement$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(doc);
+                    if (activeEl && activeEl.tagName === 'BODY') {
+                        contain();
+                    }
+                }
+            }["FocusTrap.useEffect.interval"], 50);
+            return ({
+                "FocusTrap.useEffect": ()=>{
+                    clearInterval(interval);
+                    doc.removeEventListener('focusin', contain);
+                    doc.removeEventListener('keydown', loopFocus, true);
+                }
+            })["FocusTrap.useEffect"];
+        }
+    }["FocusTrap.useEffect"], [
+        disableAutoFocus,
+        disableEnforceFocus,
+        disableRestoreFocus,
+        isEnabled,
+        open,
+        getTabbable
+    ]);
+    const onFocus = (event)=>{
+        if (nodeToRestore.current === null) {
+            nodeToRestore.current = event.relatedTarget;
+        }
+        activated.current = true;
+        reactFocusEventTarget.current = event.target;
+        const childrenPropsHandler = children.props.onFocus;
+        if (childrenPropsHandler) {
+            childrenPropsHandler(event);
+        }
+    };
+    const handleFocusSentinel = (event)=>{
+        if (nodeToRestore.current === null) {
+            nodeToRestore.current = event.relatedTarget;
+        }
+        activated.current = true;
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("div", {
+                tabIndex: open ? 0 : -1,
+                onFocus: handleFocusSentinel,
+                ref: sentinelStart,
+                "data-testid": "sentinelStart"
+            }),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](children, {
+                ref: handleRef,
+                onFocus
+            }),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("div", {
+                tabIndex: open ? 0 : -1,
+                onFocus: handleFocusSentinel,
+                ref: sentinelEnd,
+                "data-testid": "sentinelEnd"
+            })
+        ]
+    });
+}
+("TURBOPACK compile-time truthy", 1) ? FocusTrap.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │ To update them, edit the TypeScript types and run `pnpm proptypes`. │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * A single child content element.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+    /**
+   * If `true`, the focus trap will not automatically shift focus to itself when it opens, and
+   * replace it to the last focused element when it closes.
+   * This also works correctly with any focus trap children that have the `disableAutoFocus` prop.
+   *
+   * Generally this should never be set to `true` as it makes the focus trap less
+   * accessible to assistive technologies, like screen readers.
+   * @default false
+   */ disableAutoFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the focus trap will not prevent focus from leaving the focus trap while open.
+   *
+   * Generally this should never be set to `true` as it makes the focus trap less
+   * accessible to assistive technologies, like screen readers.
+   * @default false
+   */ disableEnforceFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the focus trap will not restore focus to previously focused element once
+   * focus trap is hidden or unmounted.
+   * @default false
+   */ disableRestoreFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Returns an array of ordered tabbable nodes (i.e. in tab order) within the root.
+   * For instance, you can provide the "tabbable" npm dependency.
+   * @param {HTMLElement} root
+   */ getTabbable: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * This prop extends the `open` prop.
+   * It allows to toggle the open state without having to wait for a rerender when changing the `open` prop.
+   * This prop should be memoized.
+   * It can be used to support multiple focus trap mounted at the same time.
+   * @default function defaultIsEnabled(): boolean {
+   *   return true;
+   * }
+   */ isEnabled: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * If `true`, focus is locked.
+   */ open: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired
+} : "TURBOPACK unreachable";
+if ("TURBOPACK compile-time truthy", 1) {
+    // eslint-disable-next-line
+    FocusTrap['propTypes' + ''] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$exactProp$2f$exactProp$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(FocusTrap.propTypes);
+}
+const __TURBOPACK__default__export__ = FocusTrap;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Fade/Fade.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Transition$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/react-transition-group/esm/Transition.js [app-client] (ecmascript) <export default as Transition>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/elementAcceptingRef/elementAcceptingRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/getReactElementRef/getReactElementRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/useTheme.js [app-client] (ecmascript) <export default as useTheme>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$transitions$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/transitions/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useForkRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const styles = {
+    entering: {
+        opacity: 1
+    },
+    entered: {
+        opacity: 1
+    }
+};
+/**
+ * The Fade transition is used by the [Modal](/material-ui/react-modal/) component.
+ * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+ */ const Fade = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Fade(props, ref) {
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
+    const defaultTimeout = {
+        enter: theme.transitions.duration.enteringScreen,
+        exit: theme.transitions.duration.leavingScreen
+    };
+    const { addEndListener, appear = true, children, easing, in: inProp, onEnter, onEntered, onEntering, onExit, onExited, onExiting, style, timeout = defaultTimeout, // eslint-disable-next-line react/prop-types
+    TransitionComponent = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$react$2d$transition$2d$group$2f$esm$2f$Transition$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Transition$3e$__["Transition"], ...other } = props;
+    const enableStrictModeCompat = true;
+    const nodeRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const handleRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(nodeRef, (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getReactElementRef$2f$getReactElementRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(children), ref);
+    const normalizedTransitionCallback = (callback)=>(maybeIsAppearing)=>{
+            if (callback) {
+                const node = nodeRef.current;
+                // onEnterXxx and onExitXxx callbacks have a different arguments.length value.
+                if (maybeIsAppearing === undefined) {
+                    callback(node);
+                } else {
+                    callback(node, maybeIsAppearing);
+                }
+            }
+        };
+    const handleEntering = normalizedTransitionCallback(onEntering);
+    const handleEnter = normalizedTransitionCallback((node, isAppearing)=>{
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$transitions$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["reflow"])(node); // So the animation always start from the start.
+        const transitionProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$transitions$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTransitionProps"])({
+            style,
+            timeout,
+            easing
+        }, {
+            mode: 'enter'
+        });
+        node.style.webkitTransition = theme.transitions.create('opacity', transitionProps);
+        node.style.transition = theme.transitions.create('opacity', transitionProps);
+        if (onEnter) {
+            onEnter(node, isAppearing);
+        }
+    });
+    const handleEntered = normalizedTransitionCallback(onEntered);
+    const handleExiting = normalizedTransitionCallback(onExiting);
+    const handleExit = normalizedTransitionCallback((node)=>{
+        const transitionProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$transitions$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTransitionProps"])({
+            style,
+            timeout,
+            easing
+        }, {
+            mode: 'exit'
+        });
+        node.style.webkitTransition = theme.transitions.create('opacity', transitionProps);
+        node.style.transition = theme.transitions.create('opacity', transitionProps);
+        if (onExit) {
+            onExit(node);
+        }
+    });
+    const handleExited = normalizedTransitionCallback(onExited);
+    const handleAddEndListener = (next)=>{
+        if (addEndListener) {
+            // Old call signature before `react-transition-group` implemented `nodeRef`
+            addEndListener(nodeRef.current, next);
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(TransitionComponent, {
+        appear: appear,
+        in: inProp,
+        nodeRef: ("TURBOPACK compile-time truthy", 1) ? nodeRef : "TURBOPACK unreachable",
+        onEnter: handleEnter,
+        onEntered: handleEntered,
+        onEntering: handleEntering,
+        onExit: handleExit,
+        onExited: handleExited,
+        onExiting: handleExiting,
+        addEndListener: handleAddEndListener,
+        timeout: timeout,
+        ...other,
+        children: (state, { ownerState, ...restChildProps })=>{
+            return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](children, {
+                style: {
+                    opacity: 0,
+                    visibility: state === 'exited' && !inProp ? 'hidden' : undefined,
+                    ...styles[state],
+                    ...style,
+                    ...children.props.style
+                },
+                ref: handleRef,
+                ...restChildProps
+            });
+        }
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Fade.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * Add a custom transition end trigger. Called with the transitioning DOM
+   * node and a done callback. Allows for more fine grained transition end
+   * logic. Note: Timeouts are still used as a fallback if provided.
+   */ addEndListener: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Perform the enter transition when it first mounts if `in` is also `true`.
+   * Set this to `false` to disable this behavior.
+   * @default true
+   */ appear: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * A single child content element.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].isRequired,
+    /**
+   * The transition timing function.
+   * You may specify a single easing or a object containing enter and exit values.
+   */ easing: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+            enter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+            exit: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+        }),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * If `true`, the component will transition in.
+   */ in: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * @ignore
+   */ onEnter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onEntered: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onEntering: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onExit: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onExited: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ onExiting: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * @ignore
+   */ style: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   * @default {
+   *   enter: theme.transitions.duration.enteringScreen,
+   *   exit: theme.transitions.duration.leavingScreen,
+   * }
+   */ timeout: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+            appear: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+            enter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+            exit: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number
+        })
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Fade;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Backdrop/backdropClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getBackdropUtilityClass",
+    ()=>getBackdropUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getBackdropUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiBackdrop', slot);
+}
+const backdropClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiBackdrop', [
+    'root',
+    'invisible'
+]);
+const __TURBOPACK__default__export__ = backdropClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Backdrop/Backdrop.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Fade/Fade.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Backdrop$2f$backdropClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Backdrop/backdropClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { classes, invisible } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            invisible && 'invisible'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Backdrop$2f$backdropClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBackdropUtilityClass"], classes);
+};
+const BackdropRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiBackdrop',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            ownerState.invisible && styles.invisible
+        ];
+    }
+})({
+    position: 'fixed',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    right: 0,
+    bottom: 0,
+    top: 0,
+    left: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    WebkitTapHighlightColor: 'transparent',
+    variants: [
+        {
+            props: {
+                invisible: true
+            },
+            style: {
+                backgroundColor: 'transparent'
+            }
+        }
+    ]
+});
+const Backdrop = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Backdrop(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiBackdrop'
+    });
+    const { children, className, component = 'div', invisible = false, open, components = {}, componentsProps = {}, slotProps = {}, slots = {}, TransitionComponent: TransitionComponentProp, transitionDuration, ...other } = props;
+    const ownerState = {
+        ...props,
+        component,
+        invisible
+    };
+    const classes = useUtilityClasses(ownerState);
+    const backwardCompatibleSlots = {
+        transition: TransitionComponentProp,
+        root: components.Root,
+        ...slots
+    };
+    const backwardCompatibleSlotProps = {
+        ...componentsProps,
+        ...slotProps
+    };
+    const externalForwardedProps = {
+        component,
+        slots: backwardCompatibleSlots,
+        slotProps: backwardCompatibleSlotProps
+    };
+    const [RootSlot, rootProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('root', {
+        elementType: BackdropRoot,
+        externalForwardedProps,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        ownerState
+    });
+    const [TransitionSlot, transitionProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('transition', {
+        elementType: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        externalForwardedProps,
+        ownerState
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(TransitionSlot, {
+        in: open,
+        timeout: transitionDuration,
+        ...other,
+        ...transitionProps,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(RootSlot, {
+            "aria-hidden": true,
+            ...rootProps,
+            classes: classes,
+            ref: ref,
+            children: children
+        })
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Backdrop.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * The content of the component.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */ component: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * The components used for each slot inside.
+   *
+   * @deprecated Use the `slots` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   *
+   * @default {}
+   */ components: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        Root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The extra props for the slot components.
+   * You can override the existing props or add new ones.
+   *
+   * @deprecated Use the `slotProps` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   *
+   * @default {}
+   */ componentsProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    }),
+    /**
+   * If `true`, the backdrop is invisible.
+   * It can be used when rendering a popover or a custom select component.
+   * @default false
+   */ invisible: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the component is shown.
+   */ open: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    /**
+   * The props used for each slot inside.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * The component used for the transition.
+   * [Follow this guide](https://mui.com/material-ui/transitions/#transitioncomponent-prop) to learn more about the requirements for this component.
+   * @default Fade
+   * @deprecated Use `slots.transition` instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   */ TransitionComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   */ transitionDuration: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+            appear: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+            enter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+            exit: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number
+        })
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Backdrop;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Modal/ModalManager.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ModalManager",
+    ()=>ModalManager,
+    "ariaHidden",
+    ()=>ariaHidden
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerWindow$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/ownerWindow/ownerWindow.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/ownerDocument/ownerDocument.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getScrollbarSize$2f$getScrollbarSize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/getScrollbarSize/getScrollbarSize.js [app-client] (ecmascript)");
+;
+;
+;
+// Is a vertical scrollbar displayed?
+function isOverflowing(container) {
+    const doc = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(container);
+    if (doc.body === container) {
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerWindow$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(container).innerWidth > doc.documentElement.clientWidth;
+    }
+    return container.scrollHeight > container.clientHeight;
+}
+function ariaHidden(element, hide) {
+    if (hide) {
+        element.setAttribute('aria-hidden', 'true');
+    } else {
+        element.removeAttribute('aria-hidden');
+    }
+}
+function getPaddingRight(element) {
+    return parseInt((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerWindow$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(element).getComputedStyle(element).paddingRight, 10) || 0;
+}
+function isAriaHiddenForbiddenOnElement(element) {
+    // The forbidden HTML tags are the ones from ARIA specification that
+    // can be children of body and can't have aria-hidden attribute.
+    // cf. https://www.w3.org/TR/html-aria/#docconformance
+    const forbiddenTagNames = [
+        'TEMPLATE',
+        'SCRIPT',
+        'STYLE',
+        'LINK',
+        'MAP',
+        'META',
+        'NOSCRIPT',
+        'PICTURE',
+        'COL',
+        'COLGROUP',
+        'PARAM',
+        'SLOT',
+        'SOURCE',
+        'TRACK'
+    ];
+    const isForbiddenTagName = forbiddenTagNames.includes(element.tagName);
+    const isInputHidden = element.tagName === 'INPUT' && element.getAttribute('type') === 'hidden';
+    return isForbiddenTagName || isInputHidden;
+}
+function ariaHiddenSiblings(container, mountElement, currentElement, elementsToExclude, hide) {
+    const blacklist = [
+        mountElement,
+        currentElement,
+        ...elementsToExclude
+    ];
+    [].forEach.call(container.children, (element)=>{
+        const isNotExcludedElement = !blacklist.includes(element);
+        const isNotForbiddenElement = !isAriaHiddenForbiddenOnElement(element);
+        if (isNotExcludedElement && isNotForbiddenElement) {
+            ariaHidden(element, hide);
+        }
+    });
+}
+function findIndexOf(items, callback) {
+    let idx = -1;
+    items.some((item, index)=>{
+        if (callback(item)) {
+            idx = index;
+            return true;
+        }
+        return false;
+    });
+    return idx;
+}
+function handleContainer(containerInfo, props) {
+    const restoreStyle = [];
+    const container = containerInfo.container;
+    if (!props.disableScrollLock) {
+        if (isOverflowing(container)) {
+            // Compute the size before applying overflow hidden to avoid any scroll jumps.
+            const scrollbarSize = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$getScrollbarSize$2f$getScrollbarSize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerWindow$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(container));
+            restoreStyle.push({
+                value: container.style.paddingRight,
+                property: 'padding-right',
+                el: container
+            });
+            // Use computed style, here to get the real padding to add our scrollbar width.
+            container.style.paddingRight = `${getPaddingRight(container) + scrollbarSize}px`;
+            // .mui-fixed is a global helper.
+            const fixedElements = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(container).querySelectorAll('.mui-fixed');
+            [].forEach.call(fixedElements, (element)=>{
+                restoreStyle.push({
+                    value: element.style.paddingRight,
+                    property: 'padding-right',
+                    el: element
+                });
+                element.style.paddingRight = `${getPaddingRight(element) + scrollbarSize}px`;
+            });
+        }
+        let scrollContainer;
+        if (container.parentNode instanceof DocumentFragment) {
+            scrollContainer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(container).body;
+        } else {
+            // Support html overflow-y: auto for scroll stability between pages
+            // https://css-tricks.com/snippets/css/force-vertical-scrollbar/
+            const parent = container.parentElement;
+            const containerWindow = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerWindow$2f$ownerWindow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(container);
+            scrollContainer = parent?.nodeName === 'HTML' && containerWindow.getComputedStyle(parent).overflowY === 'scroll' ? parent : container;
+        }
+        // Block the scroll even if no scrollbar is visible to account for mobile keyboard
+        // screensize shrink.
+        restoreStyle.push({
+            value: scrollContainer.style.overflow,
+            property: 'overflow',
+            el: scrollContainer
+        }, {
+            value: scrollContainer.style.overflowX,
+            property: 'overflow-x',
+            el: scrollContainer
+        }, {
+            value: scrollContainer.style.overflowY,
+            property: 'overflow-y',
+            el: scrollContainer
+        });
+        scrollContainer.style.overflow = 'hidden';
+    }
+    const restore = ()=>{
+        restoreStyle.forEach(({ value, el, property })=>{
+            if (value) {
+                el.style.setProperty(property, value);
+            } else {
+                el.style.removeProperty(property);
+            }
+        });
+    };
+    return restore;
+}
+function getHiddenSiblings(container) {
+    const hiddenSiblings = [];
+    [].forEach.call(container.children, (element)=>{
+        if (element.getAttribute('aria-hidden') === 'true') {
+            hiddenSiblings.push(element);
+        }
+    });
+    return hiddenSiblings;
+}
+class ModalManager {
+    constructor(){
+        this.modals = [];
+        this.containers = [];
+    }
+    add(modal, container) {
+        let modalIndex = this.modals.indexOf(modal);
+        if (modalIndex !== -1) {
+            return modalIndex;
+        }
+        modalIndex = this.modals.length;
+        this.modals.push(modal);
+        // If the modal we are adding is already in the DOM.
+        if (modal.modalRef) {
+            ariaHidden(modal.modalRef, false);
+        }
+        const hiddenSiblings = getHiddenSiblings(container);
+        ariaHiddenSiblings(container, modal.mount, modal.modalRef, hiddenSiblings, true);
+        const containerIndex = findIndexOf(this.containers, (item)=>item.container === container);
+        if (containerIndex !== -1) {
+            this.containers[containerIndex].modals.push(modal);
+            return modalIndex;
+        }
+        this.containers.push({
+            modals: [
+                modal
+            ],
+            container,
+            restore: null,
+            hiddenSiblings
+        });
+        return modalIndex;
+    }
+    mount(modal, props) {
+        const containerIndex = findIndexOf(this.containers, (item)=>item.modals.includes(modal));
+        const containerInfo = this.containers[containerIndex];
+        if (!containerInfo.restore) {
+            containerInfo.restore = handleContainer(containerInfo, props);
+        }
+    }
+    remove(modal, ariaHiddenState = true) {
+        const modalIndex = this.modals.indexOf(modal);
+        if (modalIndex === -1) {
+            return modalIndex;
+        }
+        const containerIndex = findIndexOf(this.containers, (item)=>item.modals.includes(modal));
+        const containerInfo = this.containers[containerIndex];
+        containerInfo.modals.splice(containerInfo.modals.indexOf(modal), 1);
+        this.modals.splice(modalIndex, 1);
+        // If that was the last modal in a container, clean up the container.
+        if (containerInfo.modals.length === 0) {
+            // The modal might be closed before it had the chance to be mounted in the DOM.
+            if (containerInfo.restore) {
+                containerInfo.restore();
+            }
+            if (modal.modalRef) {
+                // In case the modal wasn't in the DOM yet.
+                ariaHidden(modal.modalRef, ariaHiddenState);
+            }
+            ariaHiddenSiblings(containerInfo.container, modal.mount, modal.modalRef, containerInfo.hiddenSiblings, false);
+            this.containers.splice(containerIndex, 1);
+        } else {
+            // Otherwise make sure the next top modal is visible to a screen reader.
+            const nextTop = containerInfo.modals[containerInfo.modals.length - 1];
+            // as soon as a modal is adding its modalRef is undefined. it can't set
+            // aria-hidden because the dom element doesn't exist either
+            // when modal was unmounted before modalRef gets null
+            if (nextTop.modalRef) {
+                ariaHidden(nextTop.modalRef, false);
+            }
+        }
+        return modalIndex;
+    }
+    isTopModal(modal) {
+        return this.modals.length > 0 && this.modals[this.modals.length - 1] === modal;
+    }
+}
+}),
+"[project]/invest/node_modules/@mui/material/esm/Modal/useModal.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/ownerDocument/ownerDocument.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useForkRef/useForkRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEventCallback$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useEventCallback/useEventCallback.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$createChainedFunction$2f$createChainedFunction$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/createChainedFunction/createChainedFunction.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$extractEventHandlers$2f$extractEventHandlers$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/extractEventHandlers/extractEventHandlers.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$ModalManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Modal/ModalManager.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+function getContainer(container) {
+    return typeof container === 'function' ? container() : container;
+}
+function getHasTransition(children) {
+    return children ? children.props.hasOwnProperty('in') : false;
+}
+const noop = ()=>{};
+// A modal manager used to track and manage the state of open Modals.
+// Modals don't open on the server so this won't conflict with concurrent requests.
+const manager = new __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$ModalManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ModalManager"]();
+function useModal(parameters) {
+    const { container, disableEscapeKeyDown = false, disableScrollLock = false, closeAfterTransition = false, onTransitionEnter, onTransitionExited, children, onClose, open, rootRef } = parameters;
+    // @ts-ignore internal logic
+    const modal = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]({});
+    const mountNodeRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const modalRef = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const handleRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useForkRef$2f$useForkRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(modalRef, rootRef);
+    const [exited, setExited] = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](!open);
+    const hasTransition = getHasTransition(children);
+    let ariaHiddenProp = true;
+    if (parameters['aria-hidden'] === 'false' || parameters['aria-hidden'] === false) {
+        ariaHiddenProp = false;
+    }
+    const getDoc = ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$ownerDocument$2f$ownerDocument$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(mountNodeRef.current);
+    const getModal = ()=>{
+        modal.current.modalRef = modalRef.current;
+        modal.current.mount = mountNodeRef.current;
+        return modal.current;
+    };
+    const handleMounted = ()=>{
+        manager.mount(getModal(), {
+            disableScrollLock
+        });
+        // Fix a bug on Chrome where the scroll isn't initially 0.
+        if (modalRef.current) {
+            modalRef.current.scrollTop = 0;
+        }
+    };
+    const handleOpen = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEventCallback$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "useModal.useEventCallback[handleOpen]": ()=>{
+            const resolvedContainer = getContainer(container) || getDoc().body;
+            manager.add(getModal(), resolvedContainer);
+            // The element was already mounted.
+            if (modalRef.current) {
+                handleMounted();
+            }
+        }
+    }["useModal.useEventCallback[handleOpen]"]);
+    const isTopModal = ()=>manager.isTopModal(getModal());
+    const handlePortalRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useEventCallback$2f$useEventCallback$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        "useModal.useEventCallback[handlePortalRef]": (node)=>{
+            mountNodeRef.current = node;
+            if (!node) {
+                return;
+            }
+            if (open && isTopModal()) {
+                handleMounted();
+            } else if (modalRef.current) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$ModalManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ariaHidden"])(modalRef.current, ariaHiddenProp);
+            }
+        }
+    }["useModal.useEventCallback[handlePortalRef]"]);
+    const handleClose = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "useModal.useCallback[handleClose]": ()=>{
+            manager.remove(getModal(), ariaHiddenProp);
+        }
+    }["useModal.useCallback[handleClose]"], [
+        ariaHiddenProp
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useModal.useEffect": ()=>{
+            return ({
+                "useModal.useEffect": ()=>{
+                    handleClose();
+                }
+            })["useModal.useEffect"];
+        }
+    }["useModal.useEffect"], [
+        handleClose
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useModal.useEffect": ()=>{
+            if (open) {
+                handleOpen();
+            } else if (!hasTransition || !closeAfterTransition) {
+                handleClose();
+            }
+        }
+    }["useModal.useEffect"], [
+        open,
+        handleClose,
+        hasTransition,
+        closeAfterTransition,
+        handleOpen
+    ]);
+    const createHandleKeyDown = (otherHandlers)=>(event)=>{
+            otherHandlers.onKeyDown?.(event);
+            // The handler doesn't take event.defaultPrevented into account:
+            //
+            // event.preventDefault() is meant to stop default behaviors like
+            // clicking a checkbox to check it, hitting a button to submit a form,
+            // and hitting left arrow to move the cursor in a text input etc.
+            // Only special HTML elements have these default behaviors.
+            if (event.key !== 'Escape' || event.which === 229 || // Wait until IME is settled.
+            !isTopModal()) {
+                return;
+            }
+            if (!disableEscapeKeyDown) {
+                // Swallow the event, in case someone is listening for the escape key on the body.
+                event.stopPropagation();
+                if (onClose) {
+                    onClose(event, 'escapeKeyDown');
+                }
+            }
+        };
+    const createHandleBackdropClick = (otherHandlers)=>(event)=>{
+            otherHandlers.onClick?.(event);
+            if (event.target !== event.currentTarget) {
+                return;
+            }
+            if (onClose) {
+                onClose(event, 'backdropClick');
+            }
+        };
+    const getRootProps = (otherHandlers = {})=>{
+        const propsEventHandlers = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$extractEventHandlers$2f$extractEventHandlers$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(parameters);
+        // The custom event handlers shouldn't be spread on the root element
+        delete propsEventHandlers.onTransitionEnter;
+        delete propsEventHandlers.onTransitionExited;
+        const externalEventHandlers = {
+            ...propsEventHandlers,
+            ...otherHandlers
+        };
+        return {
+            /*
+       * Marking an element with the role presentation indicates to assistive technology
+       * that this element should be ignored; it exists to support the web application and
+       * is not meant for humans to interact with directly.
+       * https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md
+       */ role: 'presentation',
+            ...externalEventHandlers,
+            onKeyDown: createHandleKeyDown(externalEventHandlers),
+            ref: handleRef
+        };
+    };
+    const getBackdropProps = (otherHandlers = {})=>{
+        const externalEventHandlers = otherHandlers;
+        return {
+            'aria-hidden': true,
+            ...externalEventHandlers,
+            onClick: createHandleBackdropClick(externalEventHandlers),
+            open
+        };
+    };
+    const getTransitionProps = ()=>{
+        const handleEnter = ()=>{
+            setExited(false);
+            if (onTransitionEnter) {
+                onTransitionEnter();
+            }
+        };
+        const handleExited = ()=>{
+            setExited(true);
+            if (onTransitionExited) {
+                onTransitionExited();
+            }
+            if (closeAfterTransition) {
+                handleClose();
+            }
+        };
+        return {
+            onEnter: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$createChainedFunction$2f$createChainedFunction$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(handleEnter, children?.props.onEnter ?? noop),
+            onExited: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$createChainedFunction$2f$createChainedFunction$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(handleExited, children?.props.onExited ?? noop)
+        };
+    };
+    return {
+        getRootProps,
+        getBackdropProps,
+        getTransitionProps,
+        rootRef: handleRef,
+        portalRef: handlePortalRef,
+        isTopModal,
+        exited,
+        hasTransition
+    };
+}
+const __TURBOPACK__default__export__ = useModal;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Modal/modalClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getModalUtilityClass",
+    ()=>getModalUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getModalUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiModal', slot);
+}
+const modalClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiModal', [
+    'root',
+    'hidden',
+    'backdrop'
+]);
+const __TURBOPACK__default__export__ = modalClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Modal/Modal.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/HTMLElementType/HTMLElementType.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/elementAcceptingRef/elementAcceptingRef.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Unstable_TrapFocus$2f$FocusTrap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Unstable_TrapFocus/FocusTrap.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Portal$2f$Portal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Portal/Portal.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Backdrop$2f$Backdrop$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Backdrop/Backdrop.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$useModal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Modal/useModal.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$modalClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Modal/modalClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useUtilityClasses = (ownerState)=>{
+    const { open, exited, classes } = ownerState;
+    const slots = {
+        root: [
+            'root',
+            !open && exited && 'hidden'
+        ],
+        backdrop: [
+            'backdrop'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$modalClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getModalUtilityClass"], classes);
+};
+const ModalRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiModal',
+    slot: 'Root',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.root,
+            !ownerState.open && ownerState.exited && styles.hidden
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        position: 'fixed',
+        zIndex: (theme.vars || theme).zIndex.modal,
+        right: 0,
+        bottom: 0,
+        top: 0,
+        left: 0,
+        variants: [
+            {
+                props: ({ ownerState })=>!ownerState.open && ownerState.exited,
+                style: {
+                    visibility: 'hidden'
+                }
+            }
+        ]
+    })));
+const ModalBackdrop = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Backdrop$2f$Backdrop$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiModal',
+    slot: 'Backdrop'
+})({
+    zIndex: -1
+});
+/**
+ * Modal is a lower-level construct that is leveraged by the following components:
+ *
+ * - [Dialog](/material-ui/api/dialog/)
+ * - [Drawer](/material-ui/api/drawer/)
+ * - [Menu](/material-ui/api/menu/)
+ * - [Popover](/material-ui/api/popover/)
+ *
+ * If you are creating a modal dialog, you probably want to use the [Dialog](/material-ui/api/dialog/) component
+ * rather than directly using Modal.
+ *
+ * This component shares many concepts with [react-overlays](https://react-bootstrap.github.io/react-overlays/#modals).
+ */ const Modal = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Modal(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        name: 'MuiModal',
+        props: inProps
+    });
+    const { BackdropComponent = ModalBackdrop, BackdropProps, classes: classesProp, className, closeAfterTransition = false, children, container, component, components = {}, componentsProps = {}, disableAutoFocus = false, disableEnforceFocus = false, disableEscapeKeyDown = false, disablePortal = false, disableRestoreFocus = false, disableScrollLock = false, hideBackdrop = false, keepMounted = false, onClose, onTransitionEnter, onTransitionExited, open, slotProps = {}, slots = {}, // eslint-disable-next-line react/prop-types
+    theme, ...other } = props;
+    const propsWithDefaults = {
+        ...props,
+        closeAfterTransition,
+        disableAutoFocus,
+        disableEnforceFocus,
+        disableEscapeKeyDown,
+        disablePortal,
+        disableRestoreFocus,
+        disableScrollLock,
+        hideBackdrop,
+        keepMounted
+    };
+    const { getRootProps, getBackdropProps, getTransitionProps, portalRef, isTopModal, exited, hasTransition } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$useModal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+        ...propsWithDefaults,
+        rootRef: ref
+    });
+    const ownerState = {
+        ...propsWithDefaults,
+        exited
+    };
+    const classes = useUtilityClasses(ownerState);
+    const childProps = {};
+    if (children.props.tabIndex === undefined) {
+        childProps.tabIndex = '-1';
+    }
+    // It's a Transition like component
+    if (hasTransition) {
+        const { onEnter, onExited } = getTransitionProps();
+        childProps.onEnter = onEnter;
+        childProps.onExited = onExited;
+    }
+    const externalForwardedProps = {
+        slots: {
+            root: components.Root,
+            backdrop: components.Backdrop,
+            ...slots
+        },
+        slotProps: {
+            ...componentsProps,
+            ...slotProps
+        }
+    };
+    const [RootSlot, rootProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('root', {
+        ref,
+        elementType: ModalRoot,
+        externalForwardedProps: {
+            ...externalForwardedProps,
+            ...other,
+            component
+        },
+        getSlotProps: getRootProps,
+        ownerState,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(className, classes?.root, !ownerState.open && ownerState.exited && classes?.hidden)
+    });
+    const [BackdropSlot, backdropProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('backdrop', {
+        ref: BackdropProps?.ref,
+        elementType: BackdropComponent,
+        externalForwardedProps,
+        shouldForwardComponentProp: true,
+        additionalProps: BackdropProps,
+        getSlotProps: {
+            "Modal.Modal.useSlot": (otherHandlers)=>{
+                return getBackdropProps({
+                    ...otherHandlers,
+                    onClick: {
+                        "Modal.Modal.useSlot": (event)=>{
+                            if (otherHandlers?.onClick) {
+                                otherHandlers.onClick(event);
+                            }
+                        }
+                    }["Modal.Modal.useSlot"]
+                });
+            }
+        }["Modal.Modal.useSlot"],
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(BackdropProps?.className, classes?.backdrop),
+        ownerState
+    });
+    if (!keepMounted && !open && (!hasTransition || exited)) {
+        return null;
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Portal$2f$Portal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        ref: portalRef,
+        container: container,
+        disablePortal: disablePortal,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(RootSlot, {
+            ...rootProps,
+            children: [
+                !hideBackdrop && BackdropComponent ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(BackdropSlot, {
+                    ...backdropProps
+                }) : null,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Unstable_TrapFocus$2f$FocusTrap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    disableEnforceFocus: disableEnforceFocus,
+                    disableAutoFocus: disableAutoFocus,
+                    disableRestoreFocus: disableRestoreFocus,
+                    isEnabled: isTopModal,
+                    open: open,
+                    children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](children, childProps)
+                })
+            ]
+        })
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Modal.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * A backdrop component. This prop enables custom backdrop rendering.
+   * @deprecated Use `slots.backdrop` instead. While this prop currently works, it will be removed in the next major version.
+   * Use the `slots.backdrop` prop to make your application ready for the next version of Material UI.
+   * @default styled(Backdrop, {
+   *   name: 'MuiModal',
+   *   slot: 'Backdrop',
+   * })({
+   *   zIndex: -1,
+   * })
+   */ BackdropComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Props applied to the [`Backdrop`](https://mui.com/material-ui/api/backdrop/) element.
+   * @deprecated Use `slotProps.backdrop` instead.
+   */ BackdropProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * A single child content element.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$elementAcceptingRef$2f$elementAcceptingRef$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].isRequired,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * When set to true the Modal waits until a nested Transition is completed before closing.
+   * @default false
+   */ closeAfterTransition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */ component: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * The components used for each slot inside.
+   *
+   * @deprecated Use the `slots` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   *
+   * @default {}
+   */ components: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        Backdrop: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        Root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The extra props for the slot components.
+   * You can override the existing props or add new ones.
+   *
+   * @deprecated Use the `slotProps` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   *
+   * @default {}
+   */ componentsProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        backdrop: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * An HTML element or function that returns one.
+   * The `container` will have the portal children appended to it.
+   *
+   * You can also provide a callback, which is called in a React layout effect.
+   * This lets you set the container from a ref, and also makes server-side rendering possible.
+   *
+   * By default, it uses the body of the top-level document object,
+   * so it's simply `document.body` most of the time.
+   */ container: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$HTMLElementType$2f$HTMLElementType$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func
+    ]),
+    /**
+   * If `true`, the modal will not automatically shift focus to itself when it opens, and
+   * replace it to the last focused element when it closes.
+   * This also works correctly with any modal children that have the `disableAutoFocus` prop.
+   *
+   * Generally this should never be set to `true` as it makes the modal less
+   * accessible to assistive technologies, like screen readers.
+   * @default false
+   */ disableAutoFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the modal will not prevent focus from leaving the modal while open.
+   *
+   * Generally this should never be set to `true` as it makes the modal less
+   * accessible to assistive technologies, like screen readers.
+   * @default false
+   */ disableEnforceFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, hitting escape will not fire the `onClose` callback.
+   * @default false
+   */ disableEscapeKeyDown: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The `children` will be under the DOM hierarchy of the parent component.
+   * @default false
+   */ disablePortal: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the modal will not restore focus to previously focused element once
+   * modal is hidden or unmounted.
+   * @default false
+   */ disableRestoreFocus: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Disable the scroll lock behavior.
+   * @default false
+   */ disableScrollLock: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the backdrop is not rendered.
+   * @default false
+   */ hideBackdrop: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Always keep the children in the DOM.
+   * This prop can be useful in SEO situation or
+   * when you want to maximize the responsiveness of the Modal.
+   * @default false
+   */ keepMounted: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Callback fired when the component requests to be closed.
+   * The `reason` parameter can optionally be used to control the response to `onClose`.
+   *
+   * @param {object} event The event source of the callback.
+   * @param {string} reason Can be: `"escapeKeyDown"`, `"backdropClick"`.
+   */ onClose: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * A function called when a transition enters.
+   */ onTransitionEnter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * A function called when a transition has exited.
+   */ onTransitionExited: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * If `true`, the component is shown.
+   */ open: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    /**
+   * The props used for each slot inside the Modal.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        backdrop: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside the Modal.
+   * Either a string to use a HTML element or a component.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        backdrop: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ])
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Modal;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Dialog/dialogClasses.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__,
+    "getDialogUtilityClass",
+    ()=>getDialogUtilityClass
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [app-client] (ecmascript)");
+;
+;
+function getDialogUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiDialog', slot);
+}
+const dialogClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('MuiDialog', [
+    'root',
+    'scrollPaper',
+    'scrollBody',
+    'container',
+    'paper',
+    'paperScrollPaper',
+    'paperScrollBody',
+    'paperWidthFalse',
+    'paperWidthXs',
+    'paperWidthSm',
+    'paperWidthMd',
+    'paperWidthLg',
+    'paperWidthXl',
+    'paperFullWidth',
+    'paperFullScreen'
+]);
+const __TURBOPACK__default__export__ = dialogClasses;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Dialog/DialogContext.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+'use client';
+;
+const DialogContext = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"]({});
+if ("TURBOPACK compile-time truthy", 1) {
+    DialogContext.displayName = 'DialogContext';
+}
+const __TURBOPACK__default__export__ = DialogContext;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Dialog/Dialog.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/invest/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/prop-types/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/composeClasses/composeClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useId$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/utils/esm/useId/useId.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/capitalize.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$Modal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Modal/Modal.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Fade/Fade.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Paper/Paper.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$dialogClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Dialog/dialogClasses.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$DialogContext$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Dialog/DialogContext.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Backdrop$2f$Backdrop$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Backdrop/Backdrop.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/styled.js [app-client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/styles/useTheme.js [app-client] (ecmascript) <export default as useTheme>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/memoTheme.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/utils/useSlot.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const DialogBackdrop = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Backdrop$2f$Backdrop$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiDialog',
+    slot: 'Backdrop',
+    overrides: (props, styles)=>styles.backdrop
+})({
+    // Improve scrollable dialog support.
+    zIndex: -1
+});
+const useUtilityClasses = (ownerState)=>{
+    const { classes, scroll, maxWidth, fullWidth, fullScreen } = ownerState;
+    const slots = {
+        root: [
+            'root'
+        ],
+        container: [
+            'container',
+            `scroll${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(scroll)}`
+        ],
+        paper: [
+            'paper',
+            `paperScroll${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(scroll)}`,
+            `paperWidth${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(String(maxWidth))}`,
+            fullWidth && 'paperFullWidth',
+            fullScreen && 'paperFullScreen'
+        ]
+    };
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$composeClasses$2f$composeClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(slots, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$dialogClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getDialogUtilityClass"], classes);
+};
+const DialogRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Modal$2f$Modal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiDialog',
+    slot: 'Root'
+})({
+    '@media print': {
+        // Use !important to override the Modal inline-style.
+        position: 'absolute !important'
+    }
+});
+const DialogContainer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div', {
+    name: 'MuiDialog',
+    slot: 'Container',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.container,
+            styles[`scroll${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ownerState.scroll)}`]
+        ];
+    }
+})({
+    height: '100%',
+    '@media print': {
+        height: 'auto'
+    },
+    // We disable the focus ring for mouse, touch and keyboard users.
+    outline: 0,
+    variants: [
+        {
+            props: {
+                scroll: 'paper'
+            },
+            style: {
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+            }
+        },
+        {
+            props: {
+                scroll: 'body'
+            },
+            style: {
+                overflowY: 'auto',
+                overflowX: 'hidden',
+                textAlign: 'center',
+                '&::after': {
+                    content: '""',
+                    display: 'inline-block',
+                    verticalAlign: 'middle',
+                    height: '100%',
+                    width: '0'
+                }
+            }
+        }
+    ]
+});
+const DialogPaper = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$styled$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    name: 'MuiDialog',
+    slot: 'Paper',
+    overridesResolver: (props, styles)=>{
+        const { ownerState } = props;
+        return [
+            styles.paper,
+            styles[`scrollPaper${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ownerState.scroll)}`],
+            styles[`paperWidth${(0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$capitalize$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(String(ownerState.maxWidth))}`],
+            ownerState.fullWidth && styles.paperFullWidth,
+            ownerState.fullScreen && styles.paperFullScreen
+        ];
+    }
+})((0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$memoTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(({ theme })=>({
+        margin: 32,
+        position: 'relative',
+        overflowY: 'auto',
+        '@media print': {
+            overflowY: 'visible',
+            boxShadow: 'none'
+        },
+        variants: [
+            {
+                props: {
+                    scroll: 'paper'
+                },
+                style: {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    maxHeight: 'calc(100% - 64px)'
+                }
+            },
+            {
+                props: {
+                    scroll: 'body'
+                },
+                style: {
+                    display: 'inline-block',
+                    verticalAlign: 'middle',
+                    textAlign: 'initial'
+                }
+            },
+            {
+                props: ({ ownerState })=>!ownerState.maxWidth,
+                style: {
+                    maxWidth: 'calc(100% - 64px)'
+                }
+            },
+            {
+                props: {
+                    maxWidth: 'xs'
+                },
+                style: {
+                    maxWidth: theme.breakpoints.unit === 'px' ? Math.max(theme.breakpoints.values.xs, 444) : `max(${theme.breakpoints.values.xs}${theme.breakpoints.unit}, 444px)`,
+                    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$dialogClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].paperScrollBody}`]: {
+                        [theme.breakpoints.down(Math.max(theme.breakpoints.values.xs, 444) + 32 * 2)]: {
+                            maxWidth: 'calc(100% - 64px)'
+                        }
+                    }
+                }
+            },
+            ...Object.keys(theme.breakpoints.values).filter((maxWidth)=>maxWidth !== 'xs').map((maxWidth)=>({
+                    props: {
+                        maxWidth
+                    },
+                    style: {
+                        maxWidth: `${theme.breakpoints.values[maxWidth]}${theme.breakpoints.unit}`,
+                        [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$dialogClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].paperScrollBody}`]: {
+                            [theme.breakpoints.down(theme.breakpoints.values[maxWidth] + 32 * 2)]: {
+                                maxWidth: 'calc(100% - 64px)'
+                            }
+                        }
+                    }
+                })),
+            {
+                props: ({ ownerState })=>ownerState.fullWidth,
+                style: {
+                    width: 'calc(100% - 64px)'
+                }
+            },
+            {
+                props: ({ ownerState })=>ownerState.fullScreen,
+                style: {
+                    margin: 0,
+                    width: '100%',
+                    maxWidth: '100%',
+                    height: '100%',
+                    maxHeight: 'none',
+                    borderRadius: 0,
+                    [`&.${__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$dialogClasses$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].paperScrollBody}`]: {
+                        margin: 0,
+                        maxWidth: '100%'
+                    }
+                }
+            }
+        ]
+    })));
+/**
+ * Dialogs are overlaid modal paper based components with a backdrop.
+ */ const Dialog = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"](function Dialog(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DefaultPropsProvider$2f$DefaultPropsProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDefaultProps"])({
+        props: inProps,
+        name: 'MuiDialog'
+    });
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
+    const defaultTransitionDuration = {
+        enter: theme.transitions.duration.enteringScreen,
+        exit: theme.transitions.duration.leavingScreen
+    };
+    const { 'aria-describedby': ariaDescribedby, 'aria-labelledby': ariaLabelledbyProp, 'aria-modal': ariaModal = true, BackdropComponent, BackdropProps, children, className, disableEscapeKeyDown = false, fullScreen = false, fullWidth = false, maxWidth = 'sm', onClick, onClose, open, PaperComponent = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], PaperProps = {}, scroll = 'paper', slots = {}, slotProps = {}, TransitionComponent = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], transitionDuration = defaultTransitionDuration, TransitionProps, ...other } = props;
+    const ownerState = {
+        ...props,
+        disableEscapeKeyDown,
+        fullScreen,
+        fullWidth,
+        maxWidth,
+        scroll
+    };
+    const classes = useUtilityClasses(ownerState);
+    const backdropClick = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]();
+    const handleMouseDown = (event)=>{
+        // We don't want to close the dialog when clicking the dialog content.
+        // Make sure the event starts and ends on the same DOM element.
+        backdropClick.current = event.target === event.currentTarget;
+    };
+    const handleBackdropClick = (event)=>{
+        if (onClick) {
+            onClick(event);
+        }
+        // Ignore the events not coming from the "backdrop".
+        if (!backdropClick.current) {
+            return;
+        }
+        backdropClick.current = null;
+        if (onClose) {
+            onClose(event, 'backdropClick');
+        }
+    };
+    const ariaLabelledby = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$useId$2f$useId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(ariaLabelledbyProp);
+    const dialogContextValue = __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"]({
+        "Dialog.Dialog.useMemo[dialogContextValue]": ()=>{
+            return {
+                titleId: ariaLabelledby
+            };
+        }
+    }["Dialog.Dialog.useMemo[dialogContextValue]"], [
+        ariaLabelledby
+    ]);
+    const backwardCompatibleSlots = {
+        transition: TransitionComponent,
+        ...slots
+    };
+    const backwardCompatibleSlotProps = {
+        transition: TransitionProps,
+        paper: PaperProps,
+        backdrop: BackdropProps,
+        ...slotProps
+    };
+    const externalForwardedProps = {
+        slots: backwardCompatibleSlots,
+        slotProps: backwardCompatibleSlotProps
+    };
+    const [RootSlot, rootSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('root', {
+        elementType: DialogRoot,
+        shouldForwardComponentProp: true,
+        externalForwardedProps,
+        ownerState,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.root, className),
+        ref
+    });
+    const [BackdropSlot, backdropSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('backdrop', {
+        elementType: DialogBackdrop,
+        shouldForwardComponentProp: true,
+        externalForwardedProps,
+        ownerState
+    });
+    const [PaperSlot, paperSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('paper', {
+        elementType: DialogPaper,
+        shouldForwardComponentProp: true,
+        externalForwardedProps,
+        ownerState,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(classes.paper, PaperProps.className)
+    });
+    const [ContainerSlot, containerSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('container', {
+        elementType: DialogContainer,
+        externalForwardedProps,
+        ownerState,
+        className: classes.container
+    });
+    const [TransitionSlot, transitionSlotProps] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$utils$2f$useSlot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('transition', {
+        elementType: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        externalForwardedProps,
+        ownerState,
+        additionalProps: {
+            appear: true,
+            in: open,
+            timeout: transitionDuration,
+            role: 'presentation'
+        }
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(RootSlot, {
+        closeAfterTransition: true,
+        slots: {
+            backdrop: BackdropSlot
+        },
+        slotProps: {
+            backdrop: {
+                transitionDuration,
+                as: BackdropComponent,
+                ...backdropSlotProps
+            }
+        },
+        disableEscapeKeyDown: disableEscapeKeyDown,
+        onClose: onClose,
+        open: open,
+        onClick: handleBackdropClick,
+        ...rootSlotProps,
+        ...other,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(TransitionSlot, {
+            ...transitionSlotProps,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ContainerSlot, {
+                onMouseDown: handleMouseDown,
+                ...containerSlotProps,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(PaperSlot, {
+                    as: PaperComponent,
+                    elevation: 24,
+                    role: "dialog",
+                    "aria-describedby": ariaDescribedby,
+                    "aria-labelledby": ariaLabelledby,
+                    "aria-modal": ariaModal,
+                    ...paperSlotProps,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$DialogContext$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Provider, {
+                        value: dialogContextValue,
+                        children: children
+                    })
+                })
+            })
+        })
+    });
+});
+("TURBOPACK compile-time truthy", 1) ? Dialog.propTypes = {
+    // ┌────────────────────────────── Warning ──────────────────────────────┐
+    // │ These PropTypes are generated from the TypeScript type definitions. │
+    // │    To update them, edit the d.ts file and run `pnpm proptypes`.     │
+    // └─────────────────────────────────────────────────────────────────────┘
+    /**
+   * The id(s) of the element(s) that describe the dialog.
+   */ 'aria-describedby': __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The id(s) of the element(s) that label the dialog.
+   */ 'aria-labelledby': __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * Informs assistive technologies that the element is modal.
+   * It's added on the element with role="dialog".
+   * @default true
+   */ 'aria-modal': __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'false',
+            'true'
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+    ]),
+    /**
+   * A backdrop component. This prop enables custom backdrop rendering.
+   * @deprecated Use `slots.backdrop` instead. While this prop currently works, it will be removed in the next major version.
+   * Use the `slots.backdrop` prop to make your application ready for the next version of Material UI.
+   * @default styled(Backdrop, {
+   *   name: 'MuiModal',
+   *   slot: 'Backdrop',
+   * })({
+   *   zIndex: -1,
+   * })
+   */ BackdropComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * @ignore
+   */ BackdropProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Dialog children, usually the included sub-components.
+   */ children: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].node,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * @ignore
+   */ className: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * If `true`, hitting escape will not fire the `onClose` callback.
+   * @default false
+   */ disableEscapeKeyDown: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the dialog is full-screen.
+   * @default false
+   */ fullScreen: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the dialog stretches to `maxWidth`.
+   *
+   * Notice that the dialog width grow is limited by the default margin.
+   * @default false
+   */ fullWidth: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Determine the max-width of the dialog.
+   * The dialog width grows with the size of the screen.
+   * Set to `false` to disable `maxWidth`.
+   * @default 'sm'
+   */ maxWidth: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] /* @typescript-to-proptypes-ignore */ .oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'xs',
+            'sm',
+            'md',
+            'lg',
+            'xl',
+            false
+        ]),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].string
+    ]),
+    /**
+   * @ignore
+   */ onClick: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the component requests to be closed.
+   *
+   * @param {object} event The event source of the callback.
+   * @param {string} reason Can be: `"escapeKeyDown"`, `"backdropClick"`.
+   */ onClose: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * If `true`, the component is shown.
+   */ open: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool.isRequired,
+    /**
+   * The component used to render the body of the dialog.
+   * @default Paper
+   */ PaperComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * Props applied to the [`Paper`](https://mui.com/material-ui/api/paper/) element.
+   * @default {}
+   * @deprecated Use `slotProps.paper` instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   */ PaperProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Determine the container for scrolling the dialog.
+   * @default 'paper'
+   */ scroll: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'body',
+        'paper'
+    ]),
+    /**
+   * The props used for each slot inside.
+   * @default {}
+   */ slotProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        backdrop: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        container: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        paper: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ]),
+        transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+        ])
+    }),
+    /**
+   * The components used for each slot inside.
+   * @default {}
+   */ slots: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+        backdrop: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        container: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        paper: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        root: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+        transition: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType
+    }),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+    ]),
+    /**
+   * The component used for the transition.
+   * [Follow this guide](https://mui.com/material-ui/transitions/#transitioncomponent-prop) to learn more about the requirements for this component.
+   * @default Fade
+   * @deprecated Use `slots.transition` instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   */ TransitionComponent: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].elementType,
+    /**
+   * The duration for the transition, in milliseconds.
+   * You may specify a single timeout for all transitions, or individually with an object.
+   * @default {
+   *   enter: theme.transitions.duration.enteringScreen,
+   *   exit: theme.transitions.duration.leavingScreen,
+   * }
+   */ transitionDuration: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+        __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shape({
+            appear: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+            enter: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number,
+            exit: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].number
+        })
+    ]),
+    /**
+   * Props applied to the transition element.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
+   * @deprecated Use `slotProps.transition` instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](/material-ui/migration/migrating-from-deprecated-apis/) for more details.
+   */ TransitionProps: __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].object
+} : "TURBOPACK unreachable";
+const __TURBOPACK__default__export__ = Dialog;
+}),
+"[project]/invest/node_modules/@mui/material/esm/Dialog/Dialog.js [app-client] (ecmascript) <export default as Dialog>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Dialog",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$Dialog$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$invest$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$Dialog$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/invest/node_modules/@mui/material/esm/Dialog/Dialog.js [app-client] (ecmascript)");
+}),
+]);
+
+//# sourceMappingURL=8bb56_%40mui_material_esm_3718fb2c._.js.map
